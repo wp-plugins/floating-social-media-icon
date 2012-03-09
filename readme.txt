@@ -25,7 +25,7 @@ This Plugin is developed and maintained by [Acurax International](http://www.acu
 Extract the zip file and just drop the contents in the wp-content/plugins/ directory of your WordPress installation and then activate the Plugin from Plugins page.
 
 Then Visit Plugin Configuration Settings and select a theme and size for icons. configure your social profile url. You are done!
-`[youtube http://www.youtube.com/watch?v=OagiknITpmU]`
+'[youtube http://www.youtube.com/watch?v=OagiknITpmU]'
 == Screenshots ==
 
 1. Plugin Settings Page
