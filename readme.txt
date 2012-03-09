@@ -2,7 +2,7 @@
 Contributors: Acurax 
 Donate link:http://www.acurax.com/
 
-Tags: social media,social media icon,social profile link,social profile link,social floating icon,social media url,social media button,facebook button,facebook icon,twitter icon,twitter button,youtube icon,youtube button,facebook profile url,twitter url,
+Tags: social media,social media icon,social profile link,social floating icon,social media url,social media button,facebook button,facebook icon,twitter icon,twitter button,youtube icon,youtube button,facebook profile url,twitter url,
 Requires at least: 2.8
 Tested up to: 3.3.1
 Stable tag: 1.0
