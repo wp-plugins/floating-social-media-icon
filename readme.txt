@@ -1,4 +1,4 @@
-﻿=== Floating Social Media Icon ===
+﻿=== Floating Social Media Icons ===
 Contributors: Acurax 
 Donate link:http://www.acurax.com/
 
