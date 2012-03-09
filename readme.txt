@@ -6,14 +6,13 @@ Tags: social media,social media icon,social profile link,social floating icon,so
 Requires at least: 2.8
 Tested up to: 3.3.1
 Stable tag: trunk
+Author: Acurax 
 
 An easy to use plugin to show social media icons which floats,you can configure icon design and size at plugin settings
 
-Author: Acurax 
-
 == Description ==
 
-**Its not just another social profile linker plugin** Floating Social Media Icon is an easy to use plugin which allows you to configure essential social media profile links, like Twitter, Facebook, Youtube and Linkedin from plugin settings and you also have option to select an icon style from the icon packs available.We will be upgrading plugin frequently with new set of icons. The social media icons will load in an animated way where it will stay and float on your website or blog's right bottom
+**Its not just another social profile linker plugin to know more, Check Installation Section to watch Plugin in Action Video** Floating Social Media Icon is an easy to use plugin which allows you to configure essential social media profile links, like Twitter, Facebook, Youtube and Linkedin from plugin settings and you also have option to select an icon style from the icon packs available.We will be upgrading plugin frequently with new set of icons. The social media icons will load in an animated way where it will stay and float on your website or blog's right bottom
 We Always Look Forward Your Comments and Suggestions for Future Updates. You can Submit Your Comments at our [Website](http://www.acurax.com/ "Website Designing")
 
 **About**
