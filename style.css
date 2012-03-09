@@ -1,0 +1,14 @@
+#divBottomRight
+{
+position:absolute;
+z-index:10000;
+min-width: 142px;
+}
+#divBottomRight img
+{
+margin-left:1px;
+}
+#divBottomRight img:hover
+{
+opacity:0.8;
+}
