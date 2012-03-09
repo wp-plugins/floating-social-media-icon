@@ -26,6 +26,11 @@ Extract the zip file and just drop the contents in the wp-content/plugins/ direc
 
 Then Visit Plugin Configuration Settings and select a theme and size for icons. configure your social profile url. You are done!
 '[youtube http://www.youtube.com/watch?v=OagiknITpmU]'
+
 == Screenshots ==
 
 1. Plugin Settings Page
+2. Plugin in action, It will stay at bottom right with animated move even if we scroll.. watch video to see it in action..
+3. Icon Settings Style/Theme and Size Selection Options
+4. Social Media Profile Link Settings
+5. Credit Link Enable Disable Option
