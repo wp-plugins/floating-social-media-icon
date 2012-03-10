@@ -36,3 +36,8 @@ After Installation,Dont Forgot to Cast Your Vote on Combatibility :) Thanks for 
 3. Icon Settings Style/Theme and Size Selection Options
 4. Social Media Profile Link Settings
 5. Credit Link Enable Disable Option
+
+== Upgrade Notice ==
+
+= 1.0.3 =
+Major Fix to Support Older Versions of Wordpress
