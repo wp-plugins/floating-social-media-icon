@@ -14,6 +14,8 @@ An easy to use plugin to show social media icons which floats,you can configure 
 **Its not just another social profile linker plugin to know more, Check** [Installation Section to watch Plugin in Action Video](http://wordpress.org/extend/plugins/floating-social-media-icon/installation/ "Wordpress Plugin Floating Social Media Icon in Action Video") Floating Social Media Icon is an easy to use plugin which allows you to configure essential social media profile links, like Twitter, Facebook, Youtube and Linkedin from plugin settings and you also have option to select an icon style from the icon packs available.We will be upgrading plugin frequently with new set of icons. The social media icons will load in an animated way where it will stay and float on your website or blog's right bottom
 We Always Look Forward Your Comments and Suggestions for Future Updates. You can Submit Your Comments at our [Website](http://www.acurax.com/ "Website Designing")
 
+[Click Here To See a Live Demo](http://www.acurax.com/products/floating-social-media-icon-plugin-wordpress/ "Floating Social Media Icon Demo")
+
 **About**
 
 This Plugin is developed and maintained by [Acurax International](http://www.acurax.com/ "Website Designing"). For any support, you may contact us [here](http://www.acurax.com/contact.php "Web Consulting").[Acurax](http://www.acurax.com/ "Acurax Web Design Development Service") Provide [Wordpress Theme Design](http://www.acurax.com/services/web-designing.php "Wordpress Theme Design Service") and [Development](http://www.acurax.com/services/web-development.php "Wordpress Development") Services.
