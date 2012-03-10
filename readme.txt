@@ -6,7 +6,6 @@ Tags: social media,social media icon,social profile link,social floating icon,fl
 Requires at least: 2.8
 Tested up to: 3.3.1
 Stable tag: trunk
-Author: Acurax 
 
 An easy to use plugin to show social media icons which floats,you can configure icon design and size at plugin settings
 
