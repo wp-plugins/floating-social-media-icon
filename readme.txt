@@ -40,6 +40,10 @@ To hide an icon, Just dont give any value for that button link.. it will automat
 
 It May cause of your themes layout. but if you are unsure then ,just let us know by <a href="http://www.acurax.com/contact.php" target="_blank">clicking here</a> and we will tell you why it happened and how to fix it.
 
+= Why the icons are in a fixed position and not moving? =
+
+Its because of your theme or any of the plugins installed.. which may make conflicts with our javascript codes. Please let us know the problems and we can take a look at it..
+
 == Screenshots ==
 
 1. Plugin Settings Page
