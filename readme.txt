@@ -29,6 +29,12 @@ Then Visit Plugin Configuration Settings and select a theme and size for icons. 
 '[youtube http://www.youtube.com/watch?v=OagiknITpmU]'
 After Installation,Dont Forgot to Cast Your Vote on Combatibility :) Thanks for trying...
 
+== Frequently Asked Questions ==
+
+= How can i hide an icon? =
+
+To hide an icon, Just dont give any value for that button link.. it will automatically gets hiden
+
 == Screenshots ==
 
 1. Plugin Settings Page
@@ -40,9 +46,19 @@ After Installation,Dont Forgot to Cast Your Vote on Combatibility :) Thanks for 
 == Upgrade Notice ==
 
 = 1.0.3 =
+
 Major Fix to Support Older Versions of Wordpress
+
+= 1.0.2 =
+
+Fixed Design Icon Clarity
 
 == Changelog ==
 
 = 1.0.3 =
+
 * Major Fix to Support Older Versions of Wordpress
+
+= 1.0.2 =
+
+Fixed Design Icon Clarity
