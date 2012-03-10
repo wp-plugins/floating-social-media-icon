@@ -55,13 +55,13 @@ echo "</div>";
 function extra_style_acx_icon()
 {
 $acx_si_theme = get_option('acx_si_icon_size');
-echo "<style>";
-echo "#divBottomRight img {";
-echo "width: " . $acx_si_theme. ";}";
-echo "</style>";
+echo "<style type='text/css'>";
+echo " #divBottomRight img { ";
+echo "width: " . $acx_si_theme. "px; }";
+echo " </style>";
 }
 if ( function_exists('acurax_icons') ) {
  add_action('get_footer', 'acurax_icons');
- add_action('get_header', 'extra_style_acx_icon');
+ add_action('wp_head', 'extra_style_acx_icon');
 }
 ?>
