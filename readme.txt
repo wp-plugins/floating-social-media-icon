@@ -26,6 +26,8 @@ Extract the zip file and just drop the contents in the wp-content/plugins/ direc
 Then Visit Plugin Configuration Settings and select a theme and size for icons. configure your social profile url. You are done!
 '[youtube http://www.youtube.com/watch?v=OagiknITpmU]'
 
+After Installation,Dont Forgot to Cast Your Vote on Combatibility :) Thanks for trying...
+
 == Screenshots ==
 
 1. Plugin Settings Page
