@@ -46,19 +46,15 @@ To hide an icon, Just dont give any value for that button link.. it will automat
 == Upgrade Notice ==
 
 = 1.0.3 =
-
-Major Fix to Support Older Versions of Wordpress
+* Major Fix to Support Older Versions of Wordpress
 
 = 1.0.2 =
-
-Fixed Design Icon Clarity
+* Fixed Design Icon Clarity
 
 == Changelog ==
 
 = 1.0.3 =
-
 * Major Fix to Support Older Versions of Wordpress
 
 = 1.0.2 =
-
 Fixed Design Icon Clarity
