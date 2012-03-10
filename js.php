@@ -13,7 +13,6 @@ var px = document.layers ? "" : "px";
 function JSFX_FloatDiv(id, sx, sy)
 {
 	var el=d.getElementById?d.getElementById(id):d.all?d.all[id]:d.layers[id];
-	if(el=null) return;
 	window[id + "_obj"] = el;
 	if(d.layers)el.style=el;
 	el.cx = el.sx = sx;el.cy = el.sy = sy;
@@ -35,5 +34,4 @@ function JSFX_FloatDiv(id, sx, sy)
 	}
 	return el;
 }
-var retobj= JSFX_FloatDiv("divBottomRight", -170, <?php echo $y; ?>);
-if(retobj!=null)retobj.flt();
+ JSFX_FloatDiv("divBottomRight", -170, <?php echo $y; ?>).flt();
