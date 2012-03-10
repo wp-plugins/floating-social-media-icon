@@ -57,7 +57,7 @@ function extra_style_acx_icon()
 $acx_si_theme = get_option('acx_si_icon_size');
 echo "<style>";
 echo "#divBottomRight img {";
-echo "width: " . $acx_si_theme. "}";
+echo "width: " . $acx_si_theme. ";}";
 echo "</style>";
 }
 if ( function_exists('acurax_icons') ) {
