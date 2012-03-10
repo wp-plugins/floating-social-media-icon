@@ -44,7 +44,9 @@ $acx_si_credit = get_option('acx_si_credit');
 	echo "<br>" . "<a href='http://www.acurax.com' target='_blank' title='Web Design and Development' style='text-decoration: none; display: block; text-align: center; font-size: 8px;' align='center'>Web Design</a>";
 	}
 echo "</div>";
-	wp_enqueue_script ( 'acx_social_icon_script', plugins_url('js.php', __FILE__) );
+?>
+<script type="text/javascript" src="<?php echo plugins_url('js.php', __FILE__);?>"></script>
+<?php
 }
 function extra_style_acx_icon()
 {
