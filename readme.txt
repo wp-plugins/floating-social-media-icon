@@ -36,6 +36,10 @@ After Installation,Dont Forgot to Cast Your Vote on Combatibility :) Thanks for 
 
 To hide an icon, Just dont give any value for that button link.. it will automatically gets hiden
 
+= What to do if i cant see the icon even if i configured the plugin properly? =
+
+It May cause of your themes layout. but if you are unsure then ,just let us know by <a href="http://www.acurax.com/contact.php" target="_blank">clicking here</a> and we will tell you why it happened and how to fix it.
+
 == Screenshots ==
 
 1. Plugin Settings Page
