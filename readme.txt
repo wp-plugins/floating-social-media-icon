@@ -16,7 +16,7 @@ We Always Look Forward Your Comments and Suggestions for Future Updates. You can
 
 [Click Here To See a Live Demo](http://www.acurax.com/products/floating-social-media-icon-plugin-wordpress/ "Floating Social Media Icon Demo")
 
-[Click Here to Order Professional Installation/Integration Service](http://clients.acurax.com/cart.php?a=add&pid=19 "Professional Integration Service")
+[Click Here to Order Professional Installation/Integration Service](http://clients.acurax.com/cart.php?a=add&pid=19/ "Professional Integration Service")
 
 **About**
 
