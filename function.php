@@ -45,6 +45,7 @@ $acx_si_credit = get_option('acx_si_credit');
 	}
 echo "</div>";
 ?>
+<br/>
 <script type="text/javascript" src="<?php echo plugins_url('js.php', __FILE__);?>"></script>
 <?php
 }
