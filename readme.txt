@@ -16,6 +16,8 @@ We Always Look Forward Your Comments and Suggestions for Future Updates. You can
 
 [Click Here To See a Live Demo](http://www.acurax.com/products/floating-social-media-icon-plugin-wordpress/ "Floating Social Media Icon Demo")
 
+[Click Here to Order Professional Installation/Integration Service](http://clients.acurax.com/cart.php?a=add&pid=19 "Professional Integration Service")
+
 **About**
 
 This Plugin is developed and maintained by [Acurax International](http://www.acurax.com/ "Website Designing"). For any support, you may contact us [here](http://www.acurax.com/contact.php "Web Consulting").[Acurax](http://www.acurax.com/ "Acurax Web Design Development Service") Provide [Wordpress Theme Design](http://www.acurax.com/services/web-designing.php "Wordpress Theme Design Service") and [Development](http://www.acurax.com/services/web-development.php "Wordpress Development") Services.
