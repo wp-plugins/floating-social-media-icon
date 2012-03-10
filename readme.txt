@@ -50,6 +50,9 @@ It May cause of your themes layout. but if you are unsure then ,just let us know
 
 == Upgrade Notice ==
 
+= 1.0.4 =
+* Fixed Some Reported Bugs
+
 = 1.0.3 =
 * Major Fix to Support Older Versions of Wordpress
 
@@ -57,6 +60,9 @@ It May cause of your themes layout. but if you are unsure then ,just let us know
 * Fixed Design Icon Clarity
 
 == Changelog ==
+
+= 1.0.3 =
+* Fixed Some Reported Bugs
 
 = 1.0.3 =
 * Major Fix to Support Older Versions of Wordpress
