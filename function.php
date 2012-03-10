@@ -40,9 +40,12 @@ acx_option_value_check("acx_si_facebook",$facebook_link,"");
 acx_option_value_check("acx_si_youtube",$youtube_link,"");
 acx_option_value_check("acx_si_linkedin",$linkedin_link,"");
 $acx_si_credit = get_option('acx_si_credit');
+if($acx_si_twitter != "" || $acx_si_facebook != "" || $acx_si_youtube != "" || $acx_si_linkedin != "")
+{
 	if($acx_si_credit == "yes") { 
 	echo "<br>" . "<a href='http://www.acurax.com' target='_blank' title='Web Design and Development' style='text-decoration: none; display: block; text-align: center; font-size: 8px;' align='center'>Web Design</a>";
 	}
+}
 echo "</div>";
 ?>
 <br/>
