@@ -7,7 +7,7 @@ Requires at least: 2.8
 Tested up to: 3.3.1
 Stable tag: trunk
 
-An easy to use plugin to show social media icons which floats,you can configure icon design and size at plugin settings
+An easy to use plugin to show socialmedia icons which floats,you can configure icon design and size at plugin settings
 
 == Description ==
 
