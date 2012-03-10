@@ -24,7 +24,9 @@ $linkedin_link = "<a href='". $acx_si_linkedin ."' target='_blank'>" . "<img src
 // Display HTML
 
 function acurax_icons()
-{		$acx_si_theme = get_option('acx_si_theme');
+{		
+	wp_enqueue_script ( 'acx_social_icon_script', plugins_url('js.php', __FILE__) );
+		$acx_si_theme = get_option('acx_si_theme');
 		$acx_si_twitter = get_option('acx_si_twitter');
 		$acx_si_facebook = get_option('acx_si_facebook');
 		$acx_si_youtube = get_option('acx_si_youtube');
