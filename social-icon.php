@@ -35,10 +35,7 @@ update_option('acx_si_icon_size', $acx_si_icon_size);
 		$acx_si_credit = get_option('acx_si_credit');
 		$acx_si_icon_size = get_option('acx_si_icon_size');
 		if ($acx_si_credit == "") {
-		$acx_si_credit = "yes";
-		}
-		if ($acx_si_credit == "") {
-		$acx_si_credit = "yes";
+		$acx_si_credit = "no";
 		}
 		if ($acx_si_icon_size == "") {
 		$acx_si_icon_size = "32";
