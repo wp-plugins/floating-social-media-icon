@@ -62,7 +62,7 @@ echo "width: " . $acx_si_theme. "px; \n}\n";
 echo "</style>\n<!-- Ending Styles For Social Media Icon From Acurax International www.acurax.com -->\n\n\n\n";
 }
 if ( function_exists('acurax_icons') ) {
- add_action('get_footer', 'acurax_icons');
+ add_action('wp_footer', 'acurax_icons');
  add_action('wp_head', 'extra_style_acx_icon');
 }
 ?>

@@ -56,6 +56,9 @@ Its because of your theme or any of the plugins installed.. which may make confl
 
 == Upgrade Notice ==
 
+= 1.0.5 =
+* Major Fix For More Theme Compatibility
+
 = 1.0.4 =
 * Fixed Some Reported Bugs
 
@@ -67,7 +70,10 @@ Its because of your theme or any of the plugins installed.. which may make confl
 
 == Changelog ==
 
-= 1.0.3 =
+= 1.0.5 =
+* Major Fix For More Theme Compatibility
+
+= 1.0.4 =
 * Fixed Some Reported Bugs
 
 = 1.0.3 =
