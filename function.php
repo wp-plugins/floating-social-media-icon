@@ -34,7 +34,7 @@ function acurax_icons()
 		$facebook_link = "<a href='". $acx_si_facebook ."' target='_blank'>" . "<img src=" . plugins_url('images/'. $acx_si_theme .'/facebook.png', __FILE__) . " border='0'></a>";
 		$youtube_link = "<a href='". $acx_si_youtube ."' target='_blank'>" . "<img src=" . plugins_url('images/'. $acx_si_theme .'/youtube.png', __FILE__) . " border='0'></a>";
 		$linkedin_link = "<a href='". $acx_si_linkedin ."' target='_blank'>" . "<img src=" . plugins_url('images/'. $acx_si_theme .'/linkedin.png', __FILE__) . " border='0'></a>";
-echo "<div id='divBottomRight' align='center'>";
+echo "\n\n\n<!-- Starting Icon Display Code For Social Media Icon From Acurax International www.acurax.com -->\n<div id='divBottomRight' align='center'>";
 acx_option_value_check("acx_si_twitter",$twitter_link,"");
 acx_option_value_check("acx_si_facebook",$facebook_link,"");
 acx_option_value_check("acx_si_youtube",$youtube_link,"");
@@ -46,19 +46,20 @@ if($acx_si_twitter != "" || $acx_si_facebook != "" || $acx_si_youtube != "" || $
 	echo "<br>" . "<a href='http://www.acurax.com' target='_blank' title='Webdesign and Development' style='text-decoration: none; display: block; text-align: center; font-size: 8px;' align='center'>Web Design</a>";
 	}
 }
-echo "</div>";
+echo "</div>\n<!-- Ending Icon Display Code For Social Media Icon From Acurax International www.acurax.com -->\n\n\n";
+echo "\n\n\n<!-- Starting Javascript For Social Media Icon From Acurax International www.acurax.com -->\n";
 ?>
-<br/>
 <script type="text/javascript" src="<?php echo plugins_url('js.php', __FILE__);?>"></script>
 <?php
+echo "<!-- Ending Javascript Code For Social Media Icon From Acurax International www.acurax.com -->\n\n\n";
 }
 function extra_style_acx_icon()
 {
 $acx_si_theme = get_option('acx_si_icon_size');
-echo "<style type='text/css'>";
-echo " #divBottomRight img { ";
-echo "width: " . $acx_si_theme. "px; }";
-echo " </style>";
+echo "\n\n\n<!-- Starting Styles For Social Media Icon From Acurax International www.acurax.com -->\n<style type='text/css'>\n";
+echo "#divBottomRight img \n{\n";
+echo "width: " . $acx_si_theme. "px; \n}\n";
+echo "</style>\n<!-- Ending Styles For Social Media Icon From Acurax International www.acurax.com -->\n\n\n\n";
 }
 if ( function_exists('acurax_icons') ) {
  add_action('get_footer', 'acurax_icons');
