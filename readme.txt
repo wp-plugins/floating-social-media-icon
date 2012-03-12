@@ -56,6 +56,9 @@ Its because of your theme or any of the plugins installed.. which may make confl
 
 == Upgrade Notice ==
 
+= 1.0.6 =
+* Fixed Alignment Problem When Displaying All Icons With Bigger Sizes
+
 = 1.0.5 =
 * Major Fix For More Theme Compatibility
 
@@ -69,6 +72,9 @@ Its because of your theme or any of the plugins installed.. which may make confl
 * Fixed Design Icon Clarity
 
 == Changelog ==
+
+= 1.0.6 =
+* Fixed Alignment Problem When Displaying All Icons With Bigger Sizes
 
 = 1.0.5 =
 * Major Fix For More Theme Compatibility
