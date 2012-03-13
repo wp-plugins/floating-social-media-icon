@@ -57,7 +57,7 @@ update_option('acx_si_display', $acx_si_display);
 ?>
 <?php
 // function check_acx_credit($yes,$no)
-check_acx_credit("","<div class='updated'><p><strong style='color:darkred;'>You Have Selected Show Credit Link as <b>NO</b>. We Appreciate You Link Back to Our Website,Select Yes to Enable Credit Link, Its just a small font size link :)</strong></p></div>"); ?>
+check_acx_credit("","<div class='updated'><p><strong style='color:darkred;'>You Have Selected Show Credit Link as <b>NO</b>. We Appreciate You Link Back to Our Website,Select Yes to Enable Credit Link, Its just a small font size link at the very bottom of your website/blog :)</strong></p></div>"); ?>
 <div class="wrap">
 <p><b>Acurax Services >> </b><a href="http://www.acurax.com/services/blog-design.php" target="_blank">Wordpress Theme Design</a> | <a href="http://www.acurax.com/services/web-designing.php" target="_blank">Website Design</a> | <a href="http://www.acurax.com/social-media-marketing-optimization/social-profile-design.php" target="_blank">Social Profile Design</a>| <a href="http://www.acurax.com/social-media-marketing-optimization/twitter-background-design.php" target="_blank">Twitter Background Design</a>| <a href="http://www.acurax.com/social-media-marketing-optimization/facebook-page-design.php" target="_blank">Facebook Page Design</a>
 </p>

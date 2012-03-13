@@ -46,14 +46,6 @@ acx_option_value_check("acx_si_facebook",$facebook_link,"");
 acx_option_value_check("acx_si_gplus",$gplus_link,"");
 acx_option_value_check("acx_si_youtube",$youtube_link,"");
 acx_option_value_check("acx_si_linkedin",$linkedin_link,"");
-
-//********** CHECKING CREDIT LINK STATUS ******************
-if($acx_si_twitter != "" || $acx_si_facebook != "" || $acx_si_youtube != "" || $acx_si_linkedin != "" || $acx_si_gplus != "")
-{ if($acx_si_credit == "yes") { 
-echo "<br>" . "<a href='http://www.acurax.com' target='_blank' title='Acurax Webdesign and Development Company' style='text-decoration: none; display: block; text-align: center; font-size: 8px;' align='center'>Web Design</a>";
-} }
-//******************************************************
-
 echo "</div>\n<!-- Ending Icon Display Code For Social Media Icon From Acurax International www.acurax.com -->\n\n\n";
 //*****************************************************************************************************************************************
 if ($acx_si_display == "auto") {
@@ -67,6 +59,25 @@ echo "<!-- Ending Javascript Code For Social Media Icon From Acurax Internationa
 } // Checking $acx_si_display
 } // Ending acurax_icons();
 
+// Starting Footer PBL
+function pbl_footer() {
+// Getting Option From DB *****************************	
+$acx_si_credit = get_option('acx_si_credit');
+$acx_si_twitter = get_option('acx_si_twitter');
+$acx_si_facebook = get_option('acx_si_facebook');
+$acx_si_youtube = get_option('acx_si_youtube');
+$acx_si_linkedin = get_option('acx_si_linkedin');
+$acx_si_gplus = get_option('acx_si_gplus');
+// *****************************************************
+
+//********** CHECKING CREDIT LINK STATUS ******************
+if($acx_si_twitter != "" || $acx_si_facebook != "" || $acx_si_youtube != "" || $acx_si_linkedin != "" || $acx_si_gplus != "")
+{ if($acx_si_credit == "yes") { 
+echo "<div style='text-align:center;color:gray;font-family:arial;font-size:10px;text-decoration:none;'>" . "Social Media Icons Powered by <a href='http://www.acurax.com/products/floating-social-media-icon-plugin-wordpress/' target='_blank' title='Acurax Webdesign and Development Company' style='text-align:center;color:gray;font-family:arial;font-size:10px;text-decoration:none;'>Acurax International</a></div>";
+} }
+//******************************************************
+} // pbl_footer
+ add_action('wp_footer', 'pbl_footer');
 
 function extra_style_acx_icon()
 {
