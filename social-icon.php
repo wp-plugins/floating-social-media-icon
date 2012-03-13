@@ -1,4 +1,8 @@
 <?php 
+/**********************************************/
+$total_themes = 12; // DEFINE NUMBER OF THEMES HERE
+$total_themes = ($total_themes+1); // DO NOT EDIT THIS
+/**********************************************/
 	if($_POST['acurax_social_icon_hidden'] == 'Y') {
 		//Form data sent
 $acx_si_theme = $_POST['acx_si_theme'];
@@ -16,13 +20,20 @@ update_option('acx_si_youtube', $acx_si_youtube);
 $acx_si_linkedin = $_POST['acx_si_linkedin'];
 update_option('acx_si_linkedin', $acx_si_linkedin);
 
+$acx_si_gplus = $_POST['acx_si_gplus'];
+update_option('acx_si_gplus', $acx_si_gplus);
+
 $acx_si_credit = $_POST['acx_si_credit'];
 update_option('acx_si_credit', $acx_si_credit);
 
 $acx_si_icon_size = $_POST['acx_si_icon_size'];
 update_option('acx_si_icon_size', $acx_si_icon_size);
 
+$acx_si_display = $_POST['acx_si_display'];
+update_option('acx_si_display', $acx_si_display);
+
 ?>
+
 		<div class="updated"><p><strong><?php _e('Acurax Settings Saved!.' ); ?></strong></p></div>
 		<?php
 	} else {
@@ -32,14 +43,13 @@ update_option('acx_si_icon_size', $acx_si_icon_size);
 		$acx_si_facebook = get_option('acx_si_facebook');
 		$acx_si_youtube = get_option('acx_si_youtube');
 		$acx_si_linkedin = get_option('acx_si_linkedin');
+		$acx_si_gplus = get_option('acx_si_gplus');
 		$acx_si_credit = get_option('acx_si_credit');
 		$acx_si_icon_size = get_option('acx_si_icon_size');
-		if ($acx_si_credit == "") {
-		$acx_si_credit = "no";
-		}
-		if ($acx_si_icon_size == "") {
-		$acx_si_icon_size = "32";
-		}
+		$acx_si_display = get_option('acx_si_display');
+		if ($acx_si_credit == "") {	$acx_si_credit = "no"; }
+		if ($acx_si_icon_size == "") { $acx_si_icon_size = "32"; }
+		if ($acx_si_display == "") { $acx_si_display = "auto"; }
 
 	}
 
@@ -47,82 +57,36 @@ update_option('acx_si_icon_size', $acx_si_icon_size);
 <?php
 // function check_acx_credit($yes,$no)
 check_acx_credit("","<div class='updated'><p><strong style='color:darkred;'>You Have Selected Show Credit Link as <b>NO</b>. We Appreciate You Link Back to Our Website,Select Yes to Enable Credit Link, Its just a small font size link :)</strong></p></div>"); ?>
-
-
-
 <div class="wrap">
+<p><b>Acurax Services >> </b><a href="http://www.acurax.com/services/blog-design.php" target="_blank">Wordpress Theme Design</a> | <a href="http://www.acurax.com/services/web-designing.php" target="_blank">Website Design</a> | <a href="http://www.acurax.com/social-media-marketing-optimization/social-profile-design.php" target="_blank">Social Profile Design</a>| <a href="http://www.acurax.com/social-media-marketing-optimization/twitter-background-design.php" target="_blank">Twitter Background Design</a>| <a href="http://www.acurax.com/social-media-marketing-optimization/facebook-page-design.php" target="_blank">Facebook Page Design</a>
+</p>
 <?php echo "<h2>" . __( 'Acurax Social Icons Options', 'acx_si_config' ) . "</h2>"; ?>
 
 <form name="acurax_si_form" method="post" action="<?php echo str_replace( '%7E', '~', $_SERVER['REQUEST_URI']); ?>">
-	<input type="hidden" name="acurax_social_icon_hidden" value="Y">
-	<?php    echo "<h4>" . __( 'Social Icon Settings', 'acx_si_config' ) . "</h4>"; ?>
-	<div style="height: 85px; font-size: 10px; margin-right: auto; margin-left: auto; overflow-y: scroll; width: 833px;">
-	<div style="width:153px;float:left;border:1px solid lightgray;padding:2px;margin:2px;">
-	<div style="width:50px;float:left;padding-top:5px;font-weight:bold;">Theme 1</div>
-	<div style="width:100px;float:left;"><img src="<?php echo plugins_url('images/1/single.png', __FILE__);?>" style="width:100px;border:0px;"></div>
-	</div>
-	<div style="width:153px;float:left;border:1px solid lightgray;padding:2px;margin:2px;">
-	<div style="width:50px;float:left;padding-top:5px;font-weight:bold;">Theme 2</div>
-	<div style="width:100px;float:left;"><img src="<?php echo plugins_url('images/2/single.png', __FILE__);?>" style="width:100px;border:0px;"></div>
-	</div>
-	<div style="width:153px;float:left;border:1px solid lightgray;padding:2px;margin:2px;">
-	<div style="width:50px;float:left;padding-top:5px;font-weight:bold;">Theme 3</div>
-	<div style="width:100px;float:left;"><img src="<?php echo plugins_url('images/3/single.png', __FILE__);?>" style="width:100px;border:0px;"></div>
-	</div>
-	<div style="width:153px;float:left;border:1px solid lightgray;padding:2px;margin:2px;">
-	<div style="width:50px;float:left;padding-top:5px;font-weight:bold;">Theme 4</div>
-	<div style="width:100px;float:left;"><img src="<?php echo plugins_url('images/4/single.png', __FILE__);?>" style="width:100px;border:0px;"></div>
-	</div>
-	<div style="width:153px;float:left;border:1px solid lightgray;padding:2px;margin:2px;">
-	<div style="width:50px;float:left;padding-top:5px;font-weight:bold;">Theme 5</div>
-	<div style="width:100px;float:left;"><img src="<?php echo plugins_url('images/5/single.png', __FILE__);?>" style="width:100px;border:0px;"></div>
-	</div>
-	<div style="width:153px;float:left;border:1px solid lightgray;padding:2px;margin:2px;">
-	<div style="width:50px;float:left;padding-top:5px;font-weight:bold;">Theme 6</div>
-	<div style="width:100px;float:left;"><img src="<?php echo plugins_url('images/6/single.png', __FILE__);?>" style="width:100px;border:0px;"></div>
-	</div>
-	<div style="width:153px;float:left;border:1px solid lightgray;padding:2px;margin:2px;">
-	<div style="width:50px;float:left;padding-top:5px;font-weight:bold;">Theme 7</div>
-	<div style="width:100px;float:left;"><img src="<?php echo plugins_url('images/7/single.png', __FILE__);?>" style="width:100px;border:0px;"></div>
-	</div>
-	<div style="width:153px;float:left;border:1px solid lightgray;padding:2px;margin:2px;">
-	<div style="width:50px;float:left;padding-top:5px;font-weight:bold;">Theme 8</div>
-	<div style="width:100px;float:left;"><img src="<?php echo plugins_url('images/8/single.png', __FILE__);?>" style="width:100px;border:0px;"></div>
-	</div>
-	<div style="width:153px;float:left;border:1px solid lightgray;padding:2px;margin:2px;">
-	<div style="width:50px;float:left;padding-top:5px;font-weight:bold;">Theme 9</div>
-	<div style="width:100px;float:left;"><img src="<?php echo plugins_url('images/9/single.png', __FILE__);?>" style="width:100px;border:0px;"></div>
-	</div>
-	<div style="width:153px;float:left;border:1px solid lightgray;padding:2px;margin:2px;">
-	<div style="width:50px;float:left;padding-top:5px;font-weight:bold;">Theme 10</div>
-	<div style="width:100px;float:left;"><img src="<?php echo plugins_url('images/10/single.png', __FILE__);?>" style="width:100px;border:0px;"></div>
-	</div>
+<input type="hidden" name="acurax_social_icon_hidden" value="Y">
+<?php    echo "<h4>" . __( 'Select an icon style', 'acx_si_config' ) . "</h4>"; ?>
 	
 
-	
-	
+<?php
+echo "<p>Your Current Theme is <b>Theme" . $acx_si_theme."</b>";
+?>
+<div class="image_div"><img src="<?php echo plugins_url('images/themes/'.$acx_si_theme.'/single.png', __FILE__);?>" style="height:<?php echo $acx_si_icon_size;?>px;"></div>
+<?php
+echo "</p>";
 
-	
-	
-	</div>
-	<p><?php _e("Social Icon Theme: " ); ?>
-<select name="acx_si_theme">
-<option value="1"<?php if ($acx_si_theme == "1") { echo 'selected="selected"'; } ?>>Theme 1 </option>
-<option value="2"<?php if ($acx_si_theme == "2") { echo 'selected="selected"'; } ?>>Theme 2 </option>
-<option value="3"<?php if ($acx_si_theme == "3") { echo 'selected="selected"'; } ?>>Theme 3 </option>
-<option value="4"<?php if ($acx_si_theme == "4") { echo 'selected="selected"'; } ?>>Theme 4 </option>
-<option value="5"<?php if ($acx_si_theme == "5") { echo 'selected="selected"'; } ?>>Theme 5 </option>
-<option value="6"<?php if ($acx_si_theme == "6") { echo 'selected="selected"'; } ?>>Theme 6 </option>
-<option value="7"<?php if ($acx_si_theme == "7") { echo 'selected="selected"'; } ?>>Theme 7 </option>
-<option value="8"<?php if ($acx_si_theme == "8") { echo 'selected="selected"'; } ?>>Theme 8 </option>
-<option value="9"<?php if ($acx_si_theme == "9") { echo 'selected="selected"'; } ?>>Theme 9 </option>
-<option value="10"<?php if ($acx_si_theme == "10") { echo 'selected="selected"'; } ?>>Theme 10 </option>
-</select>
-<?php _e("Select a social icon theme" ); ?></p>
-
-
-
-
+// Starting The Theme List
+echo "<div id='acx_si_theme_display'>";
+for ($i=1; $i < $total_themes; $i++)
+{ ?>
+	<label class="acx_si_single_theme_display <?php if ($acx_si_theme == $i) { echo "selected"; } ?>" id="icon_selection">
+	<div class="acx_si_single_label">Theme <?php echo $i; ?><br><input type="radio" name="acx_si_theme" value="<?php echo $i; ?>"<?php if ($acx_si_theme == $i) { echo " checked"; } ?>></div>
+	<div class="image_div"><img src="<?php echo plugins_url('images/themes/'.$i.'/single.png', __FILE__);?>"></div>
+	</label>
+<?php
+}
+echo "</div> <!-- acx_si_theme_display -->";
+// Ending The Theme List
+?>
 <p><?php _e("Social Icon Size: " ); ?>
 <select name="acx_si_icon_size">
 <option value="16"<?php if ($acx_si_icon_size == "16") { echo 'selected="selected"'; } ?>>16px X 16px </option>
@@ -150,6 +114,10 @@ check_acx_credit("","<div class='updated'><p><strong style='color:darkred;'>You 
 <?php _e("<b>Eg:</b> http://www.facebook.com/AcuraxInternational" ); ?>
 </p>
 <p>
+<?php _e("Google Plus URL: " ); ?><input type="text" name="acx_si_gplus" value="<?php echo $acx_si_gplus; ?>" size="50">
+<?php _e("Enter Your Complete Google Plus Url Starting With http://" ); ?>
+</p>
+<p>
 <?php _e("Youtube URL: " ); ?><input type="text" name="acx_si_youtube" value="<?php echo $acx_si_youtube; ?>" size="50">
 <?php _e("<b>Eg:</b> http://www.youtube.com/user/acuraxdotcom" ); ?>
 </p>
@@ -159,7 +127,23 @@ check_acx_credit("","<div class='updated'><p><strong style='color:darkred;'>You 
 </p>
 <hr />
 <?php    echo "<h4>" . __( 'Other Settings', 'acx_si_config' ) . "</h4>"; ?>	
-	<p><?php _e("Show Credit Link: " ); ?>
+
+
+<p><?php _e("Display Mode: " ); ?>
+<select name="acx_si_display">
+<option value="auto"<?php if ($acx_si_display == "auto") { echo 'selected="selected"'; } ?>>Automatic (With Animation)</option>
+<option value="manual"<?php if ($acx_si_display == "manual") { echo 'selected="selected"'; } ?>>Manual (No Animation)</option>
+</select>
+<?php
+$code = ' <?php DISPLAY_ACURAX_ICONS(); ?>';
+$code_2 = ' [DISPLAY_ACURAX_ICONS]';
+?>
+
+If you select display mode as automatic, it will show automatically, If you select as manual, there will be no animation and you need to place <br><?php highlight_string($code); ?> in your theme file or use the shortcode <?php highlight_string($code_2); ?>, to display the Social Icons.</p>
+
+
+
+<p><?php _e("Show Credit Link: " ); ?>
 <select name="acx_si_credit">
 <option value="yes"<?php if ($acx_si_credit == "yes") { echo 'selected="selected"'; } ?>>Yes, Its Okay to Show Credit Link </option>
 <option value="no"<?php if ($acx_si_credit == "no") { echo 'selected="selected"'; } ?>>No, I dont Like to Show Credit Link</option>
@@ -169,4 +153,6 @@ check_acx_credit("","<div class='updated'><p><strong style='color:darkred;'>You 
 	<input type="submit" name="Submit" value="<?php _e('Update Acurax Social Icon', 'acx_si_config' ) ?>" />
 	</p>
 </form>
+<hr/>
+<p>Something Not Working Well? Have a Doubt? Have a Suggestion? - <a href="http://www.acurax.com" target="_blank">Contact us now</a> | Need a Custom Designed Theme For your Blog or Website? Need a Custom Header Image? - <a href="http://www.acurax.com" target="_blank">Contact us now</a></p>
 </div>

@@ -11,7 +11,22 @@ An easy to use plugin to show socialmedia icons which floats,you can configure i
 
 == Description ==
 
-**Its not just another social profile linker plugin to know more, Check** [Installation Section to watch Plugin in Action Video](http://wordpress.org/extend/plugins/floating-social-media-icon/installation/ "Wordpress Plugin Floating Social Media Icon in Action Video") Floating Social Media Icon is an easy to use plugin which allows you to configure essential social media profile links, like Twitter, Facebook, Youtube and Linkedin from plugin settings and you also have option to select an icon style from the icon packs available.We will be upgrading plugin frequently with new set of icons. The social media icons will load in an animated way where it will stay and float on your website or blog's right bottom
+Floating Social Media Icon is an easy to use plugin which allows you to configure essential social media profile links, like Twitter, Facebook, Youtube and Linkedin from plugin settings and you also have option to select an icon style from the icon packs available.We will be upgrading plugin frequently with new set of icons. The social media icons will load in an animated way where it will stay and float on your website or blog's right bottom.
+
+*** Added More Icon Designs ***
+
+*** Easy to configure user interface ***
+
+*** Shortcode Support ****
+
+*** Icon Size Selection Support ****
+
+*** Automatic Integration ****
+
+*** Shortcode Support ****
+
+*** Support Essential Social Medias Only ****
+
 We Always Look Forward Your Comments and Suggestions for Future Updates. You can Submit Your Comments at our [Website](http://www.acurax.com/ "Website Designing")
 
 [Click Here To See a Live Demo](http://www.acurax.com/products/floating-social-media-icon-plugin-wordpress/ "Floating Social Media Icon Demo")
@@ -36,15 +51,37 @@ After Installation,Dont Forgot to Cast Your Vote on Combatibility :) Thanks for 
 
 = How can i hide an icon? =
 
-To hide an icon, Just dont give any value for that button link.. it will automatically gets hiden
+To hide an icon, Just dont give any value for that button link.. it will automatically gets hiden.
 
-= What to do if i cant see the icon even if i configured the plugin properly? =
+= Why the floating social media icon is not displaying on my page even if i made all properly? =
 
-It May cause of your themes layout. but if you are unsure then ,just let us know by <a href="http://www.acurax.com/contact.php" target="_blank">clicking here</a> and we will tell you why it happened and how to fix it.
+Our Plugin Uses Hooks to integrate the suppported javascripts styles and html to the theme. So Make sure your theme footer.php have  <?php wp_footer(); ?> and header.php have  <?php wp_head(); ?> , Most of all the plugins work with the support of this code and if this is not present on your theme.. Its your themes mistake..
 
-= Why the icons are in a fixed position and not moving? =
+= How can i integrate the  <?php wp_footer(); ?> and  <?php wp_head(); ?> to my theme if it is not present on my theme? =
 
-Its because of your theme or any of the plugins installed.. which may make conflicts with our javascript codes. Please let us know the problems and we can take a look at it..
+It can be easily done.. Just to go Theme Editor which is under apperance and select footer.php and add  <?php wp_footer(); ?> before the closing body tag which is  </body> and then go and edit header.php and add  <?php wp_head(); ?> just before the closing head tag which is  </head>
+
+= Can i disable the automated integration and place where ever i want? =
+
+Yes, You can.. Just to go "Acx Social icons" Menu which is in left side on wp-admin and in that page you will find "Display Mode" option. Select it to Manual. But then there will be no animation but you can Use Our Shortcode or PHP Code to display the social media icons anywhere you want.
+
+= What are theshortcode and php code that will display this social media icon? =
+
+You can use the shortcode  [DISPLAY_ACURAX_ICONS] in any post or page or even in your custom post types. You can also use  <?php DISPLAY_ACURAX_ICONS(); ?> anywhere in the theme files to show this icons.(But note that manual icons display will not have the animation
+
+= How can i help the development of this plugin? =
+
+Acurax Provide Most of all the wordpress related services like website design and development including plugin development, theme design and coding, Graphics Design like header image designing etc. we can do your projects. So here you get what u needs to get done and we getting business so a part of that can be used for the time that we spend to develop plugins like this
+
+= There are a lot of other social icons plugins, but why this plugin? =
+
+Most of all the plugins have more and more options which is only easly understandable by advanced users, those have a bunch of social media profile integrations. But in our case we choosen the must to have icons and made it perfect animation and position styling.. More icons on website make it look bad.. So use the essentials with sexy display.
+
+= Can i add my own icons for the social media profiles? =
+
+Sorry, Its not supported in this version, but we will be releasing a premium version which support a lot more easy options with in few weeks, we are on its development.
+
+Have more questions ? [Drop a mail](http://www.acurax.com/contact.php/ "Drop an Email") and we shall get back to you with the answers.
 
 == Screenshots ==
 
@@ -56,8 +93,14 @@ Its because of your theme or any of the plugins installed.. which may make confl
 
 == Upgrade Notice ==
 
+= 1.0.7 =
+* More Icon Theme/Style
+* Updated User Interface
+* Updated Faq
+* Added Google Plus Support
+
 = 1.0.6 =
-* Fixed Alignment Problem When Displaying All Icons With Bigger Sizes
+* Fixed Alignment Problem When Displaying All Icons With Bigger Size
 
 = 1.0.5 =
 * Major Fix For More Theme Compatibility
@@ -73,8 +116,14 @@ Its because of your theme or any of the plugins installed.. which may make confl
 
 == Changelog ==
 
+= 1.0.7 =
+* More Icon Theme/Style
+* Updated User Interface
+* Updated Faq
+* Added Google Plus Support
+
 = 1.0.6 =
-* Fixed Alignment Problem When Displaying All Icons With Bigger Sizes
+* Fixed Alignment Problem When Displaying All Icons With Bigger Size
 
 = 1.0.5 =
 * Major Fix For More Theme Compatibility
