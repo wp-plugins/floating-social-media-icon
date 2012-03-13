@@ -16,7 +16,7 @@ function acx_option_value_check($option_name,$yes,$no)
 { 	$acx_si_option_set = get_option($option_name);
 	if ($acx_si_option_set != "") { echo $yes; } else { echo $no; }
 }
-
+$acx_si_theme = get_option('acx_si_theme');
 function acurax_icons()
 {
 // Getting Option From DB *****************************	
