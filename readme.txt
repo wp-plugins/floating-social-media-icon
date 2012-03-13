@@ -2,7 +2,7 @@
 Contributors: Acurax 
 Donate link:http://www.acurax.com/
 
-Tags: social media,social media icon,social profile link,social floating icon,floating social media button,social media url,social media button,facebook button,facebook icon,twitter icon,twitter button,youtube icon,youtube button,facebook profile url,twitter url
+Tags: social media,social media icon,social profile link,social floating icon,floating social media button,social media url,social media button,facebook button,facebook icon,twitter icon,twitter button,youtube icon,youtube button,facebook profile url,twitter url,gplus icon,google plus,googleplus button,google plus button
 Requires at least: 2.8
 Tested up to: 3.3.1
 Stable tag: trunk
@@ -13,19 +13,19 @@ An easy to use plugin to show socialmedia icons which floats,you can configure i
 
 Floating Social Media Icon is an easy to use plugin which allows you to configure essential social media profile links, like Twitter, Facebook, Youtube and Linkedin from plugin settings and you also have option to select an icon style from the icon packs available.We will be upgrading plugin frequently with new set of icons. The social media icons will load in an animated way where it will stay and float on your website or blog's right bottom.
 
-*** Added More Icon Designs ***
+* Added More Icon Designs
 
-*** Easy to configure user interface ***
+* Easy to configure user interface
 
-*** Shortcode Support ****
+* Shortcode Support
 
-*** Icon Size Selection Support ****
+* Icon Size Selection Support
 
-*** Automatic Integration ****
+* Automatic Integration
 
-*** Shortcode Support ****
+* Shortcode Support
 
-*** Support Essential Social Medias Only ****
+* Support Essential Social Medias Only
 
 We Always Look Forward Your Comments and Suggestions for Future Updates. You can Submit Your Comments at our [Website](http://www.acurax.com/ "Website Designing")
 
