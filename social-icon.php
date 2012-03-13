@@ -50,6 +50,7 @@ update_option('acx_si_display', $acx_si_display);
 		if ($acx_si_credit == "") {	$acx_si_credit = "no"; }
 		if ($acx_si_icon_size == "") { $acx_si_icon_size = "32"; }
 		if ($acx_si_display == "") { $acx_si_display = "auto"; }
+		if ($acx_si_theme == "") { $acx_si_display = "1"; }
 
 	}
 
