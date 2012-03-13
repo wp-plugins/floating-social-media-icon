@@ -38,13 +38,13 @@ We Always Look Forward Your Comments and Suggestions for Future Updates. You can
 This Plugin is developed and maintained by [Acurax International](http://www.acurax.com/ "Website Designing"). For any support, you may contact us [here](http://www.acurax.com/contact.php "Web Consulting").[Acurax](http://www.acurax.com/ "Acurax Web Design Development Service") Provide [Wordpress Theme Design](http://www.acurax.com/services/web-designing.php "Wordpress Theme Design Service") and [Development](http://www.acurax.com/services/web-development.php "Wordpress Development") Services.
 
 **Plugin Video Tour**
-'[youtube http://www.youtube.com/watch?v=OagiknITpmU]'
+'[youtube http://www.youtube.com/watch?v=oK1iCywcjZY]'
 == Installation ==
 
 Extract the zip file and just drop the contents in the wp-content/plugins/ directory of your WordPress installation and then activate the Plugin from Plugins page.
 
 Then Visit Plugin Configuration Settings and select a theme and size for icons. configure your social profile url. You are done!
-'[youtube http://www.youtube.com/watch?v=OagiknITpmU]'
+'[youtube http://www.youtube.com/watch?v=oK1iCywcjZY]'
 After Installation,Dont Forgot to Cast Your Vote on Combatibility :) Thanks for trying...
 
 == Frequently Asked Questions ==
