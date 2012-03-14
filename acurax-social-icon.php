@@ -139,6 +139,12 @@ $ret .= '</div>';
 }
 echo $ret;	
 }
+/**
+* Add update messages that can be attached to the CURRENT release (not
+* this one), but only for 2.8+
+*/
+global $wp_version;
+if ( version_compare('2.8', $wp_version, '<=') ) {
 global $pagenow;
 if ( 'plugins.php' === $pagenow )
 {
@@ -147,6 +153,7 @@ $file   = basename( __FILE__ );
 $folder = basename( dirname( __FILE__ ) );
 $acx_add = "in_plugin_update_message-{$folder}/{$file}";
 add_action( $acx_add, 'acurax_social_icon_update', 20, 2 );
+}
 }
 // Adding WUM Ends Here
 ?>
