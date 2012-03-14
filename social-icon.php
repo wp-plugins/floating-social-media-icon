@@ -1,6 +1,6 @@
 <?php 
 /**********************************************/
-$total_themes = 12; // DEFINE NUMBER OF THEMES HERE
+$total_themes = 24; // DEFINE NUMBER OF THEMES HERE
 $total_themes = ($total_themes+1); // DO NOT EDIT THIS
 /**********************************************/
 	if($_POST['acurax_social_icon_hidden'] == 'Y') {
@@ -55,9 +55,6 @@ update_option('acx_si_display', $acx_si_display);
 	}
 
 ?>
-<?php
-// function check_acx_credit($yes,$no)
-check_acx_credit("","<div class='updated'><p><strong style='color:darkred;'>You Have Selected Show Credit Link as <b>NO</b>. We Appreciate You Link Back to Our Website,Select Yes to Enable Credit Link, Its just a small font size link at the very bottom of your website/blog :)</strong></p></div>"); ?>
 <div class="wrap">
 <p><b>Acurax Services >> </b><a href="http://www.acurax.com/services/blog-design.php" target="_blank">Wordpress Theme Design</a> | <a href="http://www.acurax.com/services/web-designing.php" target="_blank">Website Design</a> | <a href="http://www.acurax.com/social-media-marketing-optimization/social-profile-design.php" target="_blank">Social Profile Design</a>| <a href="http://www.acurax.com/social-media-marketing-optimization/twitter-background-design.php" target="_blank">Twitter Background Design</a>| <a href="http://www.acurax.com/social-media-marketing-optimization/facebook-page-design.php" target="_blank">Facebook Page Design</a>
 </p>
@@ -65,6 +62,29 @@ check_acx_credit("","<div class='updated'><p><strong style='color:darkred;'>You 
 
 <form name="acurax_si_form" method="post" action="<?php echo str_replace( '%7E', '~', $_SERVER['REQUEST_URI']); ?>">
 <input type="hidden" name="acurax_social_icon_hidden" value="Y">
+
+
+
+
+
+
+<?php  if($acx_si_credit != "yes") { ?>
+<div id='acurax_notice' align='center'><p><strong style='color:darkred;'>You Have Selected Show Credit Link as <b>NO</b>. We Appreciate You Link Back to Our Website,Select Yes to Enable Credit Link.</strong></p>
+<select name="acx_si_credit" onChange="this.form.submit();" style="font-size:18px;">
+<option value="yes"<?php if ($acx_si_credit == "yes") { echo 'selected="selected"'; } ?>>Yes, Show Credit Link </option>
+<option value="no"<?php if ($acx_si_credit == "no") { echo 'selected="selected"'; } ?>>No, Hide Credit Link</option>
+</select>
+<p><strong style='color:darkred;'>Its just a small font size link at the very bottom of your website/blog :) We helping you by providing this plugin for free.. so help us back..</strong></p></div>
+<?php }  ?>
+
+
+
+
+
+
+
+
+
 <?php    echo "<h4>" . __( 'Select an icon style', 'acx_si_config' ) . "</h4>"; ?>
 	
 
@@ -144,12 +164,17 @@ If you select display mode as automatic, it will show automatically, If you sele
 
 
 
+<?php if($acx_si_credit == "yes") { ?>
 <p><?php _e("Show Credit Link: " ); ?>
 <select name="acx_si_credit">
 <option value="yes"<?php if ($acx_si_credit == "yes") { echo 'selected="selected"'; } ?>>Yes, Its Okay to Show Credit Link </option>
 <option value="no"<?php if ($acx_si_credit == "no") { echo 'selected="selected"'; } ?>>No, I dont Like to Show Credit Link</option>
 </select>
 <?php _e("We Appreciate You Link Back to Our Website, Its just a small font size link :)" ); ?></p>	
+<?php  } ?>
+
+
+
 	<p class="submit">
 	<input type="submit" name="Submit" value="<?php _e('Update Acurax Social Icon', 'acx_si_config' ) ?>" />
 	</p>

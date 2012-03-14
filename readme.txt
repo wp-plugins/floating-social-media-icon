@@ -93,19 +93,28 @@ Have more questions ? [Drop a mail](http://www.acurax.com/contact.php/ "Drop an 
 
 == Upgrade Notice ==
 
+= 1.0.8 =
+* March 14, 2012
+* Added More Icon Designs
+* Fixed Minor Layout Issues
+
 = 1.0.7 =
+* March 12, 2012
 * More Icon Theme/Style
 * Updated User Interface
 * Updated Faq
 * Added Google Plus Support
 
 = 1.0.6 =
+* March 11, 2012
 * Fixed Alignment Problem When Displaying All Icons With Bigger Size
 
 = 1.0.5 =
+* March 10, 2012
 * Major Fix For More Theme Compatibility
 
 = 1.0.4 =
+* March 09, 2012
 * Fixed Some Reported Bugs
 
 = 1.0.3 =
@@ -116,23 +125,32 @@ Have more questions ? [Drop a mail](http://www.acurax.com/contact.php/ "Drop an 
 
 == Changelog ==
 
+= 1.0.8 =
+* March 14, 2012
+* Added More Icon Designs
+* Fixed Minor Layout Issues
+
 = 1.0.7 =
+* March 12, 2012
 * More Icon Theme/Style
 * Updated User Interface
 * Updated Faq
 * Added Google Plus Support
 
 = 1.0.6 =
+* March 11, 2012
 * Fixed Alignment Problem When Displaying All Icons With Bigger Size
 
 = 1.0.5 =
+* March 10, 2012
 * Major Fix For More Theme Compatibility
 
 = 1.0.4 =
+* March 09, 2012
 * Fixed Some Reported Bugs
 
 = 1.0.3 =
 * Major Fix to Support Older Versions of Wordpress
 
 = 1.0.2 =
-Fixed Design Icon Clarity
+* Fixed Design Icon Clarity

@@ -114,3 +114,18 @@ background: url("images/plugin_page_bg.png") repeat-x scroll 0 0 #FFFFFF;
 {
     font-style: italic;
 }
+#acurax_notice
+{
+    background-color: #FFFFE0;
+    border: 1px solid #E6DB55;
+    border-radius: 5px 5px 5px 5px;
+    color: darkRed;
+    font-family: arial;
+    font-weight: bold;
+    padding: 8px;
+	font-size:14px;
+}
+#acurax_notice select
+{
+font-weight:normal;
+}
