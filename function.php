@@ -73,7 +73,7 @@ $acx_si_gplus = get_option('acx_si_gplus');
 //********** CHECKING CREDIT LINK STATUS ******************
 if($acx_si_twitter != "" || $acx_si_facebook != "" || $acx_si_youtube != "" || $acx_si_linkedin != "" || $acx_si_gplus != "")
 { if($acx_si_credit == "yes") { 
-echo "<div style='text-align:center;color:gray;font-family:arial;font-size:10px;text-decoration:none;'>" . "Social Media Icons Powered by <a href='http://www.acurax.com/products/floating-social-media-icon-plugin-wordpress/' target='_blank' title='Acurax Webdesign and Development Company' style='text-align:center;color:gray;font-family:arial;font-size:10px;text-decoration:none;'>Acurax International</a></div>";
+echo "<div style='text-align:center;color:gray;font-family:arial;font-size:10px;text-decoration:none;'>" . "<a href='http://www.acurax.com/products/floating-social-media-icon-plugin-wordpress/' target='_blank' title='Social Media Wordpress plugin' style='text-align:center;color:gray;font-family:arial;font-size:10px;text-decoration:none;'>Social Media Icons</a> Powered by <a href='http://www.acurax.com/' target='_blank' title='Wordpress Theme Design Experts' style='text-align:center;color:gray;font-family:arial;font-size:10px;text-decoration:none;'>Acurax Web Design Experts</a></div>";
 } }
 //******************************************************
 } // pbl_footer
