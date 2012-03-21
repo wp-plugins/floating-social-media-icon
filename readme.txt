@@ -15,6 +15,8 @@ Floating Social Media Icon is an easy to use plugin which allows you to configur
 
 * Added More Icon Designs
 
+* One and Only Plugin With 20+ Icon Designs with Pinterest Support
+
 * Drag and Drop Reorder Icons
 
 * Easy to configure user interface
@@ -27,7 +29,7 @@ Floating Social Media Icon is an easy to use plugin which allows you to configur
 
 * Support Essential Social Medias Only
 
-* Added Pinterest Support
+* Added Pinterest Profile Support
 
 In Short we can say, this is an ultimate social icon widget that will float on your visitors screen.. check screenshots and video for  a clear understanding..
 
