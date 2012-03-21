@@ -5,7 +5,7 @@ Donate link:http://www.acurax.com/
 Tags: social media,social media icon,social profile link,social floating icon,floating social media button,social media url,social media button,facebook button,facebook icon,twitter icon,twitter button,youtube icon,youtube button,facebook profile url,twitter url,social icon,google plus,googleplus button,google plus button
 Requires at least: 2.8
 Tested up to: 3.3.1
-Stable tag: trunk
+Stable tag: 1.0.8
 
 An easy to use plugin to show socialmedia icons which floats,you can configure social icon design and size at plugin settings
 
