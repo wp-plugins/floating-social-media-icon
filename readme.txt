@@ -2,18 +2,20 @@
 Contributors: Acurax 
 Donate link:http://www.acurax.com/
 
-Tags: social media,social media icon,social profile link,social floating icon,floating social media button,social media url,social media button,facebook button,facebook icon,twitter icon,twitter button,youtube icon,youtube button,facebook profile url,twitter url,social icon,google plus,googleplus button,google plus button
+Tags: social media,social media icon,pinterest,social profile link,social floating icon,floating social media button,social media url,social media button,facebook button,facebook icon,twitter icon,twitter button,youtube icon,youtube button,facebook profile url,twitter url,social icon,google plus,googleplus button,google plus button,pinterest button,floating pinterest,pinterest icon
 Requires at least: 2.8
 Tested up to: 3.3.1
-Stable tag: 1.0.8
+Stable tag: trunk
 
-An easy to use plugin to show socialmedia icons which floats,you can configure social icon design and size at plugin settings
+An easy to use plugin to show socialmedia icons which floats,you can configure social icon design,order and size at plugin settings.
 
 == Description ==
 
-Floating Social Media Icon is an easy to use plugin which allows you to configure essential social media profile links, like Twitter, Facebook, Youtube and Linkedin from plugin settings and you also have option to select an icon style from the icon packs available.We will be upgrading plugin frequently with new set of icons. The social media icons will load in an animated way where it will stay and float on your website or blog's right bottom.
+Floating Social Media Icon is an easy to use plugin which allows you to configure essential social media profile links, like Twitter, Facebook, Pinterest, Youtube and Linkedin from plugin settings and you also have option to select an icon style from the icon packs available.We will be upgrading plugin frequently with new set of icons. The social media icons will load in an animated way where it will stay and float on your website or blog's right bottom.
 
 * Added More Icon Designs
+
+* Drag and Drop Reorder Icons
 
 * Easy to configure user interface
 
@@ -23,9 +25,9 @@ Floating Social Media Icon is an easy to use plugin which allows you to configur
 
 * Automatic Integration
 
-* Shortcode Support
-
 * Support Essential Social Medias Only
+
+* Added Pinterest Support
 
 In Short we can say, this is an ultimate social icon widget that will float on your visitors screen.. check screenshots and video for  a clear understanding..
 
@@ -83,6 +85,14 @@ Most of all the plugins have more and more options which is only easly understan
 
 Sorry, Its not supported in this version, but we will be releasing a premium version which support a lot more easy options with in few weeks, we are on its development.
 
+= After Upgrading Plugin, Icons are not showing. why? =
+
+You need to visit the plugin settings page once after upgrading to complete the upgrade process.Only after that it will show the icons.
+
+= Will upgrade change any of my settings or configuration? =
+
+No, It will not.. :)
+
 Have more questions ? [Drop a mail](http://www.acurax.com/contact.php/ "Drop an Email") and we shall get back to you with the answers.
 
 == Screenshots ==
@@ -94,6 +104,12 @@ Have more questions ? [Drop a mail](http://www.acurax.com/contact.php/ "Drop an 
 5. Credit Link Enable Disable Option
 
 == Upgrade Notice ==
+
+= 1.0.9 =
+* March 21, 2012
+* Added Pinterest
+* Added drag and drop reorder option
+* AFTER UPDATE YOU NEED TO VISIT THE PLUGIN SETTINGS PAGE TO START SHOWING THE ICONS (Upgrade Will Not Alter Your Settings).
 
 = 1.0.8 =
 * March 14, 2012
@@ -126,6 +142,12 @@ Have more questions ? [Drop a mail](http://www.acurax.com/contact.php/ "Drop an 
 * Fixed Design Icon Clarity
 
 == Changelog ==
+
+= 1.0.9 =
+* March 21, 2012
+* Added Pinterest
+* Added drag and drop reorder option
+* AFTER UPDATE YOU NEED TO VISIT THE PLUGIN SETTINGS PAGE TO START SHOWING THE ICONS (Upgrade Will Not Alter Your Settings).
 
 = 1.0.8 =
 * March 14, 2012

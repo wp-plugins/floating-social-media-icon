@@ -40,6 +40,12 @@ $code_6 = ' [DISPLAY_ACURAX_ICONS]';
 <p class="q">Can i add my own icons for the social media profiles?</p>
 <p class="a">Sorry, Its not supported in this version, but we will be releasing a premium version which support a lot more easy options with in few weeks, we are on its development.</p>
 
+<p class="q">After Upgrading Plugin, Icons are not showing. why?</p>
+<p class="a">You need to visit the plugin settings page once after upgrading to complete the upgrade process.Only after that it will show the icon.</p>
+
+<p class="q">Will upgrade change any of my settings or configuration?</p>
+<p class="a">No, It will not.. :)</p>
+
 <p class="a">Have more questions ? <a href="http://www.acurax.com/contact.php" target="_blank">Drop a mail</a> and we shall get back to you with the answers.</p>
 
 </div> <!-- acx_help_page -->

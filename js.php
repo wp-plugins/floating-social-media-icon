@@ -14,18 +14,21 @@ $acx_si_facebook = get_option('acx_si_facebook');
 $acx_si_youtube = get_option('acx_si_youtube');
 $acx_si_linkedin = get_option('acx_si_linkedin');
 $acx_si_gplus = get_option('acx_si_gplus');
+$acx_si_pinterest = get_option('acx_si_pinterest');
 $count_check = 0;
 $l1 = 0;
 $l2 = 0;
 $l3 = 0;
 $l4 = 0;
 $l5 = 0;
+$l6 = 0;
 				if ($acx_si_twitter != "") { $l1 = 1; }
 				if ($acx_si_facebook != "") { $l2 = 1; }
 				if ($acx_si_youtube != "") { $l3 = 1; }
 				if ($acx_si_linkedin != "") { $l4 = 1; }
 				if ($acx_si_gplus != "") { $l5 = 1; }
-	$count_check = $l1 + $l2 + $l3 + $l4 + $l5;
+				if ($acx_si_pinterest != "") { $l6 = 1; }
+	$count_check = $l1 + $l2 + $l3 + $l4 + $l5 + $l6;
 
 	if ($acx_si_icon_size == $icon_size && $count_check == $count)
 	{
@@ -51,6 +54,7 @@ acx_si_check_loaded_count(2,16,-170,-35);
 acx_si_check_loaded_count(3,16,-170,-35);
 acx_si_check_loaded_count(4,16,-170,-35);
 acx_si_check_loaded_count(5,16,-170,-35);
+acx_si_check_loaded_count(6,16,-170,-35);
 // *********************************
 // Icon Size 25 Starts Here
 // acx_si_check_loaded_count($count,$icon_size,$set_x_value,$set_y_value);
@@ -59,6 +63,7 @@ acx_si_check_loaded_count(2,25,-160,-50);
 acx_si_check_loaded_count(3,25,-160,-50);
 acx_si_check_loaded_count(4,25,-160,-50);
 acx_si_check_loaded_count(5,25,-160,-50);
+acx_si_check_loaded_count(6,25,-180,-50);
 // *********************************
 // Icon Size 32 Starts Here
 // acx_si_check_loaded_count($count,$icon_size,$set_x_value,$set_y_value);
@@ -67,6 +72,7 @@ acx_si_check_loaded_count(2,32,-170,-55);
 acx_si_check_loaded_count(3,32,-170,-55);
 acx_si_check_loaded_count(4,32,-170,-55);
 acx_si_check_loaded_count(5,32,-190,-60);
+acx_si_check_loaded_count(6,32,-160,-80);
 // *********************************
 // Icon Size 40 Starts Here
 // acx_si_check_loaded_count($count,$icon_size,$set_x_value,$set_y_value);
@@ -75,6 +81,7 @@ acx_si_check_loaded_count(2,40,-170,-65);
 acx_si_check_loaded_count(3,40,-170,-65);
 acx_si_check_loaded_count(4,40,-170,-105);
 acx_si_check_loaded_count(5,40,-170,-105);
+acx_si_check_loaded_count(6,40,-170,-105);
 // *********************************
 // Icon Size 48 Starts Here
 // acx_si_check_loaded_count($count,$icon_size,$set_x_value,$set_y_value);
@@ -83,6 +90,7 @@ acx_si_check_loaded_count(2,48,-170,-75);
 acx_si_check_loaded_count(3,48,-170,-75);
 acx_si_check_loaded_count(4,48,-170,-120);
 acx_si_check_loaded_count(5,48,-170,-120);
+acx_si_check_loaded_count(6,48,-170,-120);
 // *********************************
 // Icon Size 55 Starts Here
 // acx_si_check_loaded_count($count,$icon_size,$set_x_value,$set_y_value);
@@ -91,6 +99,7 @@ acx_si_check_loaded_count(2,55,-170,-80);
 acx_si_check_loaded_count(3,55,-170,-135);
 acx_si_check_loaded_count(4,55,-170,-135);
 acx_si_check_loaded_count(5,55,-190,-135);
+acx_si_check_loaded_count(6,55,-190,-135);
 // *********************************
 /**************************************************************************
 CONDITIONS ENDING HERE

@@ -39,7 +39,7 @@
     margin-bottom: 8px;
     margin-left: 7px;
     padding: 2px;
-    width: 270px;
+    width: 365px;
 }
 #acx_si_theme_display .acx_si_single_label
 {
@@ -56,8 +56,8 @@ float:left;
 #acx_si_theme_display .image_div img
 {
     border: 0 none;
-    margin-top: 4px;
-    width: 195px;
+    margin-top: 6px;
+    width: 36px;
 }
 #floating-social-media-icon
 {
@@ -128,4 +128,35 @@ background: url("images/plugin_page_bg.png") repeat-x scroll 0 0 #FFFFFF;
 #acurax_notice select
 {
 font-weight:normal;
+}
+
+
+
+
+
+
+
+#contentLeft ul{
+    display: inline-block;
+    list-style: none outside none;
+}
+#contentLeft img
+{
+    width: 40px;
+}
+#contentLeft li {
+    border: 1px solid #CCCCCC;
+    color: black;
+    cursor: move;
+    float: left;
+    font-family: arial;
+    font-size: 15px;
+    list-style: none outside none;
+    margin-left: 3px;
+    min-width: 70px;
+    padding: 5px;
+    text-align: center;
+}
+#contentRight {
+
 }
