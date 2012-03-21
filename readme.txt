@@ -2,7 +2,7 @@
 Contributors: Acurax 
 Donate link:http://www.acurax.com/
 
-Tags: social media,social media icon,pinterest,social profile link,social floating icon,floating social media button,social media url,social media button,facebook button,facebook icon,twitter icon,twitter button,youtube icon,youtube button,facebook profile url,twitter url,social icon,google plus,googleplus button,google plus button,pinterest button,floating pinterest,pinterest icon
+Tags: social media,social media icon,pinterest,social profile link,social floating icon,floating social media button,social media url,social media button,facebook button,floating pinterest,twitter icon,twitter button,youtube icon,youtube button,facebook profile url,twitter url,social icon,google plus,googleplus button,google plus button,pinterest button
 Requires at least: 2.8
 Tested up to: 3.3.1
 Stable tag: trunk
