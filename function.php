@@ -157,7 +157,11 @@ function DISPLAY_ACURAX_ICONS()
 		$acx_si_display = get_option('acx_si_display');
 	if (function_exists('acurax_icons') && $acx_si_display != "auto") 
 	{
-		acurax_icons();
+		ob_start();
+			acurax_icons();
+		$content = ob_get_contents();
+		ob_end_clean();
+		return $content;
 	} 
 	else echo "<!-- Select Display Mode as Manual To Show The Acurax Social Media Icons -->";
 } // DISPLAY_ACURAX_ICONS
