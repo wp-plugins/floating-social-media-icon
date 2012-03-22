@@ -152,7 +152,7 @@ if	($acx_si_display == "auto")
 	add_action('wp_footer', 'acurax_icons');
 }
 
-function DISPLAY_ACURAX_ICONS()
+function DISPLAY_ACURAX_ICONS_SC()
 {
 		$acx_si_display = get_option('acx_si_display');
 	if (function_exists('acurax_icons') && $acx_si_display != "auto") 
@@ -165,6 +165,17 @@ function DISPLAY_ACURAX_ICONS()
 	} 
 	else echo "<!-- Select Display Mode as Manual To Show The Acurax Social Media Icons -->";
 } // DISPLAY_ACURAX_ICONS
+
+function DISPLAY_ACURAX_ICONS()
+{
+		$acx_si_display = get_option('acx_si_display');
+	if (function_exists('acurax_icons') && $acx_si_display != "auto") 
+	{
+			acurax_icons();
+	} 
+	else echo "<!-- Select Display Mode as Manual To Show The Acurax Social Media Icons -->";
+} // DISPLAY_ACURAX_ICONS
+
 			
 function acx_not_auto()
 {
@@ -172,7 +183,7 @@ function acx_not_auto()
 }
 if	(function_exists('DISPLAY_ACURAX_ICONS') && $acx_si_display != "auto") 
 {
-	add_shortcode( 'DISPLAY_ACURAX_ICONS', 'DISPLAY_ACURAX_ICONS' ); // Defining Shortcode to show Social Media Icon
+	add_shortcode( 'DISPLAY_ACURAX_ICONS', 'DISPLAY_ACURAX_ICONS_SC' ); // Defining Shortcode to show Social Media Icon
 }
 else if (function_exists('acx_not_auto') && $acx_si_display == "auto") 
 {
