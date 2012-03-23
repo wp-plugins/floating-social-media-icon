@@ -61,11 +61,11 @@ To hide an icon, Just dont give any value for that button link.. it will automat
 
 = Why the floating social media icon is not displaying on my page even if i made all properly? =
 
-Our Plugin Uses Hooks to integrate the suppported javascripts styles and html to the theme. So Make sure your theme footer.php have  <?php wp_footer(); ?> and header.php have  <?php wp_head(); ?> , Most of all the plugins work with the support of this code and if this is not present on your theme.. Its your themes mistake..
+Our Plugin Uses Hooks to integrate the suppported javascripts styles and html to the theme. So Make sure your theme footer.php have  &lt;?php wp_footer(); ?&gt; and header.php have  &lt;?php wp_head(); ?&gt; , Most of all the plugins work with the support of this code and if this is not present on your theme.. Its your themes mistake..
 
-= How can i integrate the  <?php wp_footer(); ?> and  <?php wp_head(); ?> to my theme if it is not present on my theme? =
+= How can i integrate the  &lt;?php wp_footer(); ?&gt; and  &lt;?php wp_head(); ?&gt; to my theme if it is not present on my theme? =
 
-It can be easily done.. Just to go Theme Editor which is under apperance and select footer.php and add  <?php wp_footer(); ?> before the closing body tag which is  </body> and then go and edit header.php and add  <?php wp_head(); ?> just before the closing head tag which is  </head>
+It can be easily done.. Just to go Theme Editor which is under apperance and select footer.php and add  &lt;?php wp_footer(); ?&gt; before the closing body tag which is  </body> and then go and edit header.php and add  &lt;?php wp_head(); ?&gt; just before the closing head tag which is  </head>
 
 = Can i disable the automated integration and place where ever i want? =
 
@@ -73,7 +73,7 @@ Yes, You can.. Just to go "Acx Social icons" Menu which is in left side on wp-ad
 
 = What are theshortcode and php code that will display this social media icon? =
 
-You can use the shortcode  [DISPLAY_ACURAX_ICONS] in any post or page or even in your custom post types. You can also use  <?php DISPLAY_ACURAX_ICONS(); ?> anywhere in the theme files to show this icons.(But note that manual icons display will not have the animation
+You can use the shortcode  [DISPLAY_ACURAX_ICONS] in any post or page or even in your custom post types. You can also use  &lt;?php DISPLAY_ACURAX_ICONS(); ?&gt; anywhere in the theme files to show this icons.(But note that manual icons display will not have the animation
 
 = How can i help the development of this plugin? =
 
