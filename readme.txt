@@ -19,9 +19,9 @@ Floating Social Media Icon is an easy to use plugin which allows you to configur
 
 * Drag and Drop Reorder Icons
 
-* Easy to configure user interface
+* Shortcode Support - Use Shortcodes to Show on Widgets or in Posts
 
-* Shortcode Support
+* Easy to configure user interface
 
 * Icon Size Selection Support
 
