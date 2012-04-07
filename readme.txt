@@ -11,7 +11,13 @@ An easy to use plugin to show socialmedia icons which floats,you can configure s
 
 == Description ==
 
-Floating Social Media Icon is an easy to use plugin which allows you to configure essential social media profile links, like Twitter, Facebook, Pinterest, Youtube and Linkedin from plugin settings and you also have option to select an icon style from the icon packs available. **Multiple Widget Support** **Advanced Shortcode Support** We will be upgrading plugin frequently with new set of icons. The social media icons will load in an animated style where it will stay and float on your website on blog's lower right corner.
+Floating Social Media Icon is an easy to use plugin which allows you to configure essential social media profile links, like Twitter, Facebook, Pinterest, Youtube and Linkedin from plugin settings and you also have option to select an icon style from the icon packs available. 
+
+**Multiple Widget Support** 
+
+**Advanced Shortcode Support** 
+
+We will be upgrading plugin frequently with new set of icons. The social media icons will load in an animated style where it will stay and float on your website on blog's lower right corner.
 
 * Multiple Social Media Widget Support (**Each Widget Can Have Seperate Icon Theme and Icon Size**)
 
