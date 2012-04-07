@@ -7,8 +7,8 @@ Requires at least: 2.8
 Tested up to: 3.3.1
 Stable tag: trunk
 
-An easy to use plugin to show socialmedia icons which floats,you can configure social icon design,order and size at plugin settings, Can have Multiple widgets or shortcode with option to override size and icon design for each.
-
+An easy to use plugin 2 show socialmedia icons which floats,Can configure social icon design,order and size at plugin settings.
+Suport Widget & Shortcode
 == Description ==
 
 Floating Social Media Icon is an easy to use plugin which allows you to configure essential social media profile links, like Twitter, Facebook, Pinterest, Youtube and Linkedin from plugin settings and you also have option to select an icon style from the icon packs available. 
