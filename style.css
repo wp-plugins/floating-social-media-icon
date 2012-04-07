@@ -4,11 +4,11 @@ position:absolute;
 z-index:10000;
 min-width: 142px;
 }
-#divBottomRight img
+#divBottomRight img, #acurax_si_simple img, #short_code_si_icon img
 {
 margin-left:1px;
 }
-#divBottomRight img:hover
+#divBottomRight img:hover, #acurax_si_simple img:hover, #short_code_si_icon img:hover
 {
 opacity:0.8;
 }

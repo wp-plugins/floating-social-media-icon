@@ -2,30 +2,32 @@
 Contributors: Acurax 
 Donate link:http://www.acurax.com/
 
-Tags: social media,social media icon,pinterest,social profile link,social floating icon,floating social media button,social media url,social media button,facebook button,floating pinterest,twitter icon,twitter button,youtube icon,youtube button,facebook profile url,twitter url,social icon,google plus,googleplus button,google plus button,pinterest button
+Tags: social media,social media icon,pinterest,social profile link,social floating icon,floating social media button,social media url,social media button,facebook button,floating pinterest,twitter icon,social media widget,youtube icon,youtube button,facebook profile url,twitter url,social icon,google plus,googleplus button,google plus button,pinterest button
 Requires at least: 2.8
 Tested up to: 3.3.1
 Stable tag: trunk
 
-An easy to use plugin to show socialmedia icons which floats,you can configure social icon design,order and size at plugin settings.
+An easy to use plugin to show socialmedia icons which floats,you can configure social icon design,order and size at plugin settings, Can have Multiple widgets or shortcode with option to override size and icon design for each.
 
 == Description ==
 
-Floating Social Media Icon is an easy to use plugin which allows you to configure essential social media profile links, like Twitter, Facebook, Pinterest, Youtube and Linkedin from plugin settings and you also have option to select an icon style from the icon packs available.We will be upgrading plugin frequently with new set of icons. The social media icons will load in an animated way where it will stay and float on your website or blog's right bottom.
+Floating Social Media Icon is an easy to use plugin which allows you to configure essential social media profile links, like Twitter, Facebook, Pinterest, Youtube and Linkedin from plugin settings and you also have option to select an icon style from the icon packs available. **Multiple Widget Support** **Advanced Shortcode Support** We will be upgrading plugin frequently with new set of icons. The social media icons will load in an animated style where it will stay and float on your website on blog's lower right corner.
 
-* Added More Icon Designs
+* Multiple Social Media Widget Support (**Each Widget Can Have Seperate Icon Theme and Icon Size**)
 
-* One and Only Plugin With 20+ Icon Designs with Pinterest Support
+* Best Shortcode Support (**Each Shortcode Support Seperate Icon Theme and Icon Size**) [Check Faq](http://wordpress.org/extend/plugins/floating-social-media-icon/faq/ "Frequently Asked Questions")
 
-* Drag and Drop Reorder Icons
+* Can Show Social Media Icons in **between content on post and pages** in any size and style plugin supports.
 
-* Shortcode Support - Use Shortcodes to Show on Widgets or in Posts
+* One and Only Plugin With 20+ Icon Designs with **Pinterest** Support
+
+* **Drag and Drop** Reorder Icons
 
 * Easy to configure user interface
 
 * Icon Size Selection Support
 
-* Automatic Integration
+* **Automatic** Integration
 
 * Support Essential Social Medias Only
 
@@ -37,7 +39,7 @@ We Always Look Forward Your Comments and Suggestions for Future Updates. You can
 
 [Click Here To See a Live Demo](http://www.acurax.com/products/floating-social-media-icon-plugin-wordpress/ "Floating Social Media Icon Demo")
 
-[Click Here to Order Professional Installation/Integration Service](http://clients.acurax.com/cart.php?a=add&pid=19/ "Professional Integration Service")
+[Click Here to Order Professional Installation/Integration Service](http://clients.acurax.com/link.php?id=4/ "Professional Integration Service")
 
 **About**
 
@@ -45,12 +47,20 @@ This Plugin is developed and maintained by [Acurax International](http://www.acu
 
 **Plugin Video Tour**
 '[youtube http://www.youtube.com/watch?v=oK1iCywcjZY]'
+NOTE: This video is old version video. Check Screenshots for New Settings Page Option Preview.
+
 == Installation ==
 
 Extract the zip file and just drop the contents in the wp-content/plugins/ directory of your WordPress installation and then activate the Plugin from Plugins page.
 
 Then Visit Plugin Configuration Settings and select a theme and size for icons. configure your social profile url. You are done!
+
+You need to go to Apperance >> Widgets to add "Acx Social Icon" Widget to your sidebar
+If you selected display mode as manual, you can use the shortcodes which is clearly mentioned in [Faq](http://wordpress.org/extend/plugins/floating-social-media-icon/faq/ "Frequently Asked Questions") section.
+
 '[youtube http://www.youtube.com/watch?v=oK1iCywcjZY]'
+NOTE: This video is old version video. Check Screenshots for New Settings Page Option Preview.
+
 After Installation,Dont Forgot to Cast Your Vote on Combatibility :) Thanks for trying...
 
 == Frequently Asked Questions ==
@@ -61,19 +71,41 @@ To hide an icon, Just dont give any value for that button link.. it will automat
 
 = Why the floating social media icon is not displaying on my page even if i made all properly? =
 
-Our Plugin Uses Hooks to integrate the suppported javascripts styles and html to the theme. So Make sure your theme footer.php have  &lt;?php wp_footer(); ?&gt; and header.php have  &lt;?php wp_head(); ?&gt; , Most of all the plugins work with the support of this code and if this is not present on your theme.. Its your themes mistake..
+Our Plugin Uses Hooks to integrate the suppported javascripts styles and html to the theme. So Make sure your theme **footer.php** have  **&lt;?php wp_footer(); ?&gt;** and **header.php** have  **&lt;?php wp_head(); ?&gt;** , Most of all the plugins work with the support of this code and if this is not present on your theme.. Its your themes mistake..
 
-= How can i integrate the  &lt;?php wp_footer(); ?&gt; and  &lt;?php wp_head(); ?&gt; to my theme if it is not present on my theme? =
+= How can i integrate the  **&lt;?php wp_footer(); ?&gt;** and  **&lt;?php wp_head(); ?&gt;** to my theme if it is not present on my theme? =
 
-It can be easily done.. Just to go Theme Editor which is under apperance and select footer.php and add  &lt;?php wp_footer(); ?&gt; before the closing body tag which is  </body> and then go and edit header.php and add  &lt;?php wp_head(); ?&gt; just before the closing head tag which is  </head>
+It can be easily done.. Just to go Theme Editor which is under apperance and select footer.php and add  **&lt;?php wp_footer(); ?&gt;** before the closing body tag which is  **</body>** and then go and edit header.php and add  **&lt;?php wp_head(); ?&gt;** just before the closing head tag which is  **</head>**
 
 = Can i disable the automated integration and place where ever i want? =
 
-Yes, You can.. Just to go "Acx Social icons" Menu which is in left side on wp-admin and in that page you will find "Display Mode" option. Select it to Manual. But then there will be no animation but you can Use Our Shortcode or PHP Code to display the social media icons anywhere you want.
+Yes, You can.. Just to go **"Acx Social icons"** Menu which is in left side on wp-admin and in that page you will find "Display Mode" option. Select it to Manual. But then there will be no animation but you can Use Our Shortcode or PHP Code to display the social media icons anywhere you want.
 
-= What are theshortcode and php code that will display this social media icon? =
+= What are the shortcode and php code that will display this social media icon? =
 
-You can use the shortcode  [DISPLAY_ACURAX_ICONS] in any post or page or even in your custom post types. You can also use  &lt;?php DISPLAY_ACURAX_ICONS(); ?&gt; anywhere in the theme files to show this icons.(But note that manual icons display will not have the animation
+You can use the shortcode  **[DISPLAY_ACURAX_ICONS]** in any post or page or even in your custom post types. You can also use  **&lt;?php DISPLAY_ACURAX_ICONS(); ?&gt;** anywhere in the theme files to show this icons.(But note that manual icons display will not have the animation
+
+= Can i customize the shortcode to show icons with differant icon design and size? =
+
+Yes, You can use shortcode to display icon and set icon size,what ever you want which is supported by the plugin. You can override the global icon theme and size configuration using some attributes on shortcode.
+
+As you know we have given icon themes, Numbers to identify. Right now we have themes like, 1,2,3,4....
+
+If you want to show icons with Theme # 5, You can use the shortcode **[DISPLAY_ACURAX_ICONS theme="5"]**
+Here we using the attribute **"theme"** to define the theme number (Make sure you use the available theme numbers, You can see the theme numbers on plugin settings page)
+
+If you want to show the icons with a custom size 50px.. you can use the shortcode **[DISPLAY_ACURAX_ICONS size="50"]**
+Here we using the attribute **"size"** to define the icon size (Make Sure you specifying size which is not more than "55" which is the maximum icon support of this plugin, **DO NOT ADD px**, Just Add the Size in Numerical)
+
+So if you use a shortcode **[DISPLAY_ACURAX_ICONS theme="10" size="45"]**
+It will show the Social Media Icon with Icon Theme 10 and Icon size will be 45px width and height.
+
+
+= How can i use the plugin widgets? =
+
+We have widgets also with almost same features of the shortcodes, You can have **many number of widgets where on each widget you can configure the Social Media Icons size and Icon Design/Style**.
+
+To add a widget to your sidebar.. you theme must support sidebars. Go to **Apperance >> Widgets**,to add "Acx Social Icons" widget to your sidebar.
 
 = How can i help the development of this plugin? =
 
@@ -100,12 +132,18 @@ Have more questions ? [Drop a mail](http://www.acurax.com/contact.php/ "Drop an 
 == Screenshots ==
 
 1. Plugin Settings Page
-2. Plugin in action, It will stay at bottom right with animated move even if we scroll.. watch video to see it in action..
+2. Plugin in action, It will stay at bottom right with animated move even if we scroll.. Auto and Manual Mode. It Shows Both Floating and Shortcode Icons..
 3. Icon Settings Style/Theme and Size Selection Options
 4. Social Media Profile Link Settings
 5. Credit Link Enable Disable Option
 
 == Upgrade Notice ==
+
+= 1.1 =
+* April 06, 2012
+* Added Code Security
+* Now You can have as many widgets where you can define icon size and icon design for each widget.
+* Now You can have Shortcode customization where you can define icon size and icon design for each shortcodes (Check Faq for more info).
 
 = 1.0.9 =
 * March 21, 2012
@@ -144,6 +182,12 @@ Have more questions ? [Drop a mail](http://www.acurax.com/contact.php/ "Drop an 
 * Fixed Design Icon Clarity
 
 == Changelog ==
+
+= 1.1 =
+* April 06, 2012
+* Added Code Security
+* Now You can have as many widgets where you can define icon size and icon design for each widget.
+* Now You can have Shortcode customization where you can define icon size and icon design for each shortcodes (Check Faq for more info).
 
 = 1.0.9 =
 * March 21, 2012

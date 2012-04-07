@@ -38,7 +38,7 @@ if($_POST['acurax_social_icon_hidden'] == 'Y')
 	$social_icon_array_order = get_option('social_icon_array_order');
 
 		?>
-		<div class="updated"><p><strong><?php _e('Acurax Settings Saved!.' ); ?></strong></p></div>
+		<div class="updated"><p><strong><?php _e('Acurax Floating Social Icons Settings Saved!.' ); ?></strong></p></div>
 		<?php
 }
 	else
@@ -114,13 +114,14 @@ if($_POST['acurax_social_icon_hidden'] == 'Y')
 	
 	
 <div class="wrap">
-<p>
+<p class="widefat" style="padding:8px;width:99%;">
 	<b>Acurax Services >> </b>
 	<a href="http://www.acurax.com/services/blog-design.php" target="_blank">Wordpress Theme Design</a> | 
 	<a href="http://www.acurax.com/services/web-designing.php" target="_blank">Website Design</a> | 
 	<a href="http://www.acurax.com/social-media-marketing-optimization/social-profile-design.php" target="_blank">Social Profile Design</a> | 
 	<a href="http://www.acurax.com/social-media-marketing-optimization/twitter-background-design.php" target="_blank">Twitter Background Design</a> | 
-	<a href="http://www.acurax.com/social-media-marketing-optimization/facebook-page-design.php" target="_blank">Facebook Page Design</a>
+	<a href="http://www.acurax.com/social-media-marketing-optimization/facebook-page-design.php" target="_blank">Facebook Page Design</a> |
+	<a href="#cheat-sheet">Free Social Media Marketing Cheat Sheet</a>
 </p>
 <?php echo "<h2>" . __( 'Acurax Social Icons Options', 'acx_si_config' ) . "</h2>"; ?>
 
@@ -132,17 +133,21 @@ if($_POST['acurax_social_icon_hidden'] == 'Y')
 		<div id='acurax_notice' align='center'>
 			<p>
 				<strong style='color:darkred;'>
-				You Have Selected Show Credit Link as <b>NO</b>. We Appreciate You Link Back to Our Website,Select Yes to Enable Credit Link.
+				You Have Selected Show Credit Link as <b>NO</b>. We Appreciate You Link Back to Our Website,Select Yes to 
+				Enable Credit Link.
 				</strong>
 			</p>
 
 			<select name="acx_si_credit" onChange="this.form.submit();" style="font-size:18px;">
-				<option value="yes"<?php if ($acx_si_credit == "yes") { echo 'selected="selected"'; } ?>>Yes, Show Credit Link </option>
-				<option value="no"<?php if ($acx_si_credit == "no") { echo 'selected="selected"'; } ?>>No, Hide Credit Link</option>
+				<option value="yes"<?php if ($acx_si_credit == "yes") { echo 'selected="selected"'; } ?>>Yes, Show Credit 
+				Link </option>
+				<option value="no"<?php if ($acx_si_credit == "no") { echo 'selected="selected"'; } ?>>No, Hide Credit Link
+				</option>
 			</select>
 
 			<p>
-				<strong style='color:darkred;'>Its just a small font size link at the very bottom of your website/blog :) We helping you by providing this plugin for free.. so help us back..
+				<strong style='color:darkred;'>Its just a small font size link at the very bottom of your website/blog :) We 
+				helping you by providing this plugin for free.. so help us back..
 				</strong>
 			</p>
 		</div>
@@ -152,31 +157,67 @@ if($_POST['acurax_social_icon_hidden'] == 'Y')
 
 	<?php    echo "<h4>" . __( 'Select an icon style', 'acx_si_config' ) . "</h4>"; ?>
 		
-	<p>
+	<p class="widefat" style="padding:8px;width:99%;">
 		<?php	echo "Your Current Theme is <b>Theme" . $acx_si_theme."</b>"; ?>
-		<div class="image_div">
-			<img src="<?php echo plugins_url('images/themes/'.$acx_si_theme.'/twitter.png', __FILE__);?>" style="height:<?php echo $acx_si_icon_size;?>px;">
-			<img src="<?php echo plugins_url('images/themes/'.$acx_si_theme.'/facebook.png', __FILE__);?>" style="height:<?php echo $acx_si_icon_size;?>px;">
-			<img src="<?php echo plugins_url('images/themes/'.$acx_si_theme.'/googleplus.png', __FILE__);?>" style="height:<?php echo $acx_si_icon_size;?>px;">
-			<img src="<?php echo plugins_url('images/themes/'.$acx_si_theme.'/pinterest.png', __FILE__);?>" style="height:<?php echo $acx_si_icon_size;?>px;">
-			<img src="<?php echo plugins_url('images/themes/'.$acx_si_theme.'/youtube.png', __FILE__);?>" style="height:<?php echo $acx_si_icon_size;?>px;">
-			<img src="<?php echo plugins_url('images/themes/'.$acx_si_theme.'/linkedin.png', __FILE__);?>" style="height:<?php echo $acx_si_icon_size;?>px;">
+		<div class="image_div" style="margin-top:8px;">
+			<img src="<?php echo plugins_url('images/themes/'.$acx_si_theme.'/twitter.png', __FILE__);?>" style="height:<?php 
+			echo $acx_si_icon_size;?>px;">
+			<img src="<?php echo plugins_url('images/themes/'.$acx_si_theme.'/facebook.png', __FILE__);?>" style="height:
+			<?php echo $acx_si_icon_size;?>px;">
+			<img src="<?php echo plugins_url('images/themes/'.$acx_si_theme.'/googleplus.png', __FILE__);?>" style="height:
+			<?php echo $acx_si_icon_size;?>px;">
+			<img src="<?php echo plugins_url('images/themes/'.$acx_si_theme.'/pinterest.png', __FILE__);?>" style="height:
+			<?php echo $acx_si_icon_size;?>px;">
+			<img src="<?php echo plugins_url('images/themes/'.$acx_si_theme.'/youtube.png', __FILE__);?>" style="height:<?php
+			echo $acx_si_icon_size;?>px;">
+			<img src="<?php echo plugins_url('images/themes/'.$acx_si_theme.'/linkedin.png', __FILE__);?>" style="height:
+			<?php echo $acx_si_icon_size;?>px;">
 		</div>
 	</p>
 	<?php
+	$social_icon_array_order = unserialize($social_icon_array_order);
 	// Starting The Theme List
-	echo "<div id='acx_si_theme_display'>";
+	echo "<div id='acx_si_theme_display' class='widefat'>";
 	for ($i=1; $i < $total_themes; $i++)
 	{ ?>
 		<label class="acx_si_single_theme_display <?php if ($acx_si_theme == $i) { echo "selected"; } ?>" id="icon_selection">
 		<div class="acx_si_single_label">Theme <?php echo $i; ?><br><input type="radio" name="acx_si_theme" value="<?php echo $i; ?>"<?php if ($acx_si_theme == $i) { echo " checked"; } ?>></div>
 		<div class="image_div">
-		<img src="<?php echo plugins_url('images/themes/'.$i.'/twitter.png', __FILE__);?>">
-		<img src="<?php echo plugins_url('images/themes/'.$i.'/facebook.png', __FILE__);?>">
-		<img src="<?php echo plugins_url('images/themes/'.$i.'/googleplus.png', __FILE__);?>">
-		<img src="<?php echo plugins_url('images/themes/'.$i.'/pinterest.png', __FILE__);?>">
-		<img src="<?php echo plugins_url('images/themes/'.$i.'/youtube.png', __FILE__);?>">
-		<img src="<?php echo plugins_url('images/themes/'.$i.'/linkedin.png', __FILE__);?>">
+			<?php
+				foreach ($social_icon_array_order as $key => $value)
+				{
+					if ($value == 0) 
+					{
+						echo "<img src=" . plugins_url('images/themes/'. $i .'/twitter.png', __FILE__) . ">"; 
+					} 	else 
+
+					if ($value == 1) 
+					{
+						echo "<img src=" . plugins_url('images/themes/'. $i .'/facebook.png', __FILE__) . ">"; 
+					}	else 
+
+					if ($value == 2) 
+					{
+						echo "<img src=" . plugins_url('images/themes/'. $i .'/googleplus.png', __FILE__) . ">"; 
+					}	else
+	 
+					if ($value == 3) 
+					{
+						echo "<img src=" . plugins_url('images/themes/'. $i .'/pinterest.png', __FILE__) . ">"; 
+					}	else
+
+					if ($value == 4) 
+					{
+						echo "<img src=" . plugins_url('images/themes/'. $i .'/youtube.png', __FILE__) . ">"; 
+					}	else 
+
+					if ($value == 5) 
+					{
+						echo "<img src=" . plugins_url('images/themes/'. $i .'/linkedin.png', __FILE__) . ">"; 
+					}
+
+				}
+			?>			
 		</div>
 		</label>
 	<?php
@@ -185,7 +226,7 @@ if($_POST['acurax_social_icon_hidden'] == 'Y')
 	// Ending The Theme List
 	?>
 
-	<p>	<?php _e("Social Icon Size: " ); ?>
+	<p class="widefat" style="padding:8px;width:99%;margin-top:8px;">	<?php _e("Social Icon Size: " ); ?>
 		<select name="acx_si_icon_size">
 			<option value="16"<?php if ($acx_si_icon_size == "16") { echo 'selected="selected"'; } ?>>16px X 16px </option>
 			<option value="25"<?php if ($acx_si_icon_size == "25") { echo 'selected="selected"'; } ?>>25px X 25px </option>
@@ -197,12 +238,11 @@ if($_POST['acurax_social_icon_hidden'] == 'Y')
 		<?php _e("Select a social icon size" ); ?>
 	</p>
 
-	<p>	<?php    echo "<h4>" . __( 'Social Media Icon Display Order - Drag and Drop to Reorder', 'acx_si_config' ) . "</h4>"; ?>
+		<?php    echo "<h4>" . __( 'Social Media Icon Display Order - Drag and Drop to Reorder', 'acx_si_config' ) . "</h4>"; ?>
+	<div class="widefat" style="padding:8px;width:99%;margin-top:8px;">
 		<div id="contentLeft">
 			<ul>
 			<?php
-
-			$social_icon_array_order = unserialize($social_icon_array_order);
 
 			foreach ($social_icon_array_order as $key => $value)
 			{
@@ -212,42 +252,48 @@ if($_POST['acurax_social_icon_hidden'] == 'Y')
 
 				if ($value == 0) 
 				{
-					echo "<img src=" . plugins_url('images/themes/'. $acx_si_theme .'/twitter.png', __FILE__) . " border='0'><br> Twitter"; 
+					echo "<img src=" . plugins_url('images/themes/'. $acx_si_theme .'/twitter.png', __FILE__) . " 
+					border='0'><br> Twitter"; 
 				} 	else 
 
 
 
 				if ($value == 1) 
 				{
-					echo "<img src=" . plugins_url('images/themes/'. $acx_si_theme .'/facebook.png', __FILE__) . " border='0'><br> Facebook"; 
+					echo "<img src=" . plugins_url('images/themes/'. $acx_si_theme .'/facebook.png', __FILE__) . " 
+					border='0'><br> Facebook"; 
 				}	else 
 
 
 
 				if ($value == 2) 
 				{
-					echo "<img src=" . plugins_url('images/themes/'. $acx_si_theme .'/googleplus.png', __FILE__) . " border='0'><br> Google Plus"; 
+					echo "<img src=" . plugins_url('images/themes/'. $acx_si_theme .'/googleplus.png', __FILE__) . " 
+					border='0'><br> Google Plus"; 
 				}	else
 
 
 				 
 				if ($value == 3) 
 				{
-					echo "<img src=" . plugins_url('images/themes/'. $acx_si_theme .'/pinterest.png', __FILE__) . " border='0'><br> Pinterest"; 
+					echo "<img src=" . plugins_url('images/themes/'. $acx_si_theme .'/pinterest.png', __FILE__) . " 
+					border='0'><br> Pinterest"; 
 				}	else
 
 
 
 				if ($value == 4) 
 				{
-					echo "<img src=" . plugins_url('images/themes/'. $acx_si_theme .'/youtube.png', __FILE__) . " border='0'><br> Youtube"; 
+					echo "<img src=" . plugins_url('images/themes/'. $acx_si_theme .'/youtube.png', __FILE__) . " 
+					border='0'><br> Youtube"; 
 				}	else 
 
 
 
 				if ($value == 5) 
 				{
-					echo "<img src=" . plugins_url('images/themes/'. $acx_si_theme .'/linkedin.png', __FILE__) . " border='0'><br> Linkedin"; 
+					echo "<img src=" . plugins_url('images/themes/'. $acx_si_theme .'/linkedin.png', __FILE__) . " 
+					border='0'><br> Linkedin"; 
 				}
 
 					?>
@@ -258,43 +304,43 @@ if($_POST['acurax_social_icon_hidden'] == 'Y')
 		</div>
 		<div id="contentRight"></div> <!-- contentRight -->
 		<?php _e("Drag and Reorder Icons (It will automatically save on reorder)" ); ?>
-	</p>
+	</div>
 
 <hr />
 		
 	<?php    echo "<h4>" . __( 'Social Media Settings', 'acx_si_config' ) . "</h4>"; ?>	
 	
-	<p>
+	<p class="widefat" style="padding:8px;width:99%;">
 		<?php _e("Twitter Username: " ); ?>
 			<input type="text" name="acx_si_twitter" value="<?php echo $acx_si_twitter; ?>" size="50">
 		<?php _e("<b>Eg:</b> acuraxdotcom" ); ?>
 	</p>
 
-	<p>
+	<p class="widefat" style="padding:8px;width:99%;">
 		<?php _e("Facebook Page/Profile URL: " ); ?>
 			<input type="text" name="acx_si_facebook" value="<?php echo $acx_si_facebook; ?>" size="50">
 		<?php _e("<b>Eg:</b> http://www.facebook.com/AcuraxInternational" ); ?>
 	</p>
 
-	<p>
+	<p class="widefat" style="padding:8px;width:99%;">
 		<?php _e("Google Plus URL: " ); ?>
 			<input type="text" name="acx_si_gplus" value="<?php echo $acx_si_gplus; ?>" size="50">
 		<?php _e("Enter Your Complete Google Plus Url Starting With http://" ); ?>
 	</p>
 
-	<p>
+	<p class="widefat" style="padding:8px;width:99%;">
 		<?php _e("Pinterest URL: " ); ?>
 			<input type="text" name="acx_si_pinterest" value="<?php echo $acx_si_pinterest; ?>" size="50">
 		<?php _e("Enter Your Complete Pinterest Url Starting With http://" ); ?>
 	</p>
 
-	<p>
+	<p class="widefat" style="padding:8px;width:99%;">
 		<?php _e("Youtube URL: " ); ?>
 			<input type="text" name="acx_si_youtube" value="<?php echo $acx_si_youtube; ?>" size="50">
 		<?php _e("<b>Eg:</b> http://www.youtube.com/user/acuraxdotcom" ); ?>
 	</p>
 
-	<p>
+	<p class="widefat" style="padding:8px;width:99%;">
 		<?php _e("Linkedin URL: " ); ?>
 			<input type="text" name="acx_si_linkedin" value="<?php echo $acx_si_linkedin; ?>" size="50">
 		<?php _e("<b>Eg:</b> http://www.linkedin.com/company/acurax-international" ); ?>
@@ -305,25 +351,29 @@ if($_POST['acurax_social_icon_hidden'] == 'Y')
 
 	<?php    echo "<h4>" . __( 'Other Settings', 'acx_si_config' ) . "</h4>"; ?>	
 
-	<p>
+	<p class="widefat" style="padding:8px;width:99%;">
 		<?php _e("Display Mode: " ); ?>
 		
 		<select name="acx_si_display">
-			<option value="auto"<?php if ($acx_si_display == "auto") { echo 'selected="selected"'; } ?>>Automatic (With Animation)</option>
-			<option value="manual"<?php if ($acx_si_display == "manual") { echo 'selected="selected"'; } ?>>Manual (No Animation)</option>
+			<option value="auto"<?php if ($acx_si_display == "auto") { echo 'selected="selected"'; } ?>>Automatic Only (Will 
+			Float) - Shortcode and PHP code will not show icons</option>
+			<option value="manual"<?php if ($acx_si_display == "manual") { echo 'selected="selected"'; } ?>>Manual Only 
+			(Using Shortcode or PHP Code - Will not float)</option>
+			<option value="both"<?php if ($acx_si_display == "both") { echo 'selected="selected"'; } ?>>Automatic and Manual
+			(Shortcode/PHP will not float but Automatic will Float)</option>
 		</select>
 		
 		<?php
 			$code = ' <?php DISPLAY_ACURAX_ICONS(); ?>';
 			$code_2 = ' [DISPLAY_ACURAX_ICONS]';
 		?>
-
-		If you select display mode as automatic, it will show automatically, If you select as manual, there will be no animation and you need to place <br><?php highlight_string($code); ?> in your theme file or use the shortcode <?php highlight_string($code_2); ?>, to display the Social Icons.
+<br>
+		If you select display mode as "Automatic Only" , it will show automatically but will not show anything for shortcode or php code, If you select as "Manual Only", It will not automatically show floating icons but you can place <?php highlight_string($code); ?> in your theme file or use the shortcode <?php highlight_string($code_2); ?>, to display the Social Icons where ever you want, If you select "Automatic and Manual", It will automatically show floating icons and will also show icons for shortcode and php code.
 	</p>
 
 	<?php if($acx_si_credit == "yes") 
 	{ ?>
-		<p>
+		<p class="widefat" style="padding:8px;width:99%;">
 			<?php _e("Show Credit Link: " ); ?>
 			<select name="acx_si_credit">
 				<option value="yes"<?php if ($acx_si_credit == "yes") { echo 'selected="selected"'; } ?>>Yes, Its Okay to Show Credit Link </option>
@@ -341,7 +391,8 @@ if($_POST['acurax_social_icon_hidden'] == 'Y')
 </form>
 
 <hr/>
-	<p>
+<?php acurax_optin(); ?> <br>
+	<p class="widefat" style="padding:8px;width:99%;">
 		Something Not Working Well? Have a Doubt? Have a Suggestion? - <a href="http://www.acurax.com" target="_blank">Contact us now</a> | Need a Custom Designed Theme For your Blog or Website? Need a Custom Header Image? - <a href="http://www.acurax.com" target="_blank">Contact us now</a>
 	</p>
 </div>

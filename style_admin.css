@@ -17,9 +17,6 @@
 }
 #acx_si_theme_display
 {
-    background: none repeat scroll 0 0 #EFECEC;
-    border-radius: 8px 8px 8px 8px;
-    box-shadow: 1px 1px 2px gray;
     color: #737171;
     display: block;
     font-size: 12px;
@@ -27,7 +24,7 @@
     margin-right: auto;
     max-height: 120px;
     overflow-y: scroll;
-    padding: 5px 5px 10px;
+    padding: 5px 7px 10px;
     text-shadow: 0 0 1px #F7F7F7;
     width: 99%;
 }
@@ -58,6 +55,7 @@ float:left;
     border: 0 none;
     margin-top: 6px;
     width: 36px;
+	margin-left:1px;
 }
 #floating-social-media-icon
 {
@@ -102,12 +100,12 @@ background: url("images/plugin_page_bg.png") repeat-x scroll 0 0 #FFFFFF;
 }
 #acx_help_page .q
 {
-    border-top: 1px dotted lightgray;
+    border-bottom: 1px dotted lightgray;
     color: gray;
     font-family: arial;
     font-size: 14px;
     font-weight: bold;
-    margin-top: 18px;
+    margin-top: 50px;
     padding-top: 5px;
 }
 #acx_help_page .a
@@ -116,7 +114,7 @@ background: url("images/plugin_page_bg.png") repeat-x scroll 0 0 #FFFFFF;
 }
 #acurax_notice
 {
-    background-color: #FFFFE0;
+    background-color: #FFEBE8;
     border: 1px solid #E6DB55;
     border-radius: 5px 5px 5px 5px;
     color: darkRed;
@@ -129,13 +127,6 @@ background: url("images/plugin_page_bg.png") repeat-x scroll 0 0 #FFFFFF;
 {
 font-weight:normal;
 }
-
-
-
-
-
-
-
 #contentLeft ul{
     display: inline-block;
     list-style: none outside none;
@@ -146,6 +137,7 @@ font-weight:normal;
 }
 #contentLeft li {
     border: 1px solid #CCCCCC;
+	background:white;
     color: black;
     cursor: move;
     float: left;
