@@ -315,7 +315,7 @@ function DISPLAY_ACURAX_ICONS_SC($atts)
 	"size" => $acx_si_icon_size,
 	"autostart" => 'false'
 	), $atts));
-	if ($theme > 24) { $theme = ""; }
+	if ($theme > ACX_SOCIALMEDIA_TOTAL_THEMES) { $theme = ""; }
 	if (!is_numeric($theme)) { $theme = ""; }
 	if ($size > 55) { $size = $acx_si_icon_size; }
 	if (!is_numeric($size)) { $size = $acx_si_icon_size; }
@@ -459,7 +459,7 @@ class Acx_Social_Icons_Widget extends WP_Widget
 	// Output the admin options form
 	function form($instance) 
 	{
-		$total_themes = 24;
+		$total_themes = ACX_SOCIALMEDIA_TOTAL_THEMES;
 		$total_themes = $total_themes + 1;
 		// These are our default values
 		$defaults = array( 'title' => 'Social Media Icons','icon_size' => '32' );

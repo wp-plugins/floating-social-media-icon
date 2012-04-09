@@ -7,6 +7,7 @@ min-width: 142px;
 #divBottomRight img, #acurax_si_simple img, #short_code_si_icon img
 {
 margin-left:1px;
+float: left;
 }
 #divBottomRight img:hover, #acurax_si_simple img:hover, #short_code_si_icon img:hover
 {

@@ -1,6 +1,6 @@
 <?php 
 /**********************************************/
-$total_themes = 24; // DEFINE NUMBER OF THEMES HERE
+$total_themes = ACX_SOCIALMEDIA_TOTAL_THEMES; // DEFINE NUMBER OF THEMES HERE
 $total_themes = ($total_themes+1); // DO NOT EDIT THIS
 /**********************************************/
 if($_POST['acurax_social_icon_hidden'] == 'Y') 
