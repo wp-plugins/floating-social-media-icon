@@ -342,9 +342,16 @@ function DISPLAY_ACURAX_ICONS_SC($atts)
 
 function DISPLAY_ACURAX_ICONS()
 {
-		global $acx_si_display;
+		global $acx_si_display, $acx_si_icon_size;;
 	if ($acx_si_display != "auto" || $acx_si_display == "both") 
 	{
+		echo "\n\n\n<!-- Starting Styles For Social Media Icon (PHP CODE) From Acurax International www.acurax.com 
+		-->\n<style 
+		type='text/css'>\n";
+		echo "#short_code_si_icon img \n{\n";
+		echo "width: " . $acx_si_icon_size . "px; \n}\n";
+		echo "</style>\n<!-- Ending Styles For Social Media Icon (PHP CODE) From Acurax International www.acurax.com 
+		-->\n\n\n\n";
 		echo "<div id='short_code_si_icon' align='center'>";
 		acurax_si_simple();
 		echo "</div>";
