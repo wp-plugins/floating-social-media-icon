@@ -146,8 +146,7 @@ Have more questions ? [Drop a mail](http://www.acurax.com/contact.php/ "Drop an 
 == Upgrade Notice ==
 
 = 1.1.1 =
-* April 20, 2012
-* NOTE: UPGRADING PLUGIN WILL NOT CHANGE YOUR SETTINGS/CONFIGURATION.. UPGRADE WITH CONFIDENCE :)..
+* April 20, 2012 | NOTE: UPGRADING PLUGIN WILL NOT CHANGE YOUR SETTINGS/CONFIGURATION.. UPGRADE WITH CONFIDENCE :)..
 * Fixed Minor Styling Problem
 * Fixed Icon Size Problem on Manual Icon Display via Php
 
@@ -196,8 +195,7 @@ Have more questions ? [Drop a mail](http://www.acurax.com/contact.php/ "Drop an 
 == Changelog ==
 
 = 1.1.1 =
-* April 20, 2012
-* NOTE: UPGRADING PLUGIN WILL NOT CHANGE YOUR SETTINGS/CONFIGURATION.. UPGRADE WITH CONFIDENCE :)..
+* April 20, 2012 | NOTE: UPGRADING PLUGIN WILL NOT CHANGE YOUR SETTINGS/CONFIGURATION.. UPGRADE WITH CONFIDENCE :)..
 * Fixed Minor Styling Problem
 * Fixed Icon Size Problem on Manual Icon Display via Php
 
