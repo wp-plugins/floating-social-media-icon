@@ -7,7 +7,7 @@ Requires at least: 2.8
 Tested up to: 3.3.1
 Stable tag: trunk
 
-Easy to use plugin 2 show socialmedia icons which floats,Can configure social icon design,order and size at plugin settings.
+Easy 2 use plugin 2 show socialmedia icons which floats,Can configure social icon design,order and size at plugin settings.
 Suport Widget & Shortcode
 == Description ==
 
@@ -145,6 +145,12 @@ Have more questions ? [Drop a mail](http://www.acurax.com/contact.php/ "Drop an 
 
 == Upgrade Notice ==
 
+= 1.1.1 =
+* April 20, 2012
+* Upgrading Plugin Will Not Change Your Settings/Configuration.
+* Fixed Minor Styling Problem
+* Fixed Icon Size Problem on Manual Icon Display via Php
+
 = 1.1 =
 * April 06, 2012
 * Added Code Security
@@ -188,6 +194,12 @@ Have more questions ? [Drop a mail](http://www.acurax.com/contact.php/ "Drop an 
 * Fixed Design Icon Clarity
 
 == Changelog ==
+
+= 1.1.1 =
+* April 20, 2012
+* Upgrading Plugin Will Not Change Your Settings/Configuration.
+* Fixed Minor Styling Problem
+* Fixed Icon Size Problem on Manual Icon Display via Php
 
 = 1.1 =
 * April 06, 2012
