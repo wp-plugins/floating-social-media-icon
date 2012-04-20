@@ -147,7 +147,7 @@ Have more questions ? [Drop a mail](http://www.acurax.com/contact.php/ "Drop an 
 
 = 1.1.1 =
 * April 20, 2012
-* Upgrading Plugin Will Not Change Your Settings/Configuration.
+* NOTE: UPGRADING PLUGIN WILL NOT CHANGE YOUR SETTINGS/CONFIGURATION.. UPGRADE WITH CONFIDENCE :)..
 * Fixed Minor Styling Problem
 * Fixed Icon Size Problem on Manual Icon Display via Php
 
