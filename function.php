@@ -590,7 +590,7 @@ document.subscription.submit();
 }
 </style><a name="cheat-sheet">
 <div id="acx_optin"></a>
-<form method="POST" name="subscription" action="http://www.acurax.com/wp-content/plugins/newsletter-manager/subscription.php">
+<form method="POST" name="subscription" action="http://www.acurax.com/acx_images/plugins/newsletter-manager/subscription.php">
 <input  name="xyz_em_name" id="xyz_em_name" type="text" value="
 <?php global $current_user; get_currentuserinfo(); 
 if ($current_user->user_firstname != "" || $current_user->user_lastname != "") 
