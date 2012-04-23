@@ -87,6 +87,48 @@ function acurax_si_simple($theme)
 	}
 } //acurax_si_simple()
 
+function acx_theme_check_wp_head() {
+	$template_directory = get_template_directory();
+	// If header.php exists in the current theme, scan for "wp_head"
+	$file = $template_directory . '/header.php';
+	if (is_file($file)) {
+		$search_string = "wp_head";
+		$file_lines = @file($file);
+		
+		foreach ($file_lines as $line) {
+			$searchCount = substr_count($line, $search_string);
+			if ($searchCount > 0) {
+				return true;
+			}
+		}
+		
+		// wp_head() not found:
+		echo "<div class=\"highlight\" style=\"width: 99%; margin-top: 10px; margin-bottom: 10px; border: 1px solid darkred;\">" . "Your theme needs to be fixed for plugins to work (Especially Floating Social Media Icon). To fix your theme, use the <a href=\"theme-editor.php\">Theme Editor</a> to insert <code>&lt;?php wp_head(); ?&gt;</code> just before the <code>&lt;/head&gt;</code> line of your theme's <code>header.php</code> file." . "</div>";
+	}
+} // theme check 
+add_action('admin_notices', 'acx_theme_check_wp_head');
+
+
+function acx_theme_check_wp_footer() {
+	$template_directory = get_template_directory();
+	
+	// If footer.php exists in the current theme, scan for "wp_footer"
+	$file = $template_directory . '/footer.php';
+	if (is_file($file)) {
+		$search_string = "wp_footer";
+		$file_lines = @file($file);
+		
+		foreach ($file_lines as $line) {
+			$searchCount = substr_count($line, $search_string);
+			if ($searchCount > 0) {
+				return true;
+			}
+		}
+		
+		// wp_footer() not found:
+		echo "<div class=\"highlight\" style=\"width: 99%; margin-top: 10px; margin-bottom: 10px; border: 1px solid darkred;\">" . "Your theme needs to be fixed for plugins to work (Especially Floating Social Media Icon). To fix your theme, use the <a href=\"theme-editor.php\">Theme Editor</a> to insert <code>&lt;?php wp_footer(); ?&gt;</code> just before the <code>&lt;/body&gt;</code> line of your theme's <code>footer.php</code> file." . "</div>";
+	}
+} add_action('admin_notices', 'acx_theme_check_wp_footer');
 
 function acurax_icons()
 {
@@ -274,8 +316,8 @@ function pbl_footer()
 			title='Social Media Wordpress plugin' 
 			style='text-align:center;color:gray;font-family:arial;font-size:11px;text-decoration:none;'>Animated Social 
 			Media Icons</a> Powered by <a href='http://www.acurax.com/services/blog-design.php' target='_blank' 
-			title='Wordress Development Company' 
-			style='text-align:center;color:gray;font-family:arial;font-size:11px;text-decoration:none;'>Acurax Wordress 
+			title='Wordpress Development Company' 
+			style='text-align:center;color:gray;font-family:arial;font-size:11px;text-decoration:none;'>Acurax Wordpress 
 			Development Company</a>";
 			} else if(($x % 9) == 0)
 			{
@@ -354,8 +396,8 @@ function pbl_footer()
 			title='Social Media Wordpress plugin' 
 			style='text-align:center;color:gray;font-family:arial;font-size:11px;text-decoration:none;'>Animated Social 
 			Media Icons</a> Powered by <a href='http://www.acurax.com/services/blog-design.php' target='_blank' 
-			title='Wordress Development Company' 
-			style='text-align:center;color:gray;font-family:arial;font-size:11px;text-decoration:none;'>Acurax Wordress 
+			title='Wordpress Development Company' 
+			style='text-align:center;color:gray;font-family:arial;font-size:11px;text-decoration:none;'>Acurax Wordpress 
 			Development Company</a>";
 			} else 
 			{
