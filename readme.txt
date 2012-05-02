@@ -47,7 +47,7 @@ We Always Look Forward Your Comments and Suggestions for Future Updates. You can
 
 **Want More Features?**
 
-[Click here to see the comparison between premium and free version.] (http://www.acurax.com/products/floating-social-media-icon-plugin-wordpress/ "Premium Free Comparison")
+[Click here to see the comparison between premium and free version.](http://www.acurax.com/products/floating-social-media-icon-plugin-wordpress/ "Premium Free Comparison")
 
 
 
