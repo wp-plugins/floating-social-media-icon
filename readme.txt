@@ -17,6 +17,7 @@ You can make the icons to appear automatically or you can use widgets, shortcode
 
 = Features that make this plugin an ultimate social media plugin =
 
+
 Multiple Social Media Widget Support
 
 	Each Widget Can Have Seperate Icon Theme and Icon Size 
@@ -27,7 +28,8 @@ Shortcode Support
 
 Icons in content
 
-	Can Show Social Media Icons in between content on post and pages in any size and style plugin supports.
+	Can Show Social Media Icons in between content on post and pages in any size
+	and style plugin supports.
 
 Other Features
 
