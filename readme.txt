@@ -4,7 +4,7 @@ Donate link:http://www.acurax.com/
 
 Tags: social media,social media icon,pinterest,social profile link,social floating icon,floating social media button,social media url,social media button,facebook button,floating pinterest,twitter icon,social media widget,youtube icon,youtube button,facebook profile url,twitter url,social icon,google plus,googleplus button,google plus button,pinterest button
 Requires at least: 2.8
-Tested up to: 3.3.1
+Tested up to: 3.3.2
 Stable tag: trunk
 
 Easy 2 use plugin 2 show socialmedia icons which floats,Can configure social icon design,order and size at plugin settings.
@@ -23,7 +23,7 @@ Floating Social Media Icon is an easy to use plugin which allows you to configur
 
 
 = Features that make this plugin an ultimate social media plugin =
-
+.
 
 Multiple Social Media Widget Support
 
@@ -71,7 +71,8 @@ This Plugin is developed and maintained by [Acurax International](http://www.acu
 **Plugin Video Tour**
 '[youtube http://www.youtube.com/watch?v=oK1iCywcjZY]'
 
-	NOTE: This video is old version video. Check Screenshots for New Settings Page Option Preview.
+	NOTE: This video is old version video. Check Screenshots for
+	New Settings Page Option Preview.
 
 == Installation ==
 
@@ -84,7 +85,8 @@ If you selected display mode as manual, you can use the shortcodes which is clea
 
 '[youtube http://www.youtube.com/watch?v=oK1iCywcjZY]'
 
-	NOTE: This video is old version video. Check Screenshots for New Settings Page Option Preview.
+	NOTE: This video is old version video. Check Screenshots for
+	New Settings Page Option Preview.
 
 After Installation,Dont Forgot to Cast Your Vote on Combatibility :) Thanks for trying...
 
