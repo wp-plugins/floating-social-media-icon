@@ -17,8 +17,8 @@ Floating Social Media Icon is an easy to use plugin which allows you to configur
 	shortcode or php code to display icons where ever you like to show.
 	If you use the option to show it automatically.
 
-	The icons will fly from top left to bottom right and it will stay there even if
-	user scrolls the page, thus it floats
+	The icons will fly from top left to bottom right and it will stay there
+	even if	user scrolls the page, thus it floats
 
 
 
