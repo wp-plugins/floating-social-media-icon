@@ -13,9 +13,9 @@ Suport Widget & Shortcode
 
 Floating Social Media Icon is an easy to use plugin which allows you to configure essential social media profile links, like Twitter, Facebook, Pinterest, Youtube and Linkedin from plugin settings and you also have option to select an icon style from the icon packs available.
 
-	You can make the icons to appear automatically or you can use widgets, shortcode
-	or php code to display icons where ever you like to show. If you use the option
-	to show it automatically.
+	You can make the icons to appear automatically or you can use widgets,
+	shortcode or php code to display icons where ever you like to show.
+	If you use the option to show it automatically.
 
 	The icons will fly from top left to bottom right and it will stay there even if
 	user scrolls the page, thus it floats
