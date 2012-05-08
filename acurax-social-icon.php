@@ -43,13 +43,14 @@ function AcuraxLinks($links, $file) {
 	$plugin = plugin_basename(__FILE__);
 	// create link
 	if ($file == $plugin) {
+	
 		return array_merge( $links, array( 
-			'<div id="plugin_page_links"><a href="http://www.acurax.com" target="_blank">' . __('Acurax International') . '</a>',
+			'<div id="plugin_page_links"><a href="http://www.acurax.com?utm_source=wp&utm_medium=link&utm_campaign=plugin-page" target="_blank">' . __('Acurax International') . '</a>',
 			'<a href="https://twitter.com/#!/acuraxdotcom" target="_blank">' . __('Acurax on Twitter') . '</a>',
 			'<a href="http://www.facebook.com/AcuraxInternational" target="_blank">' . __('Acurax on Facebook') . '</a>',
-			'<a href="http://www.acurax.com/services/web-designing.php" target="_blank">' . __('Wordpress Theme Design') . '</a>',
-			'<a href="http://www.acurax.com/services/blog-design.php" target="_blank">' . __('Wordpress Blog Design') . '</a>',
-			'<a href="http://www.acurax.com/contact.php" target="_blank" style="border:0px;">' . __('Contact Acurax') . '</a></div>' 
+			'<a href="http://www.acurax.com/services/web-designing.php?utm_source=wp&utm_medium=link&utm_campaign=plugin-page" target="_blank">' . __('Wordpress Theme Design') . '</a>',
+			'<a href="http://www.acurax.com/services/blog-design.php?utm_source=wp&utm_medium=link&utm_campaign=plugin-page" target="_blank">' . __('Wordpress Blog Design') . '</a>',
+			'<a href="http://www.acurax.com/contact.php?utm_source=wp&utm_medium=link&utm_campaign=plugin-page" target="_blank" style="border:0px;">' . __('Contact Acurax') . '</a></div>' 
 		));
 	}
 	return $links;

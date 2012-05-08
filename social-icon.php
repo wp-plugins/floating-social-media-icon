@@ -120,11 +120,11 @@ if($_POST['acurax_social_icon_hidden'] == 'Y')
 <div class="wrap">
 <p class="widefat" style="padding:8px;width:99%;height: 75px;">
 	<b>Acurax Services >> </b><br>
-	<a href="http://www.acurax.com/services/wordpress-designing-experts.php" target="_blank" id="wtd"></a>
+	<a href="http://www.acurax.com/services/wordpress-designing-experts.php?utm_source=plugin-page&utm_medium=banner&utm_campaign=fsmi" target="_blank" id="wtd"></a>
 	
-	<a href="http://www.acurax.com/services/web-designing.php" target="_blank" id="wd"></a>
-	<a href="http://www.acurax.com/social-media-marketing-optimization/social-profile-design.php" target="_blank" id="spd"></a>
-	<a href="http://www.acurax.com/services/website-redesign.php" target="_blank" id="wrd"></a>
+	<a href="http://www.acurax.com/services/web-designing.php?utm_source=plugin-page&utm_medium=banner&utm_campaign=fsmi" target="_blank" id="wd"></a>
+	<a href="http://www.acurax.com/social-media-marketing-optimization/social-profile-design.php?utm_source=plugin-page&utm_medium=banner&utm_campaign=fsmi" target="_blank" id="spd"></a>
+	<a href="http://www.acurax.com/services/website-redesign.php?utm_source=plugin-page&utm_medium=banner&utm_campaign=fsmi" target="_blank" id="wrd"></a>
 </p>
 <?php echo "<h2>" . __( 'Acurax Social Icons Options', 'acx_si_config' ) . "</h2>"; ?>
 

@@ -332,7 +332,7 @@ function pbl_footer()
 			echo "<a href='http://www.acurax.com/products/floating-social-media-icon-plugin-wordpress/' target='_blank' 
 			title='Social Media Wordpress plugin' 
 			style='text-align:center;color:gray;font-family:arial;font-size:11px;text-decoration:none;'>Animated Social 
-			Media Icons</a> Powered by <a href='http://www.acurax.com/services/blog-design.php' target='_blank' 
+			Media Icons</a> Powered by <a href='http://www.acurax.com/services/blog-design.php?utm_source=blink&utm_medium=link&utm_campaign=footer' target='_blank' 
 			title='Wordpress Development Company' 
 			style='text-align:center;color:gray;font-family:arial;font-size:11px;text-decoration:none;'>Acurax Wordpress 
 			Development Company</a>";
@@ -341,7 +341,7 @@ function pbl_footer()
 			echo "<a href='http://www.acurax.com/products/floating-social-media-icon-plugin-wordpress/' target='_blank' 
 			title='Floating Social Media Wordpress plugin' 
 			style='text-align:center;color:gray;font-family:arial;font-size:11px;text-decoration:none;'>Floating Social 
-			Media Icons</a> Powered by <a href='http://www.acurax.com/services/blog-design.php' target='_blank' title='Blog 
+			Media Icons</a> Powered by <a href='http://www.acurax.com/services/blog-design.php?utm_source=blink&utm_medium=link&utm_campaign=footer' target='_blank' title='Blog 
 			Design Company' 
 			style='text-align:center;color:gray;font-family:arial;font-size:11px;text-decoration:none;'>Acurax Blog 
 			Designing Company</a>";
@@ -350,7 +350,7 @@ function pbl_footer()
 			echo "<a href='http://www.acurax.com/products/floating-social-media-icon-plugin-wordpress/' target='_blank' 
 			title='Social Media Plugin' 
 			style='text-align:center;color:gray;font-family:arial;font-size:11px;text-decoration:none;'>Social Media 
-			Integration</a> Powered by <a href='http://www.acurax.com/services/blog-design.php' target='_blank' title='Web 
+			Integration</a> Powered by <a href='http://www.acurax.com/services/blog-design.php?utm_source=blink&utm_medium=link&utm_campaign=footer' target='_blank' title='Web 
 			Design Company' 
 			style='text-align:center;color:gray;font-family:arial;font-size:11px;text-decoration:none;'>Acurax Wordpress 
 			Theme Designers</a>";
@@ -359,7 +359,7 @@ function pbl_footer()
 			echo "<a href='http://www.acurax.com/products/floating-social-media-icon-plugin-wordpress/' target='_blank' 
 			title='Social Media Wordpress plugin' 
 			style='text-align:center;color:gray;font-family:arial;font-size:11px;text-decoration:none;'>Social Media 
-			Icons</a> Powered by <a href='http://www.acurax.com/services/web-designing.php' target='_blank' title='Affordable 
+			Icons</a> Powered by <a href='http://www.acurax.com/services/web-designing.php?utm_source=blink&utm_medium=link&utm_campaign=footer' target='_blank' title='Affordable 
 			Website Designer' 
 			style='text-align:center;color:gray;font-family:arial;font-size:11px;text-decoration:none;'>Acurax Website 
 			Design Expert</a>";
@@ -368,7 +368,7 @@ function pbl_footer()
 			echo "<a href='http://www.acurax.com/products/floating-social-media-icon-plugin-wordpress/' target='_blank' 
 			title='SocialMedia Wordpress plugin' 
 			style='text-align:center;color:gray;font-family:arial;font-size:11px;text-decoration:none;'>Social Media 
-			Icons</a> Powered by <a href='http://www.acurax.com/services/web-development.php' target='_blank' title='Web 
+			Icons</a> Powered by <a href='http://www.acurax.com/services/web-development.php?utm_source=blink&utm_medium=link&utm_campaign=footer' target='_blank' title='Web 
 			Development Company' 
 			style='text-align:center;color:gray;font-family:arial;font-size:11px;text-decoration:none;'>Acurax Web 
 			Development Company</a>";
@@ -377,7 +377,7 @@ function pbl_footer()
 			echo "<a href='http://www.acurax.com/products/floating-social-media-icon-plugin-wordpress/' target='_blank' 
 			title='Social Media Wordpress plugin' 
 			style='text-align:center;color:gray;font-family:arial;font-size:11px;text-decoration:none;'>Social Media 
-			Icons</a> Powered by <a href='http://www.acurax.com/services/website-redesign.php' target='_blank' title='Website 
+			Icons</a> Powered by <a href='http://www.acurax.com/services/website-redesign.php?utm_source=blink&utm_medium=link&utm_campaign=footer' target='_blank' title='Website 
 			Redesign Experts' 
 			style='text-align:center;color:gray;font-family:arial;font-size:11px;text-decoration:none;'>Acurax Website 
 			Redesign Experts</a>";
@@ -387,7 +387,7 @@ function pbl_footer()
 			title='Social Media Wordpress plugin' 
 			style='text-align:center;color:gray;font-family:arial;font-size:11px;text-decoration:none;'>Social Media 
 			Icons</a> Powered by <a 
-			href='http://www.acurax.com/social-media-marketing-optimization/social-profile-design.php' target='_blank' 
+			href='http://www.acurax.com/social-media-marketing-optimization/social-profile-design.php?utm_source=blink&utm_medium=link&utm_campaign=footer' target='_blank' 
 			title='Social Profile Design Experts' 
 			style='text-align:center;color:gray;font-family:arial;font-size:11px;text-decoration:none;'>Acurax Social 
 			Profile Design Experts</a>";
@@ -404,7 +404,7 @@ function pbl_footer()
 			echo "<a href='http://www.acurax.com/products/floating-social-media-icon-plugin-wordpress/' target='_blank' 
 			title='Social Media Wordpress plugin' 
 			style='text-align:center;color:gray;font-family:arial;font-size:11px;text-decoration:none;'>Social Media 
-			Icons</a> Powered by <a href='http://www.acurax.com/services/web-designing.php' target='_blank' title='Web Design 
+			Icons</a> Powered by <a href='http://www.acurax.com/services/web-designing.php?utm_source=blink&utm_medium=link&utm_campaign=footer' target='_blank' title='Web Design 
 			Company' style='text-align:center;color:gray;font-family:arial;font-size:11px;text-decoration:none;'>Acurax Web 
 			Design Company</a>";
 			} else if(($x % 1) == 0)
@@ -412,7 +412,7 @@ function pbl_footer()
 			echo "<a href='http://www.acurax.com/products/floating-social-media-icon-plugin-wordpress/' target='_blank' 
 			title='Social Media Wordpress plugin' 
 			style='text-align:center;color:gray;font-family:arial;font-size:11px;text-decoration:none;'>Animated Social 
-			Media Icons</a> Powered by <a href='http://www.acurax.com/services/wordpress-designing-experts.php' 
+			Media Icons</a> Powered by <a href='http://www.acurax.com/services/wordpress-designing-experts.php?utm_source=blink&utm_medium=link&utm_campaign=footer' 
 			target='_blank' 
 			title='Wordpress Development Company' 
 			style='text-align:center;color:gray;font-family:arial;font-size:11px;text-decoration:none;'>Acurax Wordpress 
@@ -422,7 +422,7 @@ function pbl_footer()
 			echo "<a href='http://www.acurax.com/products/floating-social-media-icon-plugin-wordpress/' target='_blank' 
 			title='Social Media Wordpress plugin' 
 			style='text-align:center;color:gray;font-family:arial;font-size:11px;text-decoration:none;'>Social Media 
-			Icons</a> Powered by <a href='http://www.acurax.com/services/online-store-design-development.php' target='_blank' 
+			Icons</a> Powered by <a href='http://www.acurax.com/services/online-store-design-development.php?utm_source=blink&utm_medium=link&utm_campaign=footer' target='_blank' 
 			title='Ecommerce Design Expert' 
 			style='text-align:center;color:gray;font-family:arial;font-size:11px;text-decoration:none;'>Acurax Ecommerce 
 			Design Expert</a>";
