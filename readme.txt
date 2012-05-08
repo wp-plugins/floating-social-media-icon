@@ -4,56 +4,75 @@ Donate link:http://www.acurax.com/
 
 Tags: social media,social media icon,pinterest,social profile link,social floating icon,floating social media button,social media url,social media button,facebook button,floating pinterest,twitter icon,social media widget,youtube icon,youtube button,facebook profile url,twitter url,social icon,google plus,googleplus button,google plus button,pinterest button
 Requires at least: 2.8
-Tested up to: 3.3.1
+Tested up to: 3.3.2
 Stable tag: trunk
 
 Easy 2 use plugin 2 show socialmedia icons which floats,Can configure social icon design,order and size at plugin settings.
 Suport Widget & Shortcode
 == Description ==
 
-Floating Social Media Icon is an easy to use plugin which allows you to configure essential social media profile links, like Twitter, Facebook, Pinterest, Youtube and Linkedin from plugin settings and you also have option to select an icon style from the icon packs available. 
+Floating Social Media Icon is an easy to use plugin which allows you to configure essential social media profile links, like Twitter, Facebook, Pinterest, Youtube and Linkedin from plugin settings and you also have option to select an icon style from the icon packs available.
 
-**Multiple Widget Support** 
+	You can make the icons to appear automatically or you can use widgets,
+	shortcode or php code to display icons where ever you like to show.
+	If you use the option to show it automatically.
 
-**Advanced Shortcode Support** 
+	The icons will fly from top left to bottom right and it will stay there
+	even if	user scrolls the page, thus it floats
 
-We will be upgrading plugin frequently with new set of icons. The social media icons will load in an animated style where it will stay and float on your website on blog's lower right corner.
 
-* Multiple Social Media Widget Support (**Each Widget Can Have Seperate Icon Theme and Icon Size**)
 
-* Best Shortcode Support (**Each Shortcode Support Seperate Icon Theme and Icon Size**) [Check Faq](http://wordpress.org/extend/plugins/floating-social-media-icon/faq/ "Frequently Asked Questions")
+= Features that make this plugin an ultimate social media plugin =
+.
 
-* Can Show Social Media Icons in **between content on post and pages** in any size and style plugin supports.
+Multiple Social Media Widget Support
 
-* One and Only Plugin With 20+ Icon Designs with **Pinterest** Support
+	Each Widget Can Have Seperate Icon Theme and Icon Size 
+ 
+Shortcode Support
+	
+	Each Shortcode Support Seperate Icon Theme and Icon Size (check faq)
 
-* **Drag and Drop** Reorder Icons
+Icons in content
 
-* Easy to configure user interface
+	Can Show Social Media Icons in between content on post and pages in any size
+	and style plugin supports.
 
-* Icon Size Selection Support
+Other Features
 
-* **Automatic** Integration
+	One and Only Plugin With 20+ Icon Designs with Pinterest Support
+	Drag and Drop Reorder Icons
+	Easy to configure user interface
+	Icon Size Selection Support
+	Automatic Integration
+	Support Essential Social Medias Only
+	Pinterest Support
 
-* Support Essential Social Medias Only
-
-* Added Pinterest Profile Support
-
-In Short we can say, this is an ultimate social icon widget that will float on your visitors screen.. check screenshots and video for  a clear understanding..
+In Short we can say, this is an ultimate social icon widget that can be configured to float or not to float on your visitors screen.. check screenshots and video for a clear understanding.
 
 We Always Look Forward Your Comments and Suggestions for Future Updates. You can Submit Your Comments at our [Website](http://www.acurax.com/ "Website Designing")
 
 [Click Here To See a Live Demo](http://www.acurax.com/products/floating-social-media-icon-plugin-wordpress/ "Floating Social Media Icon Demo")
 
+**Want More Features?**
+
+[Click here to see the comparison between premium and free version.](http://www.acurax.com/products/floating-social-media-icon-plugin-wordpress/ "Premium Free Comparison")
+
+
+
 [Click Here to Order Professional Installation/Integration Service](http://clients.acurax.com/link.php?id=4/ "Professional Integration Service")
 
 **About**
 
-This Plugin is developed and maintained by [Acurax International](http://www.acurax.com/ "Website Designing"). For any support, you may contact us [here](http://www.acurax.com/contact.php "Web Consulting").[Acurax](http://www.acurax.com/ "Acurax Web Design Development Service") Provide [Wordpress Theme Design](http://www.acurax.com/services/web-designing.php "Wordpress Theme Design Service") and [Development](http://www.acurax.com/services/web-development.php "Wordpress Development") Services.
+This Plugin is developed and maintained by [Acurax International](http://www.acurax.com/ "Website Designing"). For any support, you may contact us [here](http://www.acurax.com/contact.php "Web Consulting").
+
+[Acurax](http://www.acurax.com/ "Acurax Web Design Development Service") Provide [Wordpress Theme Design](http://www.acurax.com/services/web-designing.php "Wordpress Theme Design Service") and [Development](http://www.acurax.com/services/web-development.php "Wordpress Development") Services.
 
 **Plugin Video Tour**
 '[youtube http://www.youtube.com/watch?v=oK1iCywcjZY]'
-NOTE: This video is old version video. Check Screenshots for New Settings Page Option Preview.
+
+	NOTE: This video is old version video. Check Screenshots for
+	New Settings Page Option Preview.
 
 == Installation ==
 
@@ -65,7 +84,9 @@ You need to go to Apperance >> Widgets to add "Acx Social Icon" Widget to your s
 If you selected display mode as manual, you can use the shortcodes which is clearly mentioned in [Faq](http://wordpress.org/extend/plugins/floating-social-media-icon/faq/ "Frequently Asked Questions") section.
 
 '[youtube http://www.youtube.com/watch?v=oK1iCywcjZY]'
-NOTE: This video is old version video. Check Screenshots for New Settings Page Option Preview.
+
+	NOTE: This video is old version video. Check Screenshots for
+	New Settings Page Option Preview.
 
 After Installation,Dont Forgot to Cast Your Vote on Combatibility :) Thanks for trying...
 
