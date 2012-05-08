@@ -152,3 +152,116 @@ font-weight:normal;
 #contentRight {
 
 }
+#comparison
+{
+    border: 1px solid gray;
+    border-radius: 5px 5px 5px 5px;
+    display: inline-block;
+    font-family: arial;
+    font-size: 13px;
+    overflow: hidden;
+    width: 600px;
+}
+#c_left
+{
+    border-right: 1px solid gray;
+    float: left;
+    padding: 1%;
+    width: 47%;
+}
+#c_right
+{
+    float: left;
+    padding: 1%;
+    width: 48%;
+}
+#comparison .title
+{
+    background: none repeat scroll 0 0 Teal;
+    color: white;
+    font-family: arial;
+    font-size: 18px;
+	text-align: center !important;
+}
+#comparison .feature_free
+{
+    width: 150px;
+}
+#comparison .feature_paid
+{
+    width: 150px;
+}
+#comparison .label
+{
+    width: 266px;
+}
+#comparison td
+{
+    border-right: 1px solid;
+    padding: 5px;
+}
+#comparison tr
+{
+    border-bottom: 1px dashed lightgray !important;
+    display: block;
+}
+#c_tick
+{
+    background: url("images/check_mark.png") no-repeat scroll center center transparent;
+    height: 29px;
+    width: 97%;
+}
+#c_cross
+{
+    background: url("images/cross_mark.png") no-repeat scroll center center transparent;
+    height: 29px;
+    width: 97%;
+}
+#wtd
+{
+    background: url("images/wtd.jpg") repeat scroll 0 0 transparent;
+    display: block;
+    height: 50px;
+    margin-right: 8px;
+    margin-top: 4px;
+    width: 240px;
+	float:left;
+	border: 3px solid gray;
+    box-shadow: 1px 1px 11px -5px black;
+}
+#wd
+{
+    background: url("images/wd.jpg") repeat scroll 0 0 transparent;
+    display: block;
+    height: 50px;
+    margin-right: 8px;
+    margin-top: 4px;
+    width: 240px;
+	float:left;
+	border: 3px solid gray;
+    box-shadow: 1px 1px 11px -5px black;
+}
+#wrd
+{
+    background: url("images/wr.jpg") repeat scroll 0 0 transparent;
+    display: block;
+    height: 50px;
+    margin-right: 8px;
+    margin-top: 4px;
+    width: 240px;
+	float:left;
+	border: 3px solid gray;
+    box-shadow: 1px 1px 11px -5px black;
+}
+#spd
+{
+    background: url("images/spd.jpg") repeat scroll 0 0 transparent;
+    display: block;
+    height: 50px;
+    margin-right: 8px;
+    margin-top: 4px;
+    width: 240px;
+	float:left;
+	border: 3px solid gray;
+    box-shadow: 1px 1px 11px -5px black;
+}

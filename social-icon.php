@@ -34,6 +34,9 @@ if($_POST['acurax_social_icon_hidden'] == 'Y')
 
 	$acx_si_pinterest = $_POST['acx_si_pinterest'];
 	update_option('acx_si_pinterest', $acx_si_pinterest);
+	
+	$acx_si_feed = $_POST['acx_si_feed'];
+	update_option('acx_si_feed', $acx_si_feed);
 
 	$social_icon_array_order = get_option('social_icon_array_order');
 
@@ -50,6 +53,7 @@ if($_POST['acurax_social_icon_hidden'] == 'Y')
 	$acx_si_youtube = get_option('acx_si_youtube');
 	$acx_si_linkedin = get_option('acx_si_linkedin');
 	$acx_si_pinterest = get_option('acx_si_pinterest');
+	$acx_si_feed = get_option('acx_si_feed');
 	$acx_si_gplus = get_option('acx_si_gplus');
 	$acx_si_credit = get_option('acx_si_credit');
 	$acx_si_icon_size = get_option('acx_si_icon_size');
@@ -64,13 +68,13 @@ if($_POST['acurax_social_icon_hidden'] == 'Y')
 
 	if ($social_icon_array_order == "") 
 	{
-		$social_icon_array_order = array(0,1,2,3,4,5);
+		$social_icon_array_order = array(0,1,2,3,4,5,6);
 		$social_icon_array_order = serialize($social_icon_array_order);
 		update_option('social_icon_array_order', $social_icon_array_order);
 	} else 
 	{
 		// Counting and Adding New Keys (UPGRADE PURPOSE)
-		$total_arrays = 6; // Number Of Services
+		$total_arrays = 7; // Number Of Services
 		$social_icon_array_order = get_option('social_icon_array_order');
 		$social_icon_array_order = unserialize($social_icon_array_order);
 		$social_icon_array_count = count($social_icon_array_order); 
@@ -114,14 +118,13 @@ if($_POST['acurax_social_icon_hidden'] == 'Y')
 	
 	
 <div class="wrap">
-<p class="widefat" style="padding:8px;width:99%;">
-	<b>Acurax Services >> </b>
-	<a href="http://www.acurax.com/services/blog-design.php" target="_blank">Wordpress Theme Design</a> | 
-	<a href="http://www.acurax.com/services/web-designing.php" target="_blank">Website Design</a> | 
-	<a href="http://www.acurax.com/social-media-marketing-optimization/social-profile-design.php" target="_blank">Social Profile Design</a> | 
-	<a href="http://www.acurax.com/social-media-marketing-optimization/twitter-background-design.php" target="_blank">Twitter Background Design</a> | 
-	<a href="http://www.acurax.com/social-media-marketing-optimization/facebook-page-design.php" target="_blank">Facebook Page Design</a> |
-	<a href="#cheat-sheet">Free Social Media Marketing Cheat Sheet</a>
+<p class="widefat" style="padding:8px;width:99%;height: 75px;">
+	<b>Acurax Services >> </b><br>
+	<a href="http://www.acurax.com/services/wordpress-designing-experts.php" target="_blank" id="wtd"></a>
+	
+	<a href="http://www.acurax.com/services/web-designing.php" target="_blank" id="wd"></a>
+	<a href="http://www.acurax.com/social-media-marketing-optimization/social-profile-design.php" target="_blank" id="spd"></a>
+	<a href="http://www.acurax.com/services/website-redesign.php" target="_blank" id="wrd"></a>
 </p>
 <?php echo "<h2>" . __( 'Acurax Social Icons Options', 'acx_si_config' ) . "</h2>"; ?>
 
@@ -172,6 +175,8 @@ if($_POST['acurax_social_icon_hidden'] == 'Y')
 			echo $acx_si_icon_size;?>px;">
 			<img src="<?php echo plugins_url('images/themes/'.$acx_si_theme.'/linkedin.png', __FILE__);?>" style="height:
 			<?php echo $acx_si_icon_size;?>px;">
+			<img src="<?php echo plugins_url('images/themes/'.$acx_si_theme.'/feed.png', __FILE__);?>" style="height:
+			<?php echo $acx_si_icon_size;?>px;">
 		</div>
 	</p>
 	<?php
@@ -214,6 +219,11 @@ if($_POST['acurax_social_icon_hidden'] == 'Y')
 					if ($value == 5) 
 					{
 						echo "<img src=" . plugins_url('images/themes/'. $i .'/linkedin.png', __FILE__) . ">"; 
+					}
+					
+					if ($value == 6) 
+					{
+						echo "<img src=" . plugins_url('images/themes/'. $i .'/feed.png', __FILE__) . ">"; 
 					}
 
 				}
@@ -295,6 +305,12 @@ if($_POST['acurax_social_icon_hidden'] == 'Y')
 					echo "<img src=" . plugins_url('images/themes/'. $acx_si_theme .'/linkedin.png', __FILE__) . " 
 					border='0'><br> Linkedin"; 
 				}
+				
+				if ($value == 6) 
+				{
+					echo "<img src=" . plugins_url('images/themes/'. $acx_si_theme .'/feed.png', __FILE__) . " 
+					border='0'><br> Rss Feed"; 
+				}
 
 					?>
 					</li>	<?php
@@ -345,6 +361,12 @@ if($_POST['acurax_social_icon_hidden'] == 'Y')
 			<input type="text" name="acx_si_linkedin" value="<?php echo $acx_si_linkedin; ?>" size="50">
 		<?php _e("<b>Eg:</b> http://www.linkedin.com/company/acurax-international" ); ?>
 	</p>
+	
+	<p class="widefat" style="padding:8px;width:99%;">
+		<?php _e("Feed URL: " ); ?>
+			<input type="text" name="acx_si_feed" value="<?php echo $acx_si_feed; ?>" size="50">
+		<?php _e("<b>Eg:</b> http://www.yourwebsite.com/feed" ); ?>
+	</p>
 
 <hr />
 
@@ -391,7 +413,10 @@ if($_POST['acurax_social_icon_hidden'] == 'Y')
 </form>
 
 <hr/>
-<?php acurax_optin(); ?> <br>
+<?php socialicons_comparison(); ?> 
+
+<?php acurax_optin(); ?>
+<br>
 	<p class="widefat" style="padding:8px;width:99%;">
 		Something Not Working Well? Have a Doubt? Have a Suggestion? - <a href="http://www.acurax.com" target="_blank">Contact us now</a> | Need a Custom Designed Theme For your Blog or Website? Need a Custom Header Image? - <a href="http://www.acurax.com" target="_blank">Contact us now</a>
 	</p>

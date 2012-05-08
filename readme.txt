@@ -2,7 +2,7 @@
 Contributors: Acurax 
 Donate link:http://www.acurax.com/
 
-Tags: social media,social media icon,pinterest,social profile link,social floating icon,floating social media button,social media url,social media button,facebook button,floating pinterest,twitter icon,social media widget,youtube icon,youtube button,facebook profile url,twitter url,social icon,google plus,googleplus button,google plus button,pinterest button
+Tags: social media,social media icon,pinterest,social profile link,social floating icon,floating social media button,social media url,social media button,facebook button,floating pinterest,twitter icon,social media widget,youtube icon,rss icon,facebook profile url,feed icon,social icon,google plus,googleplus button,google plus button,pinterest button
 Requires at least: 2.8
 Tested up to: 3.3.2
 Stable tag: trunk
@@ -11,7 +11,7 @@ Easy 2 use plugin 2 show socialmedia icons which floats,Can configure social ico
 Suport Widget & Shortcode
 == Description ==
 
-Floating Social Media Icon is an easy to use plugin which allows you to configure essential social media profile links, like Twitter, Facebook, Pinterest, Youtube and Linkedin from plugin settings and you also have option to select an icon style from the icon packs available.
+Floating Social Media Icon is an easy to use plugin which allows you to configure essential social media profile links, like Twitter, Facebook, Pinterest, Youtube, Rss Feed and Linkedin from plugin settings and you also have option to select an icon style from the icon packs available.
 
 	You can make the icons to appear automatically or you can use widgets,
 	shortcode or php code to display icons where ever you like to show.
@@ -166,6 +166,11 @@ Have more questions ? [Drop a mail](http://www.acurax.com/contact.php/ "Drop an 
 
 == Upgrade Notice ==
 
+= 1.1.2 =
+* May 08, 2012 | NOTE: UPGRADING PLUGIN WILL NOT CHANGE YOUR SETTINGS/CONFIGURATION.. UPGRADE WITH CONFIDENCE :)..
+* Added Rss Feed Support
+* Better Icon Quality
+
 = 1.1.1 =
 * April 20, 2012 | NOTE: UPGRADING PLUGIN WILL NOT CHANGE YOUR SETTINGS/CONFIGURATION.. UPGRADE WITH CONFIDENCE :)..
 * Fixed Minor Styling Problem
@@ -214,6 +219,11 @@ Have more questions ? [Drop a mail](http://www.acurax.com/contact.php/ "Drop an 
 * Fixed Design Icon Clarity
 
 == Changelog ==
+
+= 1.1.2 =
+* May 08, 2012 | NOTE: UPGRADING PLUGIN WILL NOT CHANGE YOUR SETTINGS/CONFIGURATION.. UPGRADE WITH CONFIDENCE :)..
+* Added Rss Feed Support
+* Better Icon Quality
 
 = 1.1.1 =
 * April 20, 2012 | NOTE: UPGRADING PLUGIN WILL NOT CHANGE YOUR SETTINGS/CONFIGURATION.. UPGRADE WITH CONFIDENCE :)..

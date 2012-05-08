@@ -12,6 +12,7 @@ $acx_si_youtube = get_option('acx_si_youtube');
 $acx_si_linkedin = get_option('acx_si_linkedin');
 $acx_si_gplus = get_option('acx_si_gplus');
 $acx_si_pinterest = get_option('acx_si_pinterest');
+$acx_si_feed = get_option('acx_si_feed');
 $acx_si_icon_size = get_option('acx_si_icon_size');
 // *****************************************************
 function enqueue_acx_si_style()
@@ -35,7 +36,7 @@ function acurax_si_simple($theme)
 
 	// Getting Globals *****************************	
 	global $acx_si_theme, $acx_si_credit, $acx_si_display , $acx_si_twitter, $acx_si_facebook, $acx_si_youtube, 		
-	$acx_si_linkedin, $acx_si_gplus, $acx_si_pinterest, $acx_si_icon_size;
+	$acx_si_linkedin, $acx_si_gplus, $acx_si_pinterest, $acx_si_feed, $acx_si_icon_size;
 	// *****************************************************
 	if ($theme == "") { $acx_si_touse_theme = $acx_si_theme; } else { $acx_si_touse_theme = $theme; }
 		//******** MAKING EACH BUTTON LINKS ********************
@@ -69,6 +70,11 @@ function acurax_si_simple($theme)
 			$linkedin_link = "<a href='". $acx_si_linkedin ."' target='_blank'>" . "<img src=" . plugins_url('images/themes/'
 			. $acx_si_touse_theme .'/linkedin.png', __FILE__) . " border='0'></a>";
 		}
+		if	($acx_si_feed == "") { $feed_link = ""; } else 
+		{
+			$feed_link = "<a href='". $acx_si_feed ."' target='_blank'>" . "<img src=" . plugins_url('images/themes/'
+			. $acx_si_touse_theme .'/feed.png', __FILE__) . " border='0'></a>";
+		}
 		$social_icon_array_order = get_option('social_icon_array_order');
 	$social_icon_array_order = unserialize($social_icon_array_order);
 	foreach ($social_icon_array_order as $key => $value)
@@ -84,6 +90,8 @@ function acurax_si_simple($theme)
 		else if ($value == 4) { echo $youtube_link; } 
 
 		else if ($value == 5) { echo $linkedin_link; } 
+		
+		else if ($value == 6) { echo $feed_link; }
 	}
 } //acurax_si_simple()
 
@@ -133,10 +141,10 @@ function acx_theme_check_wp_footer() {
 function acurax_icons()
 {
 	global $acx_si_theme, $acx_si_credit, $acx_si_display , $acx_si_twitter, $acx_si_facebook, $acx_si_youtube, 		
-	$acx_si_linkedin, $acx_si_gplus, $acx_si_pinterest, $acx_si_icon_size;
+	$acx_si_linkedin, $acx_si_gplus, $acx_si_pinterest, $acx_si_feed, $acx_si_icon_size;
 			
 	if($acx_si_twitter != "" || $acx_si_facebook != "" || $acx_si_youtube != "" || $acx_si_linkedin != ""  || 
-	$acx_si_pinterest != "" || $acx_si_gplus != "")
+	$acx_si_pinterest != "" || $acx_si_gplus != "" || $acx_si_feed != "")
 	{
 	//*********************** STARTED DISPLAYING THE ICONS ***********************
 		echo "\n\n\n<!-- Starting Icon Display Code For Social Media Icon From Acurax International www.acurax.com -->\n";
@@ -170,6 +178,7 @@ function acx_load_floating_js()
 		$acx_si_facebook = get_option('acx_si_facebook');
 		$acx_si_youtube = get_option('acx_si_youtube');
 		$acx_si_linkedin = get_option('acx_si_linkedin');
+		$acx_si_feed = get_option('acx_si_feed');
 		$acx_si_gplus = get_option('acx_si_gplus');
 		$acx_si_pinterest = get_option('acx_si_pinterest');
 		$count_check = 0;
@@ -179,13 +188,15 @@ function acx_load_floating_js()
 		$l4 = 0;
 		$l5 = 0;
 		$l6 = 0;
+		$l7 = 0;
 		if ($acx_si_twitter != "") { $l1 = 1; }
 		if ($acx_si_facebook != "") { $l2 = 1; }
 		if ($acx_si_youtube != "") { $l3 = 1; }
 		if ($acx_si_linkedin != "") { $l4 = 1; }
 		if ($acx_si_gplus != "") { $l5 = 1; }
 		if ($acx_si_pinterest != "") { $l6 = 1; }
-		$count_check = $l1 + $l2 + $l3 + $l4 + $l5 + $l6;
+		if ($acx_si_feed != "") { $l7 = 1; }
+		$count_check = $l1 + $l2 + $l3 + $l4 + $l5 + $l6 + $l7;
 		if ($acx_si_icon_size == $icon_size && $count_check == $count)
 		{
 			global $x;
@@ -208,6 +219,7 @@ function acx_load_floating_js()
 	acx_si_check_loaded_count(4,16,-170,-35);
 	acx_si_check_loaded_count(5,16,-170,-35);
 	acx_si_check_loaded_count(6,16,-170,-35);
+	acx_si_check_loaded_count(7,16,-170,-35);
 	// *********************************
 	// Icon Size 25 Starts Here
 	// acx_si_check_loaded_count($count,$icon_size,$set_x_value,$set_y_value);
@@ -217,6 +229,7 @@ function acx_load_floating_js()
 	acx_si_check_loaded_count(4,25,-160,-50);
 	acx_si_check_loaded_count(5,25,-160,-50);
 	acx_si_check_loaded_count(6,25,-180,-50);
+	acx_si_check_loaded_count(7,25,-180,-50);
 	// *********************************
 	// Icon Size 32 Starts Here
 	// acx_si_check_loaded_count($count,$icon_size,$set_x_value,$set_y_value);
@@ -226,6 +239,7 @@ function acx_load_floating_js()
 	acx_si_check_loaded_count(4,32,-170,-55);
 	acx_si_check_loaded_count(5,32,-190,-70);
 	acx_si_check_loaded_count(6,32,-160,-80);
+	acx_si_check_loaded_count(7,32,-160,-80);
 	// *********************************
 	// Icon Size 40 Starts Here
 	// acx_si_check_loaded_count($count,$icon_size,$set_x_value,$set_y_value);
@@ -235,6 +249,7 @@ function acx_load_floating_js()
 	acx_si_check_loaded_count(4,40,-170,-105);
 	acx_si_check_loaded_count(5,40,-170,-105);
 	acx_si_check_loaded_count(6,40,-170,-105);
+	acx_si_check_loaded_count(7,40,-170,-145);
 	// *********************************
 	// Icon Size 48 Starts Here
 	// acx_si_check_loaded_count($count,$icon_size,$set_x_value,$set_y_value);
@@ -244,6 +259,7 @@ function acx_load_floating_js()
 	acx_si_check_loaded_count(4,48,-170,-120);
 	acx_si_check_loaded_count(5,48,-170,-120);
 	acx_si_check_loaded_count(6,48,-170,-120);
+	acx_si_check_loaded_count(7,48,-170,-175);
 	// *********************************
 	// Icon Size 55 Starts Here
 	// acx_si_check_loaded_count($count,$icon_size,$set_x_value,$set_y_value);
@@ -253,6 +269,7 @@ function acx_load_floating_js()
 	acx_si_check_loaded_count(4,55,-170,-135);
 	acx_si_check_loaded_count(5,55,-190,-135);
 	acx_si_check_loaded_count(6,55,-190,-135);
+	acx_si_check_loaded_count(7,55,-190,-200);
 	// *********************************
 	/**************************************************************************
 	CONDITIONS ENDING HERE
@@ -298,10 +315,10 @@ function acx_load_floating_js()
 function pbl_footer() 
 {
 	global $acx_si_theme, $acx_si_credit, $acx_si_display , $acx_si_twitter, $acx_si_facebook, $acx_si_youtube, 		
-	$acx_si_linkedin, $acx_si_gplus, $acx_si_pinterest;
+	$acx_si_linkedin, $acx_si_gplus, $acx_si_pinterest, $acx_si_feed;
 
 	//********** CHECKING CREDIT LINK STATUS ******************
-	if($acx_si_twitter != "" || $acx_si_facebook != "" || $acx_si_youtube != "" || $acx_si_linkedin != ""  || $acx_si_pinterest != "" || $acx_si_gplus != "")
+	if($acx_si_twitter != "" || $acx_si_facebook != "" || $acx_si_youtube != "" || $acx_si_linkedin != ""  || $acx_si_pinterest != "" || $acx_si_gplus != "" || $acx_si_feed != "")
 	{
 		if($acx_si_credit == "yes") 
 		{ 
@@ -395,7 +412,8 @@ function pbl_footer()
 			echo "<a href='http://www.acurax.com/products/floating-social-media-icon-plugin-wordpress/' target='_blank' 
 			title='Social Media Wordpress plugin' 
 			style='text-align:center;color:gray;font-family:arial;font-size:11px;text-decoration:none;'>Animated Social 
-			Media Icons</a> Powered by <a href='http://www.acurax.com/services/blog-design.php' target='_blank' 
+			Media Icons</a> Powered by <a href='http://www.acurax.com/services/wordpress-designing-experts.php' 
+			target='_blank' 
 			title='Wordpress Development Company' 
 			style='text-align:center;color:gray;font-family:arial;font-size:11px;text-decoration:none;'>Acurax Wordpress 
 			Development Company</a>";
@@ -529,7 +547,7 @@ function acx_si_pluign_upgrade_not_finished()
 		  <p><b>Thanks for updating Floating Social Media Icon plugin... You need to visit <a href="admin.php?page=Acurax-Social-Icons-Settings">Plugin\'s Settings Page</a> to Complete the Updation Process - <a href="admin.php?page=Acurax-Social-Icons-Settings">Click Here Visit Social Icon Plugin Settings</a></b></p>
 		  </div>';
 }
-$total_arrays = 6; // Number Of Services
+$total_arrays = 7; // Number Of Services
 $social_icon_array_order = get_option('social_icon_array_order');
 $social_icon_array_order = unserialize($social_icon_array_order);
 $social_icon_array_count = count($social_icon_array_order); 
@@ -549,7 +567,7 @@ function acx_si_pluign_not_configured()
 }
 if ($social_icon_array_count == $total_arrays) 
 {
-if ($acx_si_twitter == "" && $acx_si_facebook == "" && $acx_si_youtube == "" && $acx_si_linkedin == ""  && $acx_si_pinterest == "" && $acx_si_gplus == "")
+if ($acx_si_twitter == "" && $acx_si_facebook == "" && $acx_si_youtube == "" && $acx_si_linkedin == ""  && $acx_si_pinterest == "" && $acx_si_gplus == "" && $acx_si_feed == "")
 {
 	add_action('admin_notices', 'acx_si_pluign_not_configured',1);
 } // Chking If Plugin Not Configured
@@ -754,4 +772,161 @@ else if ($current_user->display_name != "admin" && $current_user->display_name !
 </form>
 </div>			
 </div>
-<?php } ?>
+<?php } 
+function socialicons_comparison()
+{
+$abc = '
+</hr>
+<div align="center">
+<br>
+<h1>Free and Premium Comparison:</h2>
+<table id="comparison" cellspacing="0" style="margin-right:auto;margin-left:auto;">
+<tr class="title">
+<td class="label">Features</td>
+<td class="feature_free">Free</td>
+<td class="feature_paid" style="border-right:0px;">Premium</td>
+</tr>
+
+<tr>
+<td class="label">Automatic/Manual Integration</td>
+<td class="feature_free"><div id="c_tick"></div> <!-- c_tick --></td>
+<td class="feature_paid" style="border-right:0px;"><div id="c_tick"></div> <!-- c_tick --></td>
+</tr>
+
+<tr>
+<td class="label">Option to select/define icon design</td>
+<td class="feature_free"><div id="c_tick"></div> <!-- c_tick --></td>
+<td class="feature_paid" style="border-right:0px;"><div id="c_tick"></div> <!-- c_tick --></td>
+</tr>
+
+<tr>
+<td class="label">Option to select/define icon size</td>
+<td class="feature_free"><div id="c_tick"></div> <!-- c_tick --></td>
+<td class="feature_paid" style="border-right:0px;"><div id="c_tick"></div> <!-- c_tick --></td>
+</tr>
+
+<tr>
+<td class="label">Seperate Icon Style/Size for each Shortcode</td>
+<td class="feature_free"><div id="c_tick"></div> <!-- c_tick --></td>
+<td class="feature_paid" style="border-right:0px;"><div id="c_tick"></div> <!-- c_tick --></td>
+</tr>
+
+<tr>
+<td class="label">Seperate Icon Style/Size for each Widget</td>
+<td class="feature_free"><div id="c_tick"></div> <!-- c_tick --></td>
+<td class="feature_paid" style="border-right:0px;"><div id="c_tick"></div> <!-- c_tick --></td>
+</tr>
+
+<tr>
+<td class="label">Reorder Icons</td>
+<td class="feature_free"><div id="c_tick"></div> <!-- c_tick --></td>
+<td class="feature_paid" style="border-right:0px;"><div id="c_tick"></div> <!-- c_tick --></td>
+</tr>
+
+<tr>
+<td class="label">Widget Support</td>
+<td class="feature_free"><div id="c_tick"></div> <!-- c_tick --></td>
+<td class="feature_paid" style="border-right:0px;"><div id="c_tick"></div> <!-- c_tick --></td>
+</tr>
+
+<tr>
+<td class="label">Multiple Widget Support</td>
+<td class="feature_free"><div id="c_tick"></div> <!-- c_tick --></td>
+<td class="feature_paid" style="border-right:0px;"><div id="c_tick"></div> <!-- c_tick --></td>
+</tr>
+
+<tr>
+<td class="label">Shortcode Support</td>
+<td class="feature_free"><div id="c_tick"></div> <!-- c_tick --></td>
+<td class="feature_paid" style="border-right:0px;"><div id="c_tick"></div> <!-- c_tick --></td>
+</tr>
+
+<tr>
+<td class="label">Multiple Shortcode Instance Support</td>
+<td class="feature_free"><div id="c_tick"></div> <!-- c_tick --></td>
+<td class="feature_paid" style="border-right:0px;"><div id="c_tick"></div> <!-- c_tick --></td>
+</tr>
+
+<tr>
+<td class="label">More Sharp Quality Icons</td>
+<td class="feature_free"><div id="c_cross"></div></td>
+<td class="feature_paid" style="border-right:0px;"><div id="c_tick"></div> <!-- c_tick --></td>
+</tr>
+
+<tr>
+<td class="label">Multiple Floating Animation</td>
+<td class="feature_free"><div id="c_cross"></div></td>
+<td class="feature_paid" style="border-right:0px;"><div id="c_tick"></div> <!-- c_tick --></td>
+</tr>
+
+<tr>
+<td class="label">Ajax Based Settings Page</td>
+<td class="feature_free"><div id="c_cross"></div></td>
+<td class="feature_paid" style="border-right:0px;"><div id="c_tick"></div> <!-- c_tick --></td>
+</tr>
+
+<tr>
+<td class="label">Set whether the icons to link profile/share</td>
+<td class="feature_free"><div id="c_cross"></div></td>
+<td class="feature_paid" style="border-right:0px;"><div id="c_tick"></div> <!-- c_tick --></td>
+</tr>
+
+<tr>
+<td class="label">Easy to configure</td>
+<td class="feature_free"><div id="c_cross"></div></td>
+<td class="feature_paid" style="border-right:0px;"><div id="c_tick"></div> <!-- c_tick --></td>
+</tr>
+
+<tr>
+<td class="label">Icon Placement Width Setting (allows to configure how many icons in 1 row)</td>
+<td class="feature_free"><div id="c_cross"></div></td>
+<td class="feature_paid" style="border-right:0px;"><div id="c_tick"></div> <!-- c_tick --></td>
+</tr>
+
+<tr>
+<td class="label">Seperate Icon function for each Widget</td>
+<td class="feature_free"><div id="c_cross"></div></td>
+<td class="feature_paid" style="border-right:0px;"><div id="c_tick"></div> <!-- c_tick --></td>
+</tr>
+
+<tr>
+<td class="label">Advanced PHP Code Support</td>
+<td class="feature_free"><div id="c_cross"></div></td>
+<td class="feature_paid" style="border-right:0px;"><div id="c_tick"></div> <!-- c_tick --></td>
+</tr>
+
+<tr>
+<td class="label">Advanced Shortcode Support</td>
+<td class="feature_free"><div id="c_cross"></div></td>
+<td class="feature_paid" style="border-right:0px;"><div id="c_tick"></div> <!-- c_tick --></td>
+</tr>
+
+<tr>
+<td class="label">Seperate Icon function for each Shortcode</td>
+<td class="feature_free"><div id="c_cross"></div></td>
+<td class="feature_paid" style="border-right:0px;"><div id="c_tick"></div> <!-- c_tick --></td>
+</tr>
+
+<tr>
+<td class="label">Can Configure Floating Start Position</td>
+<td class="feature_free"><div id="c_cross"></div></td>
+<td class="feature_paid" style="border-right:0px;"><div id="c_tick"></div> <!-- c_tick --></td>
+</tr>
+
+<tr>
+<td class="label">Can Configure Floating End Position</td>
+<td class="feature_free"><div id="c_cross"></div></td>
+<td class="feature_paid" style="border-right:0px;"><div id="c_tick"></div> <!-- c_tick --></td>
+</tr>
+
+<tr>
+<td class="label" style="border-right:0px;padding-right:0px;">Download free version of plugin at wordpress </td>
+<td class="feature_free" style="padding-left:0px;width: 161px;">plugin directory</td>
+<td class="feature_paid" style="border-right:0px;"><a href="http://clients.acurax.com/link.php?id=5&utm_source=plugin-settings&utm_medium=link&utm_campaign=plugin-settings" target="_blank"><img src="' . plugins_url("images/orange_buynow.png", __FILE__) . '" border="0"></a></div> <!-- c_tick --></td>
+</tr>
+
+</table><br><br></div>';
+ echo $abc;
+}
+
+?>
