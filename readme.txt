@@ -15,13 +15,13 @@ Suport Widget & Shortcode
 
 = Quick Feature Intro =
 
-	*» Top Most Downloaded Plugin With Floating Support
-	*» Multiple Shortcode
-	*» Multiple Widget
-	*» Less Load - Essential Social Medias Only
-	*» Easy to Configure
-	*» Detailed Help Documentation
-	*» Featured Plugin On Many Plugin Review Sites
+* » Top Most Downloaded Plugin With Floating Support
+* » Multiple Shortcode
+* » Multiple Widget
+* » Less Load - Essential Social Medias Only
+* » Easy to Configure
+* » Detailed Help Documentation
+* » Featured Plugin On Many Plugin Review Sites
 
 	You can make the icons to appear automatically or you can use widgets,
 	shortcode or php code to display icons where ever you like to show.
