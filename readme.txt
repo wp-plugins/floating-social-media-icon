@@ -35,17 +35,23 @@ Shortcode Support
 
 Icons in content
 
-	★ Can Show Social Media Icons in between content on post and pages in any size
-	and style plugin supports.
+	★ Can Show Social Media Icons in between content on post and pages 
+	in any size and style plugin supports.
 
 Other Features
 
 	★ One and Only Plugin With 20+ Icon Designs with Pinterest Support
+	
 	★ Drag and Drop Reorder Icons
+	
 	★ Easy to configure user interface
+	
 	★ Icon Size Selection Support
+	
 	★ Automatic Integration
+	
 	★ Support Essential Social Medias Only
+	
 	★ Pinterest Support
 
 In Short we can say, this is an ultimate social icon widget that can be configured to float or not to float on your visitors screen.. check screenshots and video for a clear understanding.
