@@ -15,14 +15,13 @@ Suport Widget & Shortcode
 
 = Quick Feature Intro =
 
-» One and Only Plugin With 20+ Icon Styles with Pinterest icons
-» Top Most Downloaded Plugin With Floating Support
-» Support Multiple Shortcodes
-» Support Multiple Widgets
-» Less Load - Essential Social Medias Only
-» Easy to Configure
-» Detailed Help Documentation
-» Featured Plugin On Many Plugin Review Sites
+	*» Top Most Downloaded Plugin With Floating Support
+	*» Multiple Shortcode
+	*» Multiple Widget
+	*» Less Load - Essential Social Medias Only
+	*» Easy to Configure
+	*» Detailed Help Documentation
+	*» Featured Plugin On Many Plugin Review Sites
 
 	You can make the icons to appear automatically or you can use widgets,
 	shortcode or php code to display icons where ever you like to show.
