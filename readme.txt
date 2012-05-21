@@ -11,7 +11,7 @@ Easy 2 use plugin 2 show socialmedia icons that floats,Can configure social icon
 Suport Widget & Shortcode
 == Description ==
 
-[Floating Social Media Icon](http://www.acurax.com/products/floating-social-media-icon-plugin-wordpress/ "Floating Social Media Icon") Links Your Social Media media profiles Twitter, Facebook, Pinterest, Youtube, Rss Feed & Linkedin.
+[Floating Social Media Icon](http://www.acurax.com/products/floating-social-media-icon-plugin-wordpress/ "Floating Social Media Icon") Links Your Social Media Media Profiles Twitter,Facebook,Pinterest,Youtube,Rss Feed,Linkedin...
 Plugin Supports
 
 * » 20+ Icon Styles
