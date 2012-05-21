@@ -15,12 +15,11 @@ Suport Widget & Shortcode
 Plugin Supports
 
 * » 20+ Icon Styles
-* » Multiple Widget Support
+* » Set Icon Size & Order
+* » Multiple Widget & Shortcode Support
 * » Auto/Manual Integration
 * » Enable/Disable Floating
 * » Most Downloaded Plugin With Floating Support
-* » Multiple Shortcodes
-* » Multiple Widgets
 * » Less Load - Essential Social Medias Only
 * » Easy to Configure
 * » Detailed Help Documentation
