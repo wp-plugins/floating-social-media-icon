@@ -2,7 +2,7 @@
 Contributors: Acurax 
 Donate link:http://www.acurax.com/products/floating-social-media-icon-plugin-wordpress/
 
-Tags: social media,social media icon,social,pinterest,social profile link,social floating icon,floating social media button,social media url,social media button,facebook button,twitter icon,social media widget,youtube icon,rss icon,facebook profile url,feed icon,social icon,google plus,google+,google plus button,pinterest button
+Tags: social media,social media icon,social,pinterest,social profile link,social floating icon,floating social media button,socialmedia,social media button,facebook button,twitter facebook,social media widget,pinterest widget,rss icon,facebook profile url,fb widget,social icon,google plus,google+,google plus button,pinterest button
 Requires at least: 2.8
 Tested up to: 3.3.2
 Stable tag: trunk
@@ -181,11 +181,11 @@ Have more questions ? [Drop a mail](http://www.acurax.com/contact.php/ "Drop an 
 
 == Screenshots ==
 
-1. Plugin Settings Page
-2. Plugin in action, It will stay at bottom right with animated move even if we scroll.. Auto and Manual Mode. It Shows Both Floating and Shortcode Icons..
-3. Icon Settings Style/Theme and Size Selection Options
-4. Social Media Profile Link Settings
-5. Credit Link Enable Disable Option
+1. Plugin Settings Page (Low Quality Screenshot To Load Fast)
+2. Plugin in action, It will stay at bottom right with animated move even if we scroll.. Auto and Manual Mode. It Shows Both Floating and Shortcode Icons.. (Low Quality Screenshot To Load Fast)
+3. Icon Settings Style/Theme and Size Selection Options (Low Quality Screenshot To Load Fast)
+4. Social Media Profile Link Settings (Low Quality Screenshot To Load Fast)
+5. Credit Link Enable Disable Option (Low Quality Screenshot To Load Fast)
 
 == Upgrade Notice ==
 
