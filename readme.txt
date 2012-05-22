@@ -2,7 +2,7 @@
 Contributors: Acurax 
 Donate link:http://www.acurax.com/products/floating-social-media-icon-plugin-wordpress/
 
-Tags: social media,social media icon,social,pinterest,social profile link,social floating icon,floating social media button,socialmedia,social media button,facebook button,twitter facebook,social media widget,pinterest widget,rss icon,facebook profile url,fb widget,social icon,google plus,google+,google plus button,pinterest button
+Tags: social media,social,social media widget,social media icon,socialmedia,pinterest widget,fb widget,facebook button,pinterest,social icon,social floating icon,social profile link,floating social media button,twitter facebook,social media button,pinterest button,rss icon,facebook profile url,google plus,google+,google plus button
 Requires at least: 2.8
 Tested up to: 3.3.2
 Stable tag: trunk
