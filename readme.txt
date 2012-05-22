@@ -1,8 +1,8 @@
 ﻿=== Floating Social Media Icon ===
 Contributors: Acurax 
-Donate link:http://www.acurax.com/
+Donate link:http://www.acurax.com/products/floating-social-media-icon-plugin-wordpress/
 
-Tags: social media,social media icon,pinterest,social profile link,social floating icon,floating social media button,social media url,social media button,facebook button,floating pinterest,twitter icon,social media widget,youtube icon,rss icon,facebook profile url,feed icon,social icon,google plus,googleplus button,google plus button,pinterest button
+Tags: social media,social media icon,social,pinterest,social profile link,social floating icon,floating social media button,social media url,social media button,facebook button,twitter icon,social media widget,youtube icon,rss icon,facebook profile url,feed icon,social icon,google plus,googleplus button,google plus button,pinterest button
 Requires at least: 2.8
 Tested up to: 3.3.2
 Stable tag: trunk
@@ -87,7 +87,9 @@ This Plugin is developed and maintained by [Acurax International](http://www.acu
 [Acurax](http://www.acurax.com/ "Acurax Web Design Development Service") Provide [Wordpress Theme Design](http://www.acurax.com/services/web-designing.php "Wordpress Theme Design Service") and [Development](http://www.acurax.com/services/web-development.php "Wordpress Development") Services.
 
 **Plugin Video Tour**
-'[youtube http://www.youtube.com/watch?v=oK1iCywcjZY]'
+[youtube http://www.youtube.com/watch?v=oK1iCywcjZY]
+
+[Click Here To Watch On Youtube](http://www.youtube.com/watch?v=oK1iCywcjZY "Click Here To Watch On Youtube")
 
 	NOTE: This video is old version video. Check Screenshots for
 	New Settings Page Option Preview.
@@ -101,7 +103,9 @@ Then Visit Plugin Configuration Settings and select a theme and size for icons. 
 You need to go to Apperance >> Widgets to add "Acx Social Icon" Widget to your sidebar
 If you selected display mode as manual, you can use the shortcodes which is clearly mentioned in [Faq](http://wordpress.org/extend/plugins/floating-social-media-icon/faq/ "Frequently Asked Questions") section.
 
-'[youtube http://www.youtube.com/watch?v=oK1iCywcjZY]'
+[youtube http://www.youtube.com/watch?v=oK1iCywcjZY]
+
+[Click Here To Watch On Youtube](http://www.youtube.com/watch?v=oK1iCywcjZY "Click Here To Watch On Youtube")
 
 	NOTE: This video is old version video. Check Screenshots for
 	New Settings Page Option Preview.
