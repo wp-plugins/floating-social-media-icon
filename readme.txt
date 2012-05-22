@@ -2,16 +2,17 @@
 Contributors: Acurax 
 Donate link:http://www.acurax.com/products/floating-social-media-icon-plugin-wordpress/
 
-Tags: social media,social media icon,social,pinterest,social profile link,social floating icon,floating social media button,social media url,social media button,facebook button,twitter icon,social media widget,youtube icon,rss icon,facebook profile url,feed icon,social icon,google plus,googleplus button,google plus button,pinterest button
+Tags: social media,social media icon,social,pinterest,social profile link,social floating icon,floating social media button,social media url,social media button,facebook button,twitter icon,social media widget,youtube icon,rss icon,facebook profile url,feed icon,social icon,google plus,google+,google plus button,pinterest button
 Requires at least: 2.8
 Tested up to: 3.3.2
 Stable tag: trunk
 
-Easy 2 use plugin 2 show socialmedia icons that floats,Can configure social icon design,order & size at plugin settings.
-Suport Widget & Shortcode
+Easy 2 Use Plugin 2 Show SocialMedia Icons That Floats,Can Configure Social Icon Design,Order & Size at Plugin Settings, Suport Widget & Shortcode
+
 == Description ==
 
 [Floating Social Media Icon](http://www.acurax.com/products/floating-social-media-icon-plugin-wordpress/ "Floating Social Media Icon") Links Your Social Media Media Profiles Twitter,Facebook,Pinterest,Youtube,Rss Feed,Linkedin...
+
 Plugin Supports
 
 * » 20+ Icon Styles
@@ -34,7 +35,7 @@ Plugin Supports
 
 
 
-= Features that make this plugin an ultimate social media plugin =
+= Features that make this plugin an Ultimate Social Media Plugin =
 .
 
 Multiple Social Media Widget Support
