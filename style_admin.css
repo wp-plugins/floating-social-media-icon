@@ -297,6 +297,13 @@ font-weight:normal;
     width: 554px;
 	cursor: pointer;
 }
+#ad_fsmi_2_button_order_link
+{
+    display: block;
+    height: 225px;
+    width: 554px;
+	cursor: pointer;
+}
 #ad_fsmi_2_button_payments
 {
     background: url("images/payments.jpg") repeat scroll 0 0 transparent;
@@ -305,5 +312,12 @@ font-weight:normal;
 	cursor: pointer;
     margin-left: auto;
     margin-right: auto;
+    width: 601px;
+}
+#ad_fsmi_2_button_payments_link
+{
+    height: 86px;
+	display: block;
+	cursor: pointer;
     width: 601px;
 }
