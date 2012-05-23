@@ -775,7 +775,7 @@ else if ($current_user->display_name != "admin" && $current_user->display_name !
 <?php } 
 function socialicons_comparison()
 {
-$abc = '
+$ad_1 = '
 </hr>
 <div align="center">
 <br>
@@ -926,7 +926,10 @@ $abc = '
 </tr>
 
 </table><br><br></div>';
- echo $abc;
+$ad_2='<div id="ad_fsmi_2"> <a href="http://clients.acurax.com/link.php?id=5&utm_source=plugin_settings&utm_medium=banner&utm_campaign=plugin_enjoy" target="_blank"><div id="ad_fsmi_2_button"></div></a> </div> <!-- ad_fsmi_2 --><br>
+<a href="http://clients.acurax.com/link.php?id=5&utm_source=plugin_settings&utm_medium=banner&utm_campaign=plugin_yellow_order" target="_blank"><div id="ad_fsmi_2_button_order"></div> <!-- ad_fsmi_2_button_order --> </a> <br>
+<a href="http://clients.acurax.com/link.php?id=5&utm_source=plugin_settings&utm_medium=banner&utm_campaign=plugin_payments_banner" target="_blank"><div id="ad_fsmi_2_button_payments"></div></a> <!-- ad_fsmi_2_button_payments -->';
+ echo $ad_2;
 }
 
 ?>

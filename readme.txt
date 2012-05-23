@@ -33,7 +33,9 @@ Plugin Supports
 	The icons will fly from top left to bottom right and it will stay there
 	even if	user scrolls the page, thus it floats
 
+= [ LIVE DEMO ] =
 
+*[Click Here To See a Live Demo](http://www.acurax.com/products/floating-social-media-icon-plugin-wordpress/ "Floating Social Media Icon Demo")
 
 = Features that make this plugin an Ultimate Social Media Plugin =
 .
