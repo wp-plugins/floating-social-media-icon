@@ -15,23 +15,32 @@ Easy 2 Use Plugin 2 Show SocialMedia Icons That Floats,Can Configure Social Icon
 
 Plugin Supports
 
-* ★ 20+ Icon Styles
-* ★ Set Icon Size & Order
-* ★ Multiple Widget & Shortcode Support
-* ★ Auto/Manual Integration
-* ★ Enable/Disable Floating
-* ★ Most Downloaded Plugin With Floating Support
-* ★ Less Load - Essential Social Medias Only
-* ★ Easy to Configure
-* ★ Detailed Help Documentation
-* ★ Featured Plugin On Many Plugin Review Sites
+	★ 20+ Icon Styles
+	
+	★ Set Icon Size & Order
+	
+	★ Multiple Widget & Shortcode Support
+	
+	★ Auto/Manual Integration
+	
+	★ Enable/Disable Floating
+	
+	★ Most Downloaded Plugin With Floating Support
+	
+	★ Less Load - Essential Social Medias Only
+	
+	★ Easy to Configure
+	
+	★ Detailed Help Documentation
+	
+	★ Featured Plugin On Many Plugin Review Sites
 
-	You can make the icons to appear automatically or you can use widgets,
-	shortcode or php code to display icons where ever you like to show.
-	If you use the option to show it automatically.
+You can make the icons to appear automatically or you can use widgets,
+shortcode or php code to display icons where ever you like to show.
+If you use the option to show it automatically.
 
-	The icons will fly from top left to bottom right and it will stay there
-	even if	user scrolls the page, thus it floats
+The icons will fly from top left to bottom right and it will stay there
+even if	user scrolls the page, thus it floats
 
 = [ LIVE DEMO ] =
 
