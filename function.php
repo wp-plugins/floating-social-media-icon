@@ -773,7 +773,7 @@ else if ($current_user->display_name != "admin" && $current_user->display_name !
 </div>			
 </div>
 <?php } 
-function socialicons_comparison()
+function socialicons_comparison($ad)
 {
 $ad_1 = '
 </hr>
@@ -931,7 +931,7 @@ $ad_2='<div id="ad_fsmi_2"> <a href="http://clients.acurax.com/link.php?id=5&utm
 <a href="http://clients.acurax.com/link.php?id=5&utm_source=plugin_settings&utm_medium=banner&utm_campaign=plugin_yellow_order" target="_blank"><div id="ad_fsmi_2_button_order_link"></div></a></div> <!-- ad_fsmi_2_button_order --> <br>
 <div id="ad_fsmi_2_button_payments">
 <a href="http://clients.acurax.com/link.php?id=5&utm_source=plugin_settings&utm_medium=banner&utm_campaign=plugin_payments_banner" target="_blank"><div id="ad_fsmi_2_button_payments_link"></div></a> </div>';
- echo $ad_2;
+if($ad=="") { echo $ad_2; } else if ($ad == 1) { echo $ad_1; } else if ($ad == 2) { echo $ad_2; } 
 }
 
 ?>
