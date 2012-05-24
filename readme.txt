@@ -35,7 +35,7 @@ Plugin Supports
 
 = [ LIVE DEMO ] =
 
-*[Click Here To See a Live Demo](http://www.acurax.com/products/floating-social-media-icon-plugin-wordpress/ "Floating Social Media Icon Demo")
+* [Click Here To See a Live Demo](http://www.acurax.com/products/floating-social-media-icon-plugin-wordpress/ "Floating Social Media Icon Demo")
 
 = Features that make this plugin an Ultimate Social Media Plugin =
 .
