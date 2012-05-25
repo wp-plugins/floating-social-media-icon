@@ -413,7 +413,7 @@ if($_POST['acurax_social_icon_hidden'] == 'Y')
 </form>
 
 <hr/>
-<?php socialicons_comparison(); ?> 
+<?php socialicons_comparison(1); ?> 
 
 <?php acurax_optin(); ?>
 <br>
