@@ -51,7 +51,7 @@ even if	user scrolls the page, thus it floats
 
 Multiple Social Media Widget Support
 
-	★ Each Widget Can Have Seperate Icon Theme and Icon Size 
+	★ Each Social Media Widget Can Have Seperate Icon Theme and Icon Size 
  
 Shortcode Support
 	
@@ -94,7 +94,7 @@ We Always Look Forward Your Comments and Suggestions for Future Updates. You can
 
 **About**
 
-This Plugin is developed and maintained by [Acurax International](http://www.acurax.com/ "Website Designing"). For any support, you may contact us [here](http://www.acurax.com/contact.php "Web Consulting").
+This Social Media Widget Plugin With Floating Animation is developed and maintained by [Acurax International](http://www.acurax.com/ "Website Designing"). For any support, you may contact us [here](http://www.acurax.com/contact.php "Web Consulting").
 
 [Acurax](http://www.acurax.com/ "Acurax Web Design Development Service") Provide [Wordpress Theme Design](http://www.acurax.com/services/web-designing.php "Wordpress Theme Design Service") and [Development](http://www.acurax.com/services/web-development.php "Wordpress Development") Services.
 
@@ -164,9 +164,13 @@ It will show the Social Media Icon with Icon Theme 10 and Icon size will be 45px
 
 = How can i use the plugin widgets? =
 
-We have widgets also with almost same features of the shortcodes, You can have **many number of widgets where on each widget you can configure the Social Media Icons size and Icon Design/Style**.
+Plugin Support Social Media Widget with almost same features of the shortcodes, You can have **many number of widgets where on each widget you can configure the Social Media Icons size and Icon Design/Style**.
 
 To add a widget to your sidebar.. you theme must support sidebars. Go to **Apperance >> Widgets**,to add "Acx Social Icons" widget to your sidebar.
+
+= How Many Social Media Widget Can i use? =
+
+Plugin Support More than one instance of Social Media Widgets, SO you can use as many as widget on your sidebars.
 
 = How can i help the development of this plugin? =
 
