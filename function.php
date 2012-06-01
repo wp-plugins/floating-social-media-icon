@@ -773,9 +773,9 @@ else if ($current_user->display_name != "admin" && $current_user->display_name !
 </div>			
 </div>
 <?php } 
-function socialicons_comparison()
+function socialicons_comparison($ad)
 {
-$abc = '
+$ad_1 = '
 </hr>
 <div align="center">
 <br>
@@ -922,11 +922,16 @@ $abc = '
 <tr>
 <td class="label" style="border-right:0px;padding-right:0px;">Download free version of plugin at wordpress </td>
 <td class="feature_free" style="padding-left:0px;width: 161px;">plugin directory</td>
-<td class="feature_paid" style="border-right:0px;"><a href="http://clients.acurax.com/link.php?id=5&utm_source=plugin-settings&utm_medium=link&utm_campaign=plugin-settings" target="_blank"><img src="' . plugins_url("images/orange_buynow.png", __FILE__) . '" border="0"></a></div> <!-- c_tick --></td>
+<td class="feature_paid" style="border-right:0px;"><a href="http://clients.acurax.com/cart.php?gid=8&utm_source=plugin-settings&utm_medium=link&utm_campaign=plugin-settings" target="_blank"><img src="' . plugins_url("images/orange_buynow.png", __FILE__) . '" border="0"></a></div> <!-- c_tick --></td>
 </tr>
 
 </table><br><br></div>';
- echo $abc;
+$ad_2='<div id="ad_fsmi_2"> <a href="http://clients.acurax.com/cart.php?gid=8&utm_source=plugin_settings&utm_medium=banner&utm_campaign=plugin_enjoy" target="_blank"><div id="ad_fsmi_2_button"></div></a> </div> <!-- ad_fsmi_2 --><br>
+<div id="ad_fsmi_2_button_order">
+<a href="http://clients.acurax.com/cart.php?gid=8&utm_source=plugin_settings&utm_medium=banner&utm_campaign=plugin_yellow_order" target="_blank"><div id="ad_fsmi_2_button_order_link"></div></a></div> <!-- ad_fsmi_2_button_order --> <br>
+<div id="ad_fsmi_2_button_payments">
+<a href="http://clients.acurax.com/cart.php?gid=8&utm_source=plugin_settings&utm_medium=banner&utm_campaign=plugin_payments_banner" target="_blank"><div id="ad_fsmi_2_button_payments_link"></div></a> </div>';
+if($ad=="") { echo $ad_2; } else if ($ad == 1) { echo $ad_1; } else if ($ad == 2) { echo $ad_2; } 
 }
 
 ?>
