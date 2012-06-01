@@ -46,7 +46,10 @@ if($_POST['acurax_social_icon_hidden'] == 'Y')
 }
 	else
 {	//Normal page display
-
+$acx_si_installed_date = get_option('acx_si_installed_date');
+if ($acx_si_installed_date=="") { $acx_si_installed_date = time();
+update_option('acx_si_installed_date', $acx_si_installed_date);
+}
 	$acx_si_theme = get_option('acx_si_theme');
 	$acx_si_twitter = get_option('acx_si_twitter');
 	$acx_si_facebook = get_option('acx_si_facebook');

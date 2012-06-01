@@ -573,7 +573,29 @@ if ($acx_si_twitter == "" && $acx_si_facebook == "" && $acx_si_youtube == "" && 
 } // Chking If Plugin Not Configured
 } // Chking $social_icon_array_count == $total_arrays
 
-
+// wp-admin Notices >> Plugin not configured
+function acx_si_pluign_promotion()
+{
+    echo '<div id="acx_td" class="error" style="background: none repeat scroll 0pt 0pt infobackground; border: 1px solid inactivecaption; padding: 5px;line-height:16px;">
+	<p>It looks like you have been enjoying using Floating Social Media Icon plugin from <a href="http://www.acurax.com?utm_source=plugin&utm_medium=thirtyday&utm_campaign=thirtyday" title="Acurax Web Designing Company" target="_blank">Acurax</a> for atleast 30 days.Would you consider upgrading to <a href="http://www.acurax.com/products/floating-social-media-icon-plugin-wordpress/?utm_source=plugin&utm_medium=thirtyday&utm_campaign=thirtyday" title="Premium Floating Social Media Icon" target="_blank">premium version</a> to enjoy more features and help support continued development of the plugin? - You can also support us by giving us a website design, redesign, social media project or by spreading the world about this plugin. Thank you for using the plugin</p>
+	<p>
+	<a href="http://wordpress.org/extend/plugins/floating-social-media-icon/" class="button" style="color:black;text-decoration:none;padding:5px;margin-right:4px;" target="_blank">Rate it 5★\'s on wordpress</a>
+	<a href="https://twitter.com/share?url=http://www.acurax.com/products/floating-social-media-icon-plugin-wordpress/&text=I Use Floating SocialMedia Icon from @acuraxdotcom on wordpress and you should too -" class="button" style="color:black;text-decoration:none;padding:5px;margin-right:4px;" target="_blank">Tell Your Followers</a>
+	<a href="http://clients.acurax.com/cart.php?gid=8&utm_source=plugin&utm_medium=thirtyday&utm_campaign=thirtyday" class="button" style="color:black;text-decoration:none;padding:5px;margin-right:4px;" target="_blank">Order Premium Version</a>
+	<a href="admin.php?page=Acurax-Social-Icons-Premium&td=hide" class="button" style="color:black;text-decoration:none;padding:5px;margin-right:4px;margin-left:20px;">Don\'t Show This Again</a>
+</p>
+		  
+		  </div>';
+}
+$acx_si_installed_date = get_option('acx_si_installed_date');
+if ($acx_si_installed_date=="") { $acx_si_installed_date = time();}
+if($acx_si_installed_date < ( time() - 2952000 ))
+{
+if (get_option('acx_si_td') != "hide")
+{
+add_action('admin_notices', 'acx_si_pluign_promotion',1);
+}
+}
 
 
 // Starting Widget Code
@@ -848,84 +870,107 @@ $ad_1 = '
 </tr>
 
 <tr>
-<td class="label">More Sharp Quality Icons</td>
+<td class="label" style="font-weight: bold; text-align: left; color: black; background: none repeat scroll 0pt 0pt YellowGreen;">More Sharp Quality Icons</td>
 <td class="feature_free"><div id="c_cross"></div></td>
 <td class="feature_paid" style="border-right:0px;"><div id="c_tick"></div> <!-- c_tick --></td>
 </tr>
 
 <tr>
-<td class="label">Multiple Floating Animation</td>
+<td class="label" style="font-weight: bold; text-align: left; color: black; background: none repeat scroll 0pt 0pt YellowGreen;">Multiple Floating Animation</td>
 <td class="feature_free"><div id="c_cross"></div></td>
 <td class="feature_paid" style="border-right:0px;"><div id="c_tick"></div> <!-- c_tick --></td>
 </tr>
 
 <tr>
-<td class="label">Ajax Based Settings Page</td>
+<td class="label" style="font-weight: bold; text-align: left; color: black; background: none repeat scroll 0pt 0pt YellowGreen;">Configure Animation Repeat Interval</td>
 <td class="feature_free"><div id="c_cross"></div></td>
 <td class="feature_paid" style="border-right:0px;"><div id="c_tick"></div> <!-- c_tick --></td>
 </tr>
 
 <tr>
-<td class="label">Set whether the icons to link profile/share</td>
+<td class="label" style="font-weight: bold; text-align: left; color: black; background: none repeat scroll 0pt 0pt YellowGreen;">Animation Repeat Interval Based On Time</td>
 <td class="feature_free"><div id="c_cross"></div></td>
 <td class="feature_paid" style="border-right:0px;"><div id="c_tick"></div> <!-- c_tick --></td>
 </tr>
 
 <tr>
-<td class="label">Easy to configure</td>
+<td class="label" style="font-weight: bold; text-align: left; color: black; background: none repeat scroll 0pt 0pt YellowGreen;">Animation Repeat Interval Based on Page Views</td>
 <td class="feature_free"><div id="c_cross"></div></td>
 <td class="feature_paid" style="border-right:0px;"><div id="c_tick"></div> <!-- c_tick --></td>
 </tr>
 
 <tr>
-<td class="label">Icon Placement Width Setting (allows to configure how many icons in 1 row)</td>
+<td class="label" style="font-weight: bold; text-align: left; color: black; background: none repeat scroll 0pt 0pt YellowGreen;">Animation Repeat Interval Based On Page Views and Time (both)</td>
 <td class="feature_free"><div id="c_cross"></div></td>
 <td class="feature_paid" style="border-right:0px;"><div id="c_tick"></div> <!-- c_tick --></td>
 </tr>
 
 <tr>
-<td class="label">Seperate Icon function for each Widget</td>
+<td class="label" style="font-weight: bold; text-align: left; color: black; background: none repeat scroll 0pt 0pt YellowGreen;">Ajax Based Settings Page</td>
 <td class="feature_free"><div id="c_cross"></div></td>
 <td class="feature_paid" style="border-right:0px;"><div id="c_tick"></div> <!-- c_tick --></td>
 </tr>
 
 <tr>
-<td class="label">Advanced PHP Code Support</td>
+<td class="label" style="font-weight: bold; text-align: left; color: black; background: none repeat scroll 0pt 0pt YellowGreen;">Set whether the icons to link profile/share</td>
 <td class="feature_free"><div id="c_cross"></div></td>
 <td class="feature_paid" style="border-right:0px;"><div id="c_tick"></div> <!-- c_tick --></td>
 </tr>
 
 <tr>
-<td class="label">Advanced Shortcode Support</td>
+<td class="label" style="font-weight: bold; text-align: left; color: black; background: none repeat scroll 0pt 0pt YellowGreen;">Easy to configure</td>
 <td class="feature_free"><div id="c_cross"></div></td>
 <td class="feature_paid" style="border-right:0px;"><div id="c_tick"></div> <!-- c_tick --></td>
 </tr>
 
 <tr>
-<td class="label">Seperate Icon function for each Shortcode</td>
+<td class="label" style="font-weight: bold; text-align: left; color: black; background: none repeat scroll 0pt 0pt YellowGreen;">Icon Placement Width Setting (allows to configure how many icons in 1 row)</td>
 <td class="feature_free"><div id="c_cross"></div></td>
 <td class="feature_paid" style="border-right:0px;"><div id="c_tick"></div> <!-- c_tick --></td>
 </tr>
 
 <tr>
-<td class="label">Can Configure Floating Start Position</td>
+<td class="label" style="font-weight: bold; text-align: left; color: black; background: none repeat scroll 0pt 0pt YellowGreen;">Seperate Icon function for each Widget</td>
 <td class="feature_free"><div id="c_cross"></div></td>
 <td class="feature_paid" style="border-right:0px;"><div id="c_tick"></div> <!-- c_tick --></td>
 </tr>
 
 <tr>
-<td class="label">Can Configure Floating End Position</td>
+<td class="label" style="font-weight: bold; text-align: left; color: black; background: none repeat scroll 0pt 0pt YellowGreen;">Advanced PHP Code Support</td>
 <td class="feature_free"><div id="c_cross"></div></td>
 <td class="feature_paid" style="border-right:0px;"><div id="c_tick"></div> <!-- c_tick --></td>
 </tr>
 
 <tr>
-<td class="label" style="border-right:0px;padding-right:0px;">Download free version of plugin at wordpress </td>
-<td class="feature_free" style="padding-left:0px;width: 161px;">plugin directory</td>
-<td class="feature_paid" style="border-right:0px;"><a href="http://clients.acurax.com/cart.php?gid=8&utm_source=plugin-settings&utm_medium=link&utm_campaign=plugin-settings" target="_blank"><img src="' . plugins_url("images/orange_buynow.png", __FILE__) . '" border="0"></a></div> <!-- c_tick --></td>
+<td class="label" style="font-weight: bold; text-align: left; color: black; background: none repeat scroll 0pt 0pt YellowGreen;">Advanced Shortcode Support</td>
+<td class="feature_free"><div id="c_cross"></div></td>
+<td class="feature_paid" style="border-right:0px;"><div id="c_tick"></div> <!-- c_tick --></td>
 </tr>
 
-</table><br><br></div>';
+<tr>
+<td class="label" style="font-weight: bold; text-align: left; color: black; background: none repeat scroll 0pt 0pt YellowGreen;">Seperate Icon function for each Shortcode</td>
+<td class="feature_free"><div id="c_cross"></div></td>
+<td class="feature_paid" style="border-right:0px;"><div id="c_tick"></div> <!-- c_tick --></td>
+</tr>
+
+<tr>
+<td class="label" style="font-weight: bold; text-align: left; color: black; background: none repeat scroll 0pt 0pt YellowGreen;">Can Configure Floating Start Position</td>
+<td class="feature_free"><div id="c_cross"></div></td>
+<td class="feature_paid" style="border-right:0px;"><div id="c_tick"></div> <!-- c_tick --></td>
+</tr>
+
+<tr>
+<td class="label" style="font-weight: bold; text-align: left; color: black; background: none repeat scroll 0pt 0pt YellowGreen;">Can Configure Floating End Position</td>
+<td class="feature_free"><div id="c_cross"></div></td>
+<td class="feature_paid" style="border-right:0px;"><div id="c_tick"></div> <!-- c_tick --></td>
+</tr>
+
+</table><br>
+<div id="ad_fsmi_2_button_order">
+<a href="http://clients.acurax.com/cart.php?gid=8&utm_source=plugin_settings&utm_medium=banner&utm_campaign=plugin_yellow_order" target="_blank"><div id="ad_fsmi_2_button_order_link"></div></a></div> <!-- ad_fsmi_2_button_order --> <br>
+<div id="ad_fsmi_2_button_payments">
+<a href="http://clients.acurax.com/cart.php?gid=8&utm_source=plugin_settings&utm_medium=banner&utm_campaign=plugin_payments_banner" target="_blank"><div id="ad_fsmi_2_button_payments_link"></div></a> </div>
+<br></div>';
 $ad_2='<div id="ad_fsmi_2"> <a href="http://clients.acurax.com/cart.php?gid=8&utm_source=plugin_settings&utm_medium=banner&utm_campaign=plugin_enjoy" target="_blank"><div id="ad_fsmi_2_button"></div></a> </div> <!-- ad_fsmi_2 --><br>
 <div id="ad_fsmi_2_button_order">
 <a href="http://clients.acurax.com/cart.php?gid=8&utm_source=plugin_settings&utm_medium=banner&utm_campaign=plugin_yellow_order" target="_blank"><div id="ad_fsmi_2_button_order_link"></div></a></div> <!-- ad_fsmi_2_button_order --> <br>
