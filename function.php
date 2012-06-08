@@ -870,107 +870,113 @@ $ad_1 = '
 </tr>
 
 <tr>
-<td class="label" style="font-weight: bold; text-align: left; color: black; background: none repeat scroll 0pt 0pt YellowGreen;">More Sharp Quality Icons</td>
+<td class="label" style="">More Sharp Quality Icons</td>
 <td class="feature_free"><div id="c_cross"></div></td>
 <td class="feature_paid" style="border-right:0px;"><div id="c_tick"></div> <!-- c_tick --></td>
 </tr>
 
 <tr>
-<td class="label" style="font-weight: bold; text-align: left; color: black; background: none repeat scroll 0pt 0pt YellowGreen;">Multiple Floating Animation</td>
+<td class="label" style="">Multiple Floating Animation</td>
 <td class="feature_free"><div id="c_cross"></div></td>
 <td class="feature_paid" style="border-right:0px;"><div id="c_tick"></div> <!-- c_tick --></td>
 </tr>
 
 <tr>
-<td class="label" style="font-weight: bold; text-align: left; color: black; background: none repeat scroll 0pt 0pt YellowGreen;">Configure Animation Repeat Interval</td>
+<td class="label" style="">Configure Animation Repeat Interval</td>
 <td class="feature_free"><div id="c_cross"></div></td>
 <td class="feature_paid" style="border-right:0px;"><div id="c_tick"></div> <!-- c_tick --></td>
 </tr>
 
 <tr>
-<td class="label" style="font-weight: bold; text-align: left; color: black; background: none repeat scroll 0pt 0pt YellowGreen;">Animation Repeat Interval Based On Time</td>
+<td class="label" style="">Animation Repeat Interval Based On Time</td>
 <td class="feature_free"><div id="c_cross"></div></td>
 <td class="feature_paid" style="border-right:0px;"><div id="c_tick"></div> <!-- c_tick --></td>
 </tr>
 
 <tr>
-<td class="label" style="font-weight: bold; text-align: left; color: black; background: none repeat scroll 0pt 0pt YellowGreen;">Animation Repeat Interval Based on Page Views</td>
+<td class="label" style="">Animation Repeat Interval Based on Page Views</td>
 <td class="feature_free"><div id="c_cross"></div></td>
 <td class="feature_paid" style="border-right:0px;"><div id="c_tick"></div> <!-- c_tick --></td>
 </tr>
 
 <tr>
-<td class="label" style="font-weight: bold; text-align: left; color: black; background: none repeat scroll 0pt 0pt YellowGreen;">Animation Repeat Interval Based On Page Views and Time (both)</td>
+<td class="label" style="">Animation Repeat Interval Based On Page Views and Time (both)</td>
 <td class="feature_free"><div id="c_cross"></div></td>
 <td class="feature_paid" style="border-right:0px;"><div id="c_tick"></div> <!-- c_tick --></td>
 </tr>
 
 <tr>
-<td class="label" style="font-weight: bold; text-align: left; color: black; background: none repeat scroll 0pt 0pt YellowGreen;">Ajax Based Settings Page</td>
+<td class="label" style="">Ajax Based Settings Page</td>
 <td class="feature_free"><div id="c_cross"></div></td>
 <td class="feature_paid" style="border-right:0px;"><div id="c_tick"></div> <!-- c_tick --></td>
 </tr>
 
 <tr>
-<td class="label" style="font-weight: bold; text-align: left; color: black; background: none repeat scroll 0pt 0pt YellowGreen;">Set whether the icons to link profile/share</td>
+<td class="label" style="">Set whether the icons to link profile/share</td>
 <td class="feature_free"><div id="c_cross"></div></td>
 <td class="feature_paid" style="border-right:0px;"><div id="c_tick"></div> <!-- c_tick --></td>
 </tr>
 
 <tr>
-<td class="label" style="font-weight: bold; text-align: left; color: black; background: none repeat scroll 0pt 0pt YellowGreen;">Easy to configure</td>
+<td class="label" style="">Easy to configure</td>
 <td class="feature_free"><div id="c_cross"></div></td>
 <td class="feature_paid" style="border-right:0px;"><div id="c_tick"></div> <!-- c_tick --></td>
 </tr>
 
 <tr>
-<td class="label" style="font-weight: bold; text-align: left; color: black; background: none repeat scroll 0pt 0pt YellowGreen;">Icon Placement Width Setting (allows to configure how many icons in 1 row)</td>
+<td class="label" style="">Icon Placement Width Setting (allows to configure how many icons in 1 row)</td>
 <td class="feature_free"><div id="c_cross"></div></td>
 <td class="feature_paid" style="border-right:0px;"><div id="c_tick"></div> <!-- c_tick --></td>
 </tr>
 
 <tr>
-<td class="label" style="font-weight: bold; text-align: left; color: black; background: none repeat scroll 0pt 0pt YellowGreen;">Seperate Icon function for each Widget</td>
+<td class="label" style="">Seperate Icon function for each Widget</td>
 <td class="feature_free"><div id="c_cross"></div></td>
 <td class="feature_paid" style="border-right:0px;"><div id="c_tick"></div> <!-- c_tick --></td>
 </tr>
 
 <tr>
-<td class="label" style="font-weight: bold; text-align: left; color: black; background: none repeat scroll 0pt 0pt YellowGreen;">Advanced PHP Code Support</td>
+<td class="label" style="">Advanced PHP Code Support</td>
 <td class="feature_free"><div id="c_cross"></div></td>
 <td class="feature_paid" style="border-right:0px;"><div id="c_tick"></div> <!-- c_tick --></td>
 </tr>
 
 <tr>
-<td class="label" style="font-weight: bold; text-align: left; color: black; background: none repeat scroll 0pt 0pt YellowGreen;">Advanced Shortcode Support</td>
+<td class="label" style="">Advanced Shortcode Support</td>
 <td class="feature_free"><div id="c_cross"></div></td>
 <td class="feature_paid" style="border-right:0px;"><div id="c_tick"></div> <!-- c_tick --></td>
 </tr>
 
 <tr>
-<td class="label" style="font-weight: bold; text-align: left; color: black; background: none repeat scroll 0pt 0pt YellowGreen;">Seperate Icon function for each Shortcode</td>
+<td class="label" style="">Seperate Icon function for each Shortcode</td>
 <td class="feature_free"><div id="c_cross"></div></td>
 <td class="feature_paid" style="border-right:0px;"><div id="c_tick"></div> <!-- c_tick --></td>
 </tr>
 
 <tr>
-<td class="label" style="font-weight: bold; text-align: left; color: black; background: none repeat scroll 0pt 0pt YellowGreen;">Can Configure Floating Start Position</td>
+<td class="label" style="">Can Configure Floating Start Position</td>
 <td class="feature_free"><div id="c_cross"></div></td>
 <td class="feature_paid" style="border-right:0px;"><div id="c_tick"></div> <!-- c_tick --></td>
 </tr>
 
 <tr>
-<td class="label" style="font-weight: bold; text-align: left; color: black; background: none repeat scroll 0pt 0pt YellowGreen;">Can Configure Floating End Position</td>
+<td class="label" style="">Can Configure Floating End Position</td>
 <td class="feature_free"><div id="c_cross"></div></td>
 <td class="feature_paid" style="border-right:0px;"><div id="c_tick"></div> <!-- c_tick --></td>
+</tr>
+
+<tr>
+<td class="label" style="border-right:0px;padding-right:0px;">Download free version of plugin at wordpress </td>
+<td class="feature_free" style="padding-left:0px;width: 161px;">plugin directory</td>
+<td class="feature_paid" style="border-right:0px;"><a href="http://clients.acurax.com/cart.php?gid=8&utm_source=plugin_settings_table&utm_medium=link&utm_campaign=plugin_settings" target="_blank"><img src="' . plugins_url("images/orange_buynow.png", __FILE__) . '" border="0"></a></div> <!-- c_tick --></td>
 </tr>
 
 </table><br>
-<div id="ad_fsmi_2_button_order">
+<!-- div id="ad_fsmi_2_button_order">
 <a href="http://clients.acurax.com/cart.php?gid=8&utm_source=plugin_settings&utm_medium=banner&utm_campaign=plugin_yellow_order" target="_blank"><div id="ad_fsmi_2_button_order_link"></div></a></div> <!-- ad_fsmi_2_button_order --> <br>
 <div id="ad_fsmi_2_button_payments">
 <a href="http://clients.acurax.com/cart.php?gid=8&utm_source=plugin_settings&utm_medium=banner&utm_campaign=plugin_payments_banner" target="_blank"><div id="ad_fsmi_2_button_payments_link"></div></a> </div>
-<br></div>';
+<br></div -->';
 $ad_2='<div id="ad_fsmi_2"> <a href="http://clients.acurax.com/cart.php?gid=8&utm_source=plugin_settings&utm_medium=banner&utm_campaign=plugin_enjoy" target="_blank"><div id="ad_fsmi_2_button"></div></a> </div> <!-- ad_fsmi_2 --><br>
 <div id="ad_fsmi_2_button_order">
 <a href="http://clients.acurax.com/cart.php?gid=8&utm_source=plugin_settings&utm_medium=banner&utm_campaign=plugin_yellow_order" target="_blank"><div id="ad_fsmi_2_button_order_link"></div></a></div> <!-- ad_fsmi_2_button_order --> <br>
