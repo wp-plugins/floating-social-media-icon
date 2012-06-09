@@ -129,6 +129,18 @@ update_option('acx_si_installed_date', $acx_si_installed_date);
 	<a href="http://www.acurax.com/social-media-marketing-optimization/social-profile-design.php?utm_source=plugin-page&utm_medium=banner&utm_campaign=fsmi" target="_blank" id="spd" style="background:url(<?php echo plugins_url('images/spd.jpg', __FILE__);?>);"></a>
 	<a href="http://www.acurax.com/services/website-redesign.php?utm_source=plugin-page&utm_medium=banner&utm_campaign=fsmi" target="_blank" id="wrd" style="background:url(<?php echo plugins_url('images/wr.jpg', __FILE__);?>);"></a>
 </p>
+<div id="acx_fsmi_premium">
+
+<div style="float: left;padding: 0 5px">
+<h2 style="vertical-align: middle;"><a href="admin.php?page=Acurax-Social-Icons-Premium">Fully Featured - Premium Floating Social Media Icon</a>
+</h2>
+</div>
+<div style="float: left;padding: 5px">
+<a href="http://clients.acurax.com/cart.php?gid=8&utm_source=plugin_settings_top&utm_medium=link&utm_campaign=plugin_settings" target="_blank"><img src="<?php echo plugins_url('images/orange_buynow.png', __FILE__);?>"></a>
+</div>
+
+</div> <!-- acx_fsmi_premium -->
+
 <?php echo "<h2>" . __( 'Acurax Social Icons Options', 'acx_si_config' ) . "</h2>"; ?>
 
 <form name="acurax_si_form" method="post" action="<?php echo str_replace( '%7E', '~', $_SERVER['REQUEST_URI']); ?>">

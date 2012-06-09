@@ -321,3 +321,16 @@ font-weight:normal;
 	cursor: pointer;
     width: 601px;
 }
+#acx_fsmi_premium {
+    background-color: #FFF6D6;
+    border: 1px solid #FCC328;
+    height: 50px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    padding: 5px;
+	}
+#acx_fsmi_premium a
+{
+    font-family: sans-serif;
+    font-size: 21px;
+}
