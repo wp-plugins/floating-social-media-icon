@@ -795,7 +795,7 @@ else if ($current_user->display_name != "admin" && $current_user->display_name !
 </div>			
 </div>
 <?php } 
-function socialicons_comparison($ad)
+function socialicons_comparison($ad=2)
 {
 $ad_1 = '
 </hr>
