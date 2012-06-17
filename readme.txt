@@ -4,7 +4,7 @@ Donate link:http://www.acurax.com/products/floating-social-media-icon-plugin-wor
 
 Tags: social media,social,social media widget,social media icon,socialmedia,pinterest widget,fb widget,facebook button,pinterest,social icon,social floating icon,social profile link,floating social media button,twitter facebook,social media button,pinterest button,rss icon,facebook profile url,google plus,google+,google plus button
 Requires at least: 2.8
-Tested up to: 3.3.2
+Tested up to: 3.4
 Stable tag: trunk
 
 Easy 2 Use Plugin 2 Show SocialMedia Icons That Floats,Can Configure Social Icon Design,Order & Size at Plugin Settings, Suport Widget & Shortcode
