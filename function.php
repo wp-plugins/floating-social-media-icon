@@ -972,8 +972,8 @@ $ad_1 = '
 </tr>
 
 </table><br>
-<!-- div id="ad_fsmi_2_button_order">
-<a href="http://clients.acurax.com/cart.php?gid=8&utm_source=plugin_settings&utm_medium=banner&utm_campaign=plugin_yellow_order" target="_blank"><div id="ad_fsmi_2_button_order_link"></div></a></div> <!-- ad_fsmi_2_button_order --> <br>
+<div id="ad_fsmi_2_button_order">
+<a href="http://clients.acurax.com/cart.php?gid=8&utm_source=plugin_settings&utm_medium=banner_below_table&utm_campaign=plugin_yellow_order" target="_blank"><div id="ad_fsmi_2_button_order_link"></div></a></div> <!-- ad_fsmi_2_button_order --> <br>
 <div id="ad_fsmi_2_button_payments">
 <a href="http://clients.acurax.com/cart.php?gid=8&utm_source=plugin_settings&utm_medium=banner&utm_campaign=plugin_payments_banner" target="_blank"><div id="ad_fsmi_2_button_payments_link"></div></a> </div>
 <br></div -->';
