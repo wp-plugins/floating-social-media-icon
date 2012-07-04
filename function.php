@@ -581,7 +581,7 @@ function acx_si_pluign_promotion()
 	<p>
 	<a href="http://wordpress.org/extend/plugins/floating-social-media-icon/" class="button" style="color:black;text-decoration:none;padding:5px;margin-right:4px;" target="_blank">Rate it 5★\'s on wordpress</a>
 	<a href="https://twitter.com/share?url=http://www.acurax.com/products/floating-social-media-icon-plugin-wordpress/&text=I Use Floating SocialMedia Icon from @acuraxdotcom on wordpress and you should too -" class="button" style="color:black;text-decoration:none;padding:5px;margin-right:4px;" target="_blank">Tell Your Followers</a>
-	<a href="http://clients.acurax.com/cart.php?gid=8&utm_source=plugin&utm_medium=thirtyday&utm_campaign=thirtyday" class="button" style="color:black;text-decoration:none;padding:5px;margin-right:4px;" target="_blank">Order Premium Version</a>
+	<a href="http://clients.acurax.com/floating-socialmedia.php?utm_source=plugin&utm_medium=thirtyday&utm_campaign=thirtyday" class="button" style="color:black;text-decoration:none;padding:5px;margin-right:4px;" target="_blank">Order Premium Version</a>
 	<a href="admin.php?page=Acurax-Social-Icons-Premium&td=hide" class="button" style="color:black;text-decoration:none;padding:5px;margin-right:4px;margin-left:20px;">Don\'t Show This Again</a>
 </p>
 		  
@@ -968,20 +968,16 @@ $ad_1 = '
 <tr>
 <td class="label" style="border-right:0px;padding-right:0px;">Download free version of plugin at wordpress </td>
 <td class="feature_free" style="padding-left:0px;width: 161px;">plugin directory</td>
-<td class="feature_paid" style="border-right:0px;"><a href="http://clients.acurax.com/cart.php?gid=8&utm_source=plugin_settings_table&utm_medium=link&utm_campaign=plugin_settings" target="_blank"><img src="' . plugins_url("images/orange_buynow.png", __FILE__) . '" border="0"></a></div> <!-- c_tick --></td>
+<td class="feature_paid" style="border-right:0px;"><a href="http://clients.acurax.com/floating-socialmedia.php?utm_source=plugin_settings_table&utm_medium=link&utm_campaign=plugin_settings" target="_blank"><img src="' . plugins_url("images/orange_buynow.png", __FILE__) . '" border="0"></a></div> <!-- c_tick --></td>
 </tr>
 
 </table><br>
 <div id="ad_fsmi_2_button_order">
-<a href="http://clients.acurax.com/cart.php?gid=8&utm_source=plugin_settings&utm_medium=banner_below_table&utm_campaign=plugin_yellow_order" target="_blank"><div id="ad_fsmi_2_button_order_link"></div></a></div> <!-- ad_fsmi_2_button_order --> <br>
-<div id="ad_fsmi_2_button_payments">
-<a href="http://clients.acurax.com/cart.php?gid=8&utm_source=plugin_settings&utm_medium=banner&utm_campaign=plugin_payments_banner" target="_blank"><div id="ad_fsmi_2_button_payments_link"></div></a> </div>
+<a href="http://clients.acurax.com/floating-socialmedia.php?utm_source=plugin_settings&utm_medium=banner_below_table&utm_campaign=plugin_yellow_order" target="_blank"><div id="ad_fsmi_2_button_order_link"></div></a></div> <!-- ad_fsmi_2_button_order --> 
 <br></div -->';
-$ad_2='<div id="ad_fsmi_2"> <a href="http://clients.acurax.com/cart.php?gid=8&utm_source=plugin_settings&utm_medium=banner&utm_campaign=plugin_enjoy" target="_blank"><div id="ad_fsmi_2_button"></div></a> </div> <!-- ad_fsmi_2 --><br>
+$ad_2='<div id="ad_fsmi_2"> <a href="http://clients.acurax.com/floating-socialmedia.php?utm_source=plugin_settings&utm_medium=banner&utm_campaign=plugin_enjoy" target="_blank"><div id="ad_fsmi_2_button"></div></a> </div> <!-- ad_fsmi_2 --><br>
 <div id="ad_fsmi_2_button_order">
-<a href="http://clients.acurax.com/cart.php?gid=8&utm_source=plugin_settings&utm_medium=banner&utm_campaign=plugin_yellow_order" target="_blank"><div id="ad_fsmi_2_button_order_link"></div></a></div> <!-- ad_fsmi_2_button_order --> <br>
-<div id="ad_fsmi_2_button_payments">
-<a href="http://clients.acurax.com/cart.php?gid=8&utm_source=plugin_settings&utm_medium=banner&utm_campaign=plugin_payments_banner" target="_blank"><div id="ad_fsmi_2_button_payments_link"></div></a> </div>';
+<a href="http://clients.acurax.com/floating-socialmedia.php?utm_source=plugin_settings&utm_medium=banner&utm_campaign=plugin_yellow_order" target="_blank"><div id="ad_fsmi_2_button_order_link"></div></a></div> <!-- ad_fsmi_2_button_order --> ';
 if($ad=="") { echo $ad_2; } else if ($ad == 1) { echo $ad_1; } else if ($ad == 2) { echo $ad_2; } 
 }
 

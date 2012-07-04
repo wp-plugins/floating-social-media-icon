@@ -136,7 +136,7 @@ update_option('acx_si_installed_date', $acx_si_installed_date);
 </h2>
 </div>
 <div style="float: left; padding: 0px; margin-top: -8px;">
-<a href="http://clients.acurax.com/cart.php?gid=8&utm_source=plugin_settings_top&utm_medium=link&utm_campaign=plugin_settings" target="_blank"><img src="<?php echo plugins_url('images/yellow.png', __FILE__);?>"></a>
+<a href="http://clients.acurax.com/floating-socialmedia.php?utm_source=plugin_settings_top&utm_medium=link&utm_campaign=plugin_settings" target="_blank"><img src="<?php echo plugins_url('images/yellow.png', __FILE__);?>"></a>
 </div>
 
 </div> <!-- acx_fsmi_premium -->
