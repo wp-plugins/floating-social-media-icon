@@ -204,6 +204,11 @@ Have more questions ? [Drop a mail](http://www.acurax.com/contact.php/ "Drop an 
 
 == Upgrade Notice ==
 
+= 1.1.4 =
+* July 14, 2012 | NOTE: UPGRADING PLUGIN WILL NOT CHANGE YOUR SETTINGS/CONFIGURATION.. UPGRADE WITH CONFIDENCE :)..
+* Added Align Option In Widget Settings
+* Fixed Conflict With Other Plugins Settings Menu so Acx Social Icon Menu will not Disappear
+
 = 1.1.3 =
 * June 01, 2012 | NOTE: UPGRADING PLUGIN WILL NOT CHANGE YOUR SETTINGS/CONFIGURATION.. UPGRADE WITH CONFIDENCE :)..
 * Optimized Images
@@ -262,6 +267,11 @@ Have more questions ? [Drop a mail](http://www.acurax.com/contact.php/ "Drop an 
 * Fixed Design Icon Clarity
 
 == Changelog ==
+
+= 1.1.4 =
+* July 14, 2012 | NOTE: UPGRADING PLUGIN WILL NOT CHANGE YOUR SETTINGS/CONFIGURATION.. UPGRADE WITH CONFIDENCE :)..
+* Added Align Option In Widget Settings
+* Fixed Conflict With Other Plugins Settings Menu so Acx Social Icon Menu will not Disappear
 
 = 1.1.3 =
 * June 01, 2012 | NOTE: UPGRADING PLUGIN WILL NOT CHANGE YOUR SETTINGS/CONFIGURATION.. UPGRADE WITH CONFIDENCE :)..

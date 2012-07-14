@@ -622,6 +622,7 @@ class Acx_Social_Icons_Widget extends WP_Widget
         $title = apply_filters( 'widget_title', $instance['title'] );
 		$icon_size = $instance['icon_size'];
 		$icon_theme = $instance['icon_theme'];
+		$icon_align = $instance['icon_align'];
 
         // This is defined when you register a sidebar
         echo $before_widget;
@@ -633,9 +634,10 @@ class Acx_Social_Icons_Widget extends WP_Widget
         }
 		echo "<style>\n";
 		echo "." . $this->get_field_id('widget') . " img \n{\n";
-		echo "width:" . $icon_size . "px; \n}\n";
+		echo "width:" . $icon_size . "px; \n } \n";
 		echo "</style>";
-		echo "<div id='acurax_si_simple' align='center' class='" . $this->get_field_id('widget') . "'>";
+		echo "<div id='acurax_si_simple' class='" . $this->get_field_id('widget') . "'";
+		if($icon_align != "") { echo " align='" . $icon_align . "'>"; } else { echo " align='center'>"; }
 		acurax_si_simple($icon_theme);
 		echo "</div>";
         // This is defined when you register a sidebar
@@ -691,6 +693,20 @@ class Acx_Social_Icons_Widget extends WP_Widget
 				}	?>
 				</select>
 			</p>
+			<p>
+				<label for="<?php echo $this->get_field_id('icon_align'); ?>"><?php _e('Icon Align:'); ?></label>
+				<select class="widefat" name="<?php echo $this->get_field_name('icon_align'); ?>" id="<?php echo $this
+				->get_field_id('icon_align'); ?>">
+				<option value=""<?php if ($instance['icon_align'] == "") { echo 'selected="selected"'; } ?>>Default </
+				option>
+				<option value="left"<?php if ($instance['icon_align'] == "left") { echo 'selected="selected"'; } ?>>Left </
+				option>
+				<option value="center"<?php if ($instance['icon_align'] == "center") { echo 'selected="selected"'; } ?>>Center </
+				option>
+				<option value="right"<?php if ($instance['icon_align'] == "right") { echo 'selected="selected"'; } ?>>Right </
+				option>
+				</select>
+			</p>
 		<?php
 	}
 
@@ -704,6 +720,7 @@ class Acx_Social_Icons_Widget extends WP_Widget
 		$instance['title'] = strip_tags( $new_instance['title'] );
 		$instance['icon_size'] = strip_tags( $new_instance['icon_size'] );
 		$instance['icon_theme'] = strip_tags( $new_instance['icon_theme'] );
+		$instance['icon_align'] = strip_tags( $new_instance['icon_align'] );
 		return $instance;
 	}
 } add_action('widgets_init', create_function('', 'return register_widget("Acx_Social_Icons_Widget");'));
