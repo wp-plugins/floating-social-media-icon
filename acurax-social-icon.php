@@ -76,7 +76,7 @@ function acx_social_icon_premium()
 
 function acx_social_icon_admin_actions()
 {
-	add_menu_page(  'Acurax Social Icon Plugin Configuration', 'Acx Social Icons', 8, 'Acurax-Social-Icons-Settings','acx_social_icon_admin',plugin_dir_url( __FILE__ ).'/images/admin.ico' ); // 8 for admin
+	add_menu_page(  'Acurax Social Icon Plugin Configuration', 'Floating Social Media Settings', 8, 'Acurax-Social-Icons-Settings','acx_social_icon_admin',plugin_dir_url( __FILE__ ).'/images/admin.ico' ); // 8 for admin
 	
 	add_submenu_page('Acurax-Social-Icons-Settings', 'Acurax Social Icon Premium', 'Premium', 8, 'Acurax-Social-Icons-Premium' ,'acx_social_icon_premium');
 	

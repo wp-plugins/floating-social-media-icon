@@ -334,3 +334,28 @@ font-weight:normal;
     font-family: sans-serif;
     font-size: 21px;
 }
+#toplevel_page_Acurax-Social-Icons-Settings
+{
+background: none repeat scroll 0 0 LimeGreen;
+color: white;
+}
+#toplevel_page_Acurax-Social-Icons-Settings li a
+{
+color: #21759B;
+text-align: left;
+}
+#toplevel_page_Acurax-Social-Icons-Settings img
+{
+	background: none repeat scroll 0 0 white;
+    border-radius: 4px 4px 4px 4px;
+    margin-left: 4px;
+    margin-top: 11px;
+    opacity: 1 !important;
+    padding: 4px !important;
+}
+#toplevel_page_Acurax-Social-Icons-Settings a
+{
+	color: white;
+    font-size: 12px !important;
+    text-align: center;
+}
