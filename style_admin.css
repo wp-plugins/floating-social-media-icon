@@ -344,6 +344,15 @@ color: white;
 color: #21759B;
 text-align: left;
 }
+.folded #toplevel_page_Acurax-Social-Icons-Settings .wp-submenu-head
+{
+color: #21759B;
+}
+.folded #toplevel_page_Acurax-Social-Icons-Settings img
+{
+margin-left: -1px !important;
+margin-top: 1px !important;
+}
 #toplevel_page_Acurax-Social-Icons-Settings img
 {
 	background: none repeat scroll 0 0 white;
