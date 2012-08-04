@@ -131,7 +131,7 @@ update_option('acx_si_installed_date', $acx_si_installed_date);
 </p>
 
 <div id="acx_fsmi_premium">
-<a style="margin: 8px 0px 0px 10px; float: left; font-size: 16px; font-weight: bold;" href="admin.php?page=Acurax-Social-Icons-Premium">Fully Featured - Premium Floating Social Media Icon</a>
+<a style="margin: 8px 0px 0px 10px; float: left; font-size: 16px; font-weight: bold;" href="http://clients.acurax.com/floating-socialmedia.php" target="_blank">Fully Featured - Premium Floating Social Media Icon</a>
 <a style="margin: -14px 0px 0px 10px; float: left;" href="http://clients.acurax.com/floating-socialmedia.php?utm_source=plugin_settings_top&utm_medium=link&utm_campaign=plugin_settings" target="_blank"><img src="<?php echo plugins_url('images/yellow.png', __FILE__);?>"></a>
 </div> <!-- acx_fsmi_premium -->
 
