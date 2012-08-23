@@ -35,7 +35,7 @@ A Quicklook
 	
 	★ Featured Plugin On Many Plugin Review Sites
 
-You can make the icons to appear automatically or you can use widgets,
+You can make the icons to appear automatically or you can use social media widgets,
 shortcode or php code to display icons where ever you like to show.
 If you use the option to show it automatically.
 
@@ -55,7 +55,7 @@ Multiple Social Media Widget Support
  
 Shortcode Support
 	
-	★ Each Shortcode Support Seperate Icon Theme and Icon Size (check faq)
+	★ Each Shortcode Support Seperate social media Icon Theme and Icon Size (check faq)
 
 Icons in content
 
@@ -70,7 +70,7 @@ Other Features
 	
 	★ Easy to configure user interface
 	
-	★ Icon Size Selection Support
+	★ Social Media Icon Size Selection Support
 	
 	★ Automatic Integration
 	
@@ -78,7 +78,7 @@ Other Features
 	
 	★ Pinterest Support
 
-In Short we can say, this is an ultimate social icon widget that can be configured to float or not to float on your visitors screen.. check screenshots and video for a clear understanding.
+In Short we can say, this is an ultimate social media icon widget that can be configured to float or not to float on your visitors screen.. check screenshots and video for a clear understanding.
 
 We Always Look Forward Your Comments and Suggestions for Future Updates. You can Submit Your Comments at our [Website](http://www.acurax.com/ "Website Designing")
 
@@ -146,9 +146,9 @@ Yes, You can.. Just to go **"Acx Social icons"** Menu which is in left side on w
 
 You can use the shortcode  **[DISPLAY_ACURAX_ICONS]** in any post or page or even in your custom post types. You can also use  **&lt;?php DISPLAY_ACURAX_ICONS(); ?&gt;** anywhere in the theme files to show this icons.(But note that manual icons display will not have the animation
 
-= Can i customize the shortcode to show icons with differant icon design and size? =
+= Can i customize the shortcode to show social media icons with differant icon design and size? =
 
-Yes, You can use shortcode to display icon and set icon size,what ever you want which is supported by the plugin. You can override the global icon theme and size configuration using some attributes on shortcode.
+Yes, You can use shortcode to display icon and set social media icon size,what ever you want which is supported by the plugin. You can override the global icon theme and size configuration using some attributes on shortcode.
 
 As you know we have given icon themes, Numbers to identify. Right now we have themes like, 1,2,3,4....
 
