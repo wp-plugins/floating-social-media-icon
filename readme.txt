@@ -39,7 +39,7 @@ You can make the icons to appear automatically or you can use social media widge
 shortcode or php code to display icons where ever you like to show.
 If you use the option to show it automatically.
 
-	★ [Floating Social Media Icon Premium Version is available with more features and performance improvements](http://clients.acurax.com/link.php?id=11 "Floating Social Media Icon Premium")
+[Floating Social Media Icon Premium Version is available with more features and performance improvements](http://clients.acurax.com/link.php?id=11/ "Floating Social Media Icon Premium")
 
 The icons will fly from top left to bottom right and it will stay there
 even if	user scrolls the page, thus it floats
