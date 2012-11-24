@@ -198,11 +198,10 @@ Have more questions ? [Drop a mail](http://www.acurax.com/contact.php/ "Drop an 
 
 == Screenshots ==
 
-1. Plugin Settings Page (Low Quality Screenshot To Load Fast)
-2. Plugin in action, It will stay at bottom right with animated move even if we scroll.. Auto and Manual Mode. It Shows Both Floating and Shortcode Icons.. (Low Quality Screenshot To Load Fast)
-3. Icon Settings Style/Theme and Size Selection Options (Low Quality Screenshot To Load Fast)
-4. Social Media Profile Link Settings (Low Quality Screenshot To Load Fast)
-5. Credit Link Enable Disable Option (Low Quality Screenshot To Load Fast)
+1. Floating Social Media Icon Plugin Settings Full Page (Low Quality Screenshot To Load Fast)
+2. Plugin in Action,Widget Preview and Floating Preview, If Display Mode is Auto, the floating icons will fly from top left and stay at bottom right and move along with scroll. [INSET: Widget Settings] (Low Quality Screenshot To Load Fast)
+3. Icon Style/Themes Available With This Plugin. (Low Quality Screenshot To Load Fast)
+4. Icon Size Selection, Reorder Icons Drag and Drop, Social Media Profile Link Settings. (Low Quality Screenshot To Load Fast)
 
 == Upgrade Notice ==
 
