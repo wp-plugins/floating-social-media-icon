@@ -3,6 +3,19 @@
 $total_themes = ACX_SOCIALMEDIA_TOTAL_THEMES; // DEFINE NUMBER OF THEMES HERE
 $total_themes = ($total_themes+1); // DO NOT EDIT THIS
 /**********************************************/
+
+if($_GET["backlink"] == "enable") {
+$acx_si_credit = "yes";  // Current Version
+update_option('acx_si_credit', $acx_si_credit);
+?>
+<style type='text/css'>
+#acx_backlink
+{
+display:none;
+}
+</style>
+<?php }
+
 if($_POST['acurax_social_icon_hidden'] == 'Y') 
 {	//Form data sent
 	$acx_si_theme = $_POST['acx_si_theme'];
@@ -74,6 +87,8 @@ update_option('acx_si_installed_date', $acx_si_installed_date);
 		$social_icon_array_order = array(0,1,2,3,4,5,6);
 		$social_icon_array_order = serialize($social_icon_array_order);
 		update_option('social_icon_array_order', $social_icon_array_order);
+		$acx_fsmi_si_current_version = "1.1.5";  // Current Version
+		update_option('acx_fsmi_si_current_version', $acx_fsmi_si_current_version);
 	} else 
 	{
 		// Counting and Adding New Keys (UPGRADE PURPOSE)
@@ -121,6 +136,9 @@ update_option('acx_si_installed_date', $acx_si_installed_date);
 	
 	
 <div class="wrap">
+<?php
+$acx_si_fsmi_acx_service_banners = get_option('acx_si_fsmi_acx_service_banners');
+if ($acx_si_fsmi_acx_service_banners != "no") { ?>
 <p class="widefat" style="padding:8px;width:99%;height: 75px;">
 	<b>Acurax Services >> </b><br>
 	<a href="http://www.acurax.com/services/wordpress-designing-experts.php?utm_source=plugin-page&utm_medium=banner&utm_campaign=fsmi" target="_blank" id="wtd" style="background:url(<?php echo plugins_url('images/wtd.jpg', __FILE__);?>);"></a>
@@ -129,43 +147,32 @@ update_option('acx_si_installed_date', $acx_si_installed_date);
 	<a href="http://www.acurax.com/social-media-marketing-optimization/social-profile-design.php?utm_source=plugin-page&utm_medium=banner&utm_campaign=fsmi" target="_blank" id="spd" style="background:url(<?php echo plugins_url('images/spd.jpg', __FILE__);?>);"></a>
 	<a href="http://www.acurax.com/services/website-redesign.php?utm_source=plugin-page&utm_medium=banner&utm_campaign=fsmi" target="_blank" id="wrd" style="background:url(<?php echo plugins_url('images/wr.jpg', __FILE__);?>);"></a>
 </p>
-
+<?php } else { ?>
+<p class="widefat" style="padding:8px;width:99%;">
+<b>Acurax Services >> </b>
+<a href="http://www.acurax.com/services/blog-design.php" target="_blank">Wordpress Theme Design</a> | 
+<a href="http://www.acurax.com/services/web-designing.php" target="_blank">Website Design</a> | 
+<a href="http://www.acurax.com/social-media-marketing-optimization/social-profile-design.php" target="_blank">Social Profile Design</a> | 
+<a href="http://www.acurax.com/social-media-marketing-optimization/twitter-background-design.php" target="_blank">Twitter Background Design</a> | 
+<a href="http://www.acurax.com/social-media-marketing-optimization/facebook-page-design.php" target="_blank">Facebook Page Design</a>
+</p>
+<?php } ?>
 <div id="acx_fsmi_premium">
 <a style="margin: 8px 0px 0px 10px; float: left; font-size: 16px; font-weight: bold;" href="http://clients.acurax.com/floating-socialmedia.php?utm_source=plugin&utm_medium=highlight&utm_campaign=fsmi" target="_blank">Fully Featured - Premium Floating Social Media Icon</a>
 <a style="margin: -14px 0px 0px 10px; float: left;" href="http://clients.acurax.com/floating-socialmedia.php?utm_source=plugin&utm_medium=highlight_yellow&utm_campaign=fsmi" target="_blank"><img src="<?php echo plugins_url('images/yellow.png', __FILE__);?>"></a>
 </div> <!-- acx_fsmi_premium -->
-
-<?php echo "<h2>" . __( 'Acurax Social Icons Options', 'acx_si_config' ) . "</h2>"; ?>
 
 <form name="acurax_si_form" method="post" action="<?php echo str_replace( '%7E', '~', $_SERVER['REQUEST_URI']); ?>">
 	<input type="hidden" name="acurax_social_icon_hidden" value="Y">
 	<?php
 	if($acx_si_credit != "yes")
 	{	?>
-		<div id='acurax_notice' align='center'>
-			<p>
-				<strong style='color:darkred;'>
-				You Have Selected Show Credit Link as <b>NO</b>. We Appreciate You Link Back to Our Website,Select Yes to 
-				Enable Credit Link.
-				</strong>
-			</p>
-
-			<select name="acx_si_credit" onChange="this.form.submit();" style="font-size:18px;">
-				<option value="yes"<?php if ($acx_si_credit == "yes") { echo 'selected="selected"'; } ?>>Yes, Show Credit 
-				Link </option>
-				<option value="no"<?php if ($acx_si_credit == "no") { echo 'selected="selected"'; } ?>>No, Hide Credit Link
-				</option>
-			</select>
-
-			<p>
-				<strong style='color:darkred;'>Its just a small font size link at the very bottom of your website/blog :) We 
-				helping you by providing this plugin for free.. so help us back..
-				</strong>
-			</p>
+		<div id='acx_backlink' align='center'>
+Please do a favour by enabling backlink to our site. <a href="admin.php?page=Acurax-Social-Icons-Settings&backlink=enable">Okay, Enable.</a> 
 		</div>
 		<?php 
 	}	?>
-
+<?php echo "<h2 style='clear: both;'>" . __( 'Acurax Social Icons Options', 'acx_si_config' ) . "</h2>"; ?>
 
 	<?php    echo "<h4>" . __( 'Select an icon style', 'acx_si_config' ) . "</h4>"; ?>
 		
@@ -417,10 +424,17 @@ update_option('acx_si_installed_date', $acx_si_installed_date);
 
 	<p class="submit">
 		<input type="submit" name="Submit" value="<?php _e('Update Acurax Social Icon', 'acx_si_config' ) ?>" />
+		<a name="updated">.</a>
 	</p>
 
 </form>
 
+<?php if($_GET["status"] == "updated") { ?>
+<div style="display: block; background-color: rgb(255, 255, 224); padding: 10px; border: 1px solid rgb(230, 219, 85); font-family: arial; font-size: 13px; font-weight: bold; text-align: center; border-radius: 10px 10px 10px 10px;">Acurax Floating Social Media Icon Update Successfully Completed - Thank You</div>
+<?php
+$acx_fsmi_si_current_version = "1.1.5";  // Current Version
+update_option('acx_fsmi_si_current_version', $acx_fsmi_si_current_version);
+} ?>
 <hr/>
 <?php socialicons_comparison(1); ?> 
 

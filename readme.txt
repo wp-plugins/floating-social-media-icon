@@ -205,6 +205,15 @@ Have more questions ? [Drop a mail](http://www.acurax.com/contact.php/ "Drop an 
 
 == Upgrade Notice ==
 
+= 1.1.5 =
+* November 29, 2012 | NOTE: UPGRADING PLUGIN WILL NOT CHANGE YOUR SETTINGS/CONFIGURATION.. UPGRADE WITH CONFIDENCE :)
+* Added Misc settings.
+* Now in Misc settings - You have option to fix icons displaying in vertical issue.
+* Added alt tags to icons.
+* Fixed Missing Argument Issue.
+* Added title tags to icon links.
+* Graphics Improvements
+
 = 1.1.4 =
 * July 14, 2012 | NOTE: UPGRADING PLUGIN WILL NOT CHANGE YOUR SETTINGS/CONFIGURATION.. UPGRADE WITH CONFIDENCE :)..
 * Added Align Option In Widget Settings
@@ -268,6 +277,15 @@ Have more questions ? [Drop a mail](http://www.acurax.com/contact.php/ "Drop an 
 * Fixed Design Icon Clarity
 
 == Changelog ==
+
+= 1.1.5 =
+* November 29, 2012 | NOTE: UPGRADING PLUGIN WILL NOT CHANGE YOUR SETTINGS/CONFIGURATION.. UPGRADE WITH CONFIDENCE :)
+* Added Misc settings.
+* Now in Misc settings - You have option to fix icons displaying in vertical issue.
+* Added alt tags to icons.
+* Fixed Missing Argument Issue.
+* Added title tags to icon links.
+* Graphics Improvements.
 
 = 1.1.4 =
 * July 14, 2012 | NOTE: UPGRADING PLUGIN WILL NOT CHANGE YOUR SETTINGS/CONFIGURATION.. UPGRADE WITH CONFIDENCE :)..

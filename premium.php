@@ -16,10 +16,6 @@ Thanks again for using the plugin. we will never show the mesage again.
 }
 ?>
 <div id="acx_help_page">
-<?php 
-socialicons_comparison();
-?>
-<div align="center"><img style="border:1px solid gray;box-shadow:1px 1px 20px -9px black;border-radius: 8px 8px 8px 8px;" src="<?php echo plugins_url('images/money_back.jpg', __FILE__); ?>"></div>
 <?php
 socialicons_comparison(1);
 ?>

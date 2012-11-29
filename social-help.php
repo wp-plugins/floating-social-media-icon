@@ -12,5 +12,4 @@
 <?php 
 socialicons_comparison(1);
 acurax_optin(); ?>
-
 </div> <!-- acx_help_page -->

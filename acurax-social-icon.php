@@ -4,7 +4,7 @@ Plugin Name: Floating Social Media Icon
 Plugin URI: http://www.acurax.com/products/floating-social-media-icon-plugin-wordpress/
 Description: An easy to use plugin to show social media icons which floats on your browsers right bottom, which links to your social media profiles, You have option in plugin settings to configure social media profile urls and also can select icon style,order and size.
 Author: Acurax 
-Version: 1.1.4
+Version: 1.1.5
 Author URI: http://www.acurax.com 
 License: GPLv2 or later
 */
@@ -74,11 +74,18 @@ function acx_social_icon_premium()
 	include('premium.php');
 }
 
+function acx_social_icon_misc() 
+{
+	include('fsmi-misc.php');
+}
+
 function acx_social_icon_admin_actions()
 {
 	add_menu_page(  'Acurax Social Icon Plugin Configuration', 'Floating Social Media Settings', 8, 'Acurax-Social-Icons-Settings','acx_social_icon_admin',plugin_dir_url( __FILE__ ).'/images/admin.ico' ); // 8 for admin
 	
 	add_submenu_page('Acurax-Social-Icons-Settings', 'Acurax Social Icon Premium', 'Premium', 8, 'Acurax-Social-Icons-Premium' ,'acx_social_icon_premium');
+	
+	add_submenu_page('Acurax-Social-Icons-Settings', 'Acurax Social Icon Misc Settings', 'Misc', 8, 'Acurax-Social-Icons-Misc' ,'acx_social_icon_misc');
 	
 	add_submenu_page('Acurax-Social-Icons-Settings', 'Acurax Social Icon Help and Support', 'Help', 8, 'Acurax-Social-Icons-Help' ,'acx_social_icon_help');
 }
