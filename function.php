@@ -992,6 +992,7 @@ PHP Code Support
 </div> <!-- row_3 -->
 </div> <!-- fsmi_lp_compare -->
 <div id="fsmi_lp_shadow"></div> <!-- fsmi_lp_shadow -->
+<div style="font-family: arial; font-size: 11px; color: darkgreen; float: left; margin-left: 39px; margin-bottom: 5px;">* Special Offer Price on Premium Version for Free Plugin Users Valid Only Until Next Free Version Upgrade - Click Order Now to Get Premium Version for $19.50</div>
 </div> <!-- fsmi_landing_holder -->
 
 
