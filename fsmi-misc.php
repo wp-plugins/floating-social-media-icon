@@ -84,7 +84,7 @@ if ($acx_si_fsmi_float_fix == "") {	$acx_si_fsmi_float_fix = "no"; }
 
 
 <p class="submit">
-<input type="submit" name="Submit" value="<?php _e('Update Acurax Social Icon', 'acx_si_config' ) ?>" />
+<input type="submit" name="Submit" value="<?php _e('Save Settings', 'acx_si_config' ) ?>" />
 </p>
 
 </form>

@@ -423,7 +423,7 @@ Please do a favour by enabling backlink to our site. <a href="admin.php?page=Acu
 	} ?>
 
 	<p class="submit">
-		<input type="submit" name="Submit" value="<?php _e('Update Acurax Social Icon', 'acx_si_config' ) ?>" />
+		<input type="submit" name="Submit" value="<?php _e('Save Configuration', 'acx_si_config' ) ?>" />
 		<a name="updated">.</a>
 	</p>
 
