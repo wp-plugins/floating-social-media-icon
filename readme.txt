@@ -148,6 +148,13 @@ Yes, You can.. Just to go **"Acx Social icons"** Menu which is in left side on w
 
 You can use the shortcode  **[DISPLAY_ACURAX_ICONS]** in any post or page or even in your custom post types. You can also use  **&lt;?php DISPLAY_ACURAX_ICONS(); ?&gt;** anywhere in the theme files to show this icons.(But note that manual icons display will not have the animation
 
+= Can i have more than one php or shortcode to display the social media icon ? =
+
+Yes, You can have as many shortcode or php code to display the social media icons
+
+= Can i override the css styles of each social media icon set? =
+Yes, each of the shortcode or php generated social media icon set is having unique css class and it help you to define specific style for each social media icon set.
+
 = Can i customize the shortcode to show social media icons with differant icon design and size? =
 
 Yes, You can use shortcode to display icon and set social media icon size,what ever you want which is supported by the plugin. You can override the global icon theme and size configuration using some attributes on shortcode.
