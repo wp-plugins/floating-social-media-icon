@@ -212,14 +212,20 @@ Have more questions ? [Drop a mail](http://www.acurax.com/contact.php/ "Drop an 
 
 == Upgrade Notice ==
 
+= 1.3.1 =
+* August 28, 2013 | NOTE: UPGRADING PLUGIN WILL NOT CHANGE YOUR SETTINGS/CONFIGURATION.. UPGRADE WITH CONFIDENCE :)
+* Stable Release
+* Security Improvements
+* Bug Fixes
+
 = 1.3 =
-* June 26, 2012 | NOTE: UPGRADING PLUGIN WILL NOT CHANGE YOUR SETTINGS/CONFIGURATION.. UPGRADE WITH CONFIDENCE :)
+* June 26, 2013 | NOTE: UPGRADING PLUGIN WILL NOT CHANGE YOUR SETTINGS/CONFIGURATION.. UPGRADE WITH CONFIDENCE :)
 * Stable Release
 * Improved UI
 * Improved Programming Structure
 
 = 1.2 =
-* February 20, 2012 | NOTE: UPGRADING PLUGIN WILL NOT CHANGE YOUR SETTINGS/CONFIGURATION.. UPGRADE WITH CONFIDENCE :)
+* February 20, 2013 | NOTE: UPGRADING PLUGIN WILL NOT CHANGE YOUR SETTINGS/CONFIGURATION.. UPGRADE WITH CONFIDENCE :)
 * Added Option to disable highlighting menu on admin area
 * Added Option to disable highlighting plugin on plugin list
 * Improved CSS Styling
@@ -300,14 +306,20 @@ Have more questions ? [Drop a mail](http://www.acurax.com/contact.php/ "Drop an 
 
 == Changelog ==
 
+= 1.3.1 =
+* August 28, 2013 | NOTE: UPGRADING PLUGIN WILL NOT CHANGE YOUR SETTINGS/CONFIGURATION.. UPGRADE WITH CONFIDENCE :)
+* Stable Release
+* Security Improvements
+* Bug Fixes
+
 = 1.3 =
-* June 26, 2012 | NOTE: UPGRADING PLUGIN WILL NOT CHANGE YOUR SETTINGS/CONFIGURATION.. UPGRADE WITH CONFIDENCE :)
+* June 26, 2013 | NOTE: UPGRADING PLUGIN WILL NOT CHANGE YOUR SETTINGS/CONFIGURATION.. UPGRADE WITH CONFIDENCE :)
 * Stable Release
 * Improved UI
 * Improved Programming Structure
 
 = 1.2 =
-* February 20, 2012 | NOTE: UPGRADING PLUGIN WILL NOT CHANGE YOUR SETTINGS/CONFIGURATION.. UPGRADE WITH CONFIDENCE :)
+* February 20, 2013 | NOTE: UPGRADING PLUGIN WILL NOT CHANGE YOUR SETTINGS/CONFIGURATION.. UPGRADE WITH CONFIDENCE :)
 * Added Option to disable highlighting menu on admin area
 * Added Option to disable highlighting plugin on plugin list
 * Improved CSS Styling

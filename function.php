@@ -503,7 +503,7 @@ function acx_fsmi_si_pluign_finish_version_update()
 		  </div>';
 }
 $acx_fsmi_si_current_version = get_option('acx_fsmi_si_current_version');
-if($acx_fsmi_si_current_version != '1.3') // Current Version
+if($acx_fsmi_si_current_version != '1.3.1') // Current Version
 {
 if (get_option('social_icon_array_order') != "")
 {
@@ -952,4 +952,17 @@ $ad_2='<div id="ad_fsmi_2"> <a href="http://clients.acurax.com/floating-socialme
 <a href="http://clients.acurax.com/floating-socialmedia.php?utm_source=plugin_fsmi_settings&utm_medium=banner&utm_campaign=plugin_yellow_order" target="_blank"><div id="ad_fsmi_2_button_order_link"></div></a></div> <!-- ad_fsmi_2_button_order --> ';
 if($ad=="" || $ad == 2) { echo $ad_2; } else if ($ad == 1) { echo $ad_1; } else { echo $ad_2; } 
 } // Updated
+function acx_fsmi_saveorder_callback()
+{
+	global $wpdb;
+$social_icon_array_order = $_POST['recordsArray'];
+if (current_user_can('manage_options')) {
+	$social_icon_array_order = serialize($social_icon_array_order);
+	update_option('social_icon_array_order', $social_icon_array_order);
+	echo "<div id='acurax_notice' align='center' style='width: 420px; font-family: arial; font-weight: normal; font-size: 22px;'>";
+	echo "Social Media Icon's Order Saved";
+	echo "</div><br>";
+}
+	die(); // this is required to return a proper result
+} add_action('wp_ajax_acx_fsmi_saveorder', 'acx_fsmi_saveorder_callback');
 ?>
