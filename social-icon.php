@@ -3,7 +3,6 @@
 $total_themes = ACX_SOCIALMEDIA_TOTAL_THEMES; // DEFINE NUMBER OF THEMES HERE
 $total_themes = ($total_themes+1); // DO NOT EDIT THIS
 /**********************************************/
-
 if($_GET["backlink"] == "enable") {
 $acx_si_credit = "yes";  // Current Version
 update_option('acx_si_credit', $acx_si_credit);
@@ -15,45 +14,33 @@ display:none;
 }
 </style>
 <?php }
-
 if($_POST['acurax_social_icon_hidden'] == 'Y') 
 {	//Form data sent
 	$acx_si_theme = $_POST['acx_si_theme'];
 	update_option('acx_si_theme', $acx_si_theme);
-
 	$acx_si_twitter = $_POST['acx_si_twitter'];
 	update_option('acx_si_twitter', $acx_si_twitter);
-
 	$acx_si_facebook = $_POST['acx_si_facebook'];
 	update_option('acx_si_facebook', $acx_si_facebook);
-
 	$acx_si_youtube = $_POST['acx_si_youtube'];
 	update_option('acx_si_youtube', $acx_si_youtube);
-
 	$acx_si_linkedin = $_POST['acx_si_linkedin'];
 	update_option('acx_si_linkedin', $acx_si_linkedin);
-
 	$acx_si_gplus = $_POST['acx_si_gplus'];
 	update_option('acx_si_gplus', $acx_si_gplus);
-
 	$acx_si_credit = $_POST['acx_si_credit'];
 	update_option('acx_si_credit', $acx_si_credit);
-
 	$acx_si_icon_size = $_POST['acx_si_icon_size'];
 	update_option('acx_si_icon_size', $acx_si_icon_size);
-
 	$acx_si_display = $_POST['acx_si_display'];
 	update_option('acx_si_display', $acx_si_display);
-
 	$acx_si_pinterest = $_POST['acx_si_pinterest'];
 	update_option('acx_si_pinterest', $acx_si_pinterest);
 	
 	$acx_si_feed = $_POST['acx_si_feed'];
 	update_option('acx_si_feed', $acx_si_feed);
-
 	$social_icon_array_order = get_option('social_icon_array_order');
 	$acx_si_fsmi_hide_advert = get_option('acx_si_fsmi_hide_advert');
-
 		?>
 		<div class="updated"><p><strong><?php _e('Acurax Floating Social Icons Settings Saved!.' ); ?></strong></p></div>
 		<?php
@@ -83,14 +70,12 @@ update_option('acx_si_installed_date', $acx_si_installed_date);
 	if ($acx_si_display == "") { $acx_si_display = "auto"; }
 	if ($acx_si_theme == "") { $acx_si_theme = "1"; }
 	if ($acx_si_fsmi_hide_advert == "") { $acx_si_fsmi_hide_advert = "no"; }
-
-
 	if ($social_icon_array_order == "") 
 	{
 		$social_icon_array_order = array(0,1,2,3,4,5,6);
 		$social_icon_array_order = serialize($social_icon_array_order);
 		update_option('social_icon_array_order', $social_icon_array_order);
-		$acx_fsmi_si_current_version = "1.3.1";  // Current Version
+		$acx_fsmi_si_current_version = "1.3.2";  // Current Version
 		update_option('acx_fsmi_si_current_version', $acx_fsmi_si_current_version);
 	} else 
 	{
@@ -114,7 +99,6 @@ update_option('acx_si_installed_date', $acx_si_installed_date);
 	} //Normal page display else
 } //Main else
 ?>
-
 	<!--  To Update Drag and Drop -->
 	<script type="text/javascript">
 	jQuery(document).ready(function()
@@ -179,7 +163,6 @@ Please do a favour by enabling backlink to our site. <a href="admin.php?page=Acu
 		<?php 
 	}	?>
 <?php echo "<h2 style='clear: both;'>" . __( 'Acurax Social Icons Options', 'acx_si_config' ) . "</h2>"; ?>
-
 	<?php    echo "<h4>" . __( 'Select an icon style', 'acx_si_config' ) . "</h4>"; ?>
 		
 	<p class="widefat" style="padding:8px;width:99%;">
@@ -217,12 +200,10 @@ Please do a favour by enabling backlink to our site. <a href="admin.php?page=Acu
 					{
 						echo "<img src=" . plugins_url('images/themes/'. $i .'/twitter.png', __FILE__) . ">"; 
 					} 	else 
-
 					if ($value == 1) 
 					{
 						echo "<img src=" . plugins_url('images/themes/'. $i .'/facebook.png', __FILE__) . ">"; 
 					}	else 
-
 					if ($value == 2) 
 					{
 						echo "<img src=" . plugins_url('images/themes/'. $i .'/googleplus.png', __FILE__) . ">"; 
@@ -232,12 +213,10 @@ Please do a favour by enabling backlink to our site. <a href="admin.php?page=Acu
 					{
 						echo "<img src=" . plugins_url('images/themes/'. $i .'/pinterest.png', __FILE__) . ">"; 
 					}	else
-
 					if ($value == 4) 
 					{
 						echo "<img src=" . plugins_url('images/themes/'. $i .'/youtube.png', __FILE__) . ">"; 
 					}	else 
-
 					if ($value == 5) 
 					{
 						echo "<img src=" . plugins_url('images/themes/'. $i .'/linkedin.png', __FILE__) . ">"; 
@@ -247,7 +226,6 @@ Please do a favour by enabling backlink to our site. <a href="admin.php?page=Acu
 					{
 						echo "<img src=" . plugins_url('images/themes/'. $i .'/feed.png', __FILE__) . ">"; 
 					}
-
 				}
 			?>			
 		</div>
@@ -257,7 +235,6 @@ Please do a favour by enabling backlink to our site. <a href="admin.php?page=Acu
 	echo "</div> <!-- acx_si_theme_display -->";
 	// Ending The Theme List
 	?>
-
 	<p class="widefat" style="padding:8px;width:99%;margin-top:8px;">	<?php _e("Social Icon Size: " ); ?>
 		<select name="acx_si_icon_size">
 			<option value="16"<?php if ($acx_si_icon_size == "16") { echo 'selected="selected"'; } ?>>16px X 16px </option>
@@ -269,59 +246,42 @@ Please do a favour by enabling backlink to our site. <a href="admin.php?page=Acu
 		</select>
 		<?php _e("Select a social icon size" ); ?>
 	</p>
-
 		<?php    echo "<h4>" . __( 'Social Media Icon Display Order - Drag and Drop to Reorder', 'acx_si_config' ) . "</h4>"; ?>
 	<div class="widefat" style="padding:8px;width:99%;margin-top:8px;">
 		<div id="contentLeft">
 			<ul>
 			<?php
-
 			foreach ($social_icon_array_order as $key => $value)
 			{
 				?>
 				<li id="recordsArray_<?php echo $value; ?>">
 				<?php 
-
 				if ($value == 0) 
 				{
 					echo "<img src=" . plugins_url('images/themes/'. $acx_si_theme .'/twitter.png', __FILE__) . " 
 					border='0'><br> Twitter"; 
 				} 	else 
-
-
-
 				if ($value == 1) 
 				{
 					echo "<img src=" . plugins_url('images/themes/'. $acx_si_theme .'/facebook.png', __FILE__) . " 
 					border='0'><br> Facebook"; 
 				}	else 
-
-
-
 				if ($value == 2) 
 				{
 					echo "<img src=" . plugins_url('images/themes/'. $acx_si_theme .'/googleplus.png', __FILE__) . " 
 					border='0'><br> Google Plus"; 
 				}	else
-
-
 				 
 				if ($value == 3) 
 				{
 					echo "<img src=" . plugins_url('images/themes/'. $acx_si_theme .'/pinterest.png', __FILE__) . " 
 					border='0'><br> Pinterest"; 
 				}	else
-
-
-
 				if ($value == 4) 
 				{
 					echo "<img src=" . plugins_url('images/themes/'. $acx_si_theme .'/youtube.png', __FILE__) . " 
 					border='0'><br> Youtube"; 
 				}	else 
-
-
-
 				if ($value == 5) 
 				{
 					echo "<img src=" . plugins_url('images/themes/'. $acx_si_theme .'/linkedin.png', __FILE__) . " 
@@ -333,17 +293,14 @@ Please do a favour by enabling backlink to our site. <a href="admin.php?page=Acu
 					echo "<img src=" . plugins_url('images/themes/'. $acx_si_theme .'/feed.png', __FILE__) . " 
 					border='0'><br> Rss Feed"; 
 				}
-
 					?>
 					</li>	<?php
 			}	?>
-
 			</ul>
 		</div>
 		<div id="contentRight"></div> <!-- contentRight -->
 		<?php _e("Drag and Reorder Icons (It will automatically save on reorder)" ); ?>
 	</div>
-
 <hr />
 		
 	<?php    echo "<h4>" . __( 'Social Media Settings', 'acx_si_config' ) . "</h4>"; ?>	
@@ -353,31 +310,26 @@ Please do a favour by enabling backlink to our site. <a href="admin.php?page=Acu
 			<input type="text" name="acx_si_twitter" value="<?php echo $acx_si_twitter; ?>" size="50">
 		<?php _e("<b>Eg:</b> acuraxdotcom" ); ?>
 	</p>
-
 	<p class="widefat" style="padding:8px;width:99%;">
 		<?php _e("Facebook Page/Profile URL: " ); ?>
 			<input type="text" name="acx_si_facebook" value="<?php echo $acx_si_facebook; ?>" size="50">
 		<?php _e("<b>Eg:</b> http://www.facebook.com/AcuraxInternational" ); ?>
 	</p>
-
 	<p class="widefat" style="padding:8px;width:99%;">
 		<?php _e("Google Plus URL: " ); ?>
 			<input type="text" name="acx_si_gplus" value="<?php echo $acx_si_gplus; ?>" size="50">
 		<?php _e("Enter Your Complete Google Plus Url Starting With http://" ); ?>
 	</p>
-
 	<p class="widefat" style="padding:8px;width:99%;">
 		<?php _e("Pinterest URL: " ); ?>
 			<input type="text" name="acx_si_pinterest" value="<?php echo $acx_si_pinterest; ?>" size="50">
 		<?php _e("Enter Your Complete Pinterest Url Starting With http://" ); ?>
 	</p>
-
 	<p class="widefat" style="padding:8px;width:99%;">
 		<?php _e("Youtube URL: " ); ?>
 			<input type="text" name="acx_si_youtube" value="<?php echo $acx_si_youtube; ?>" size="50">
 		<?php _e("<b>Eg:</b> http://www.youtube.com/user/acuraxdotcom" ); ?>
 	</p>
-
 	<p class="widefat" style="padding:8px;width:99%;">
 		<?php _e("Linkedin URL: " ); ?>
 			<input type="text" name="acx_si_linkedin" value="<?php echo $acx_si_linkedin; ?>" size="50">
@@ -389,12 +341,8 @@ Please do a favour by enabling backlink to our site. <a href="admin.php?page=Acu
 			<input type="text" name="acx_si_feed" value="<?php echo $acx_si_feed; ?>" size="50">
 		<?php _e("<b>Eg:</b> http://www.yourwebsite.com/feed" ); ?>
 	</p>
-
 <hr />
-
-
 	<?php    echo "<h4>" . __( 'Other Settings', 'acx_si_config' ) . "</h4>"; ?>	
-
 	<p class="widefat" style="padding:8px;width:99%;">
 		<?php _e("Display Mode: " ); ?>
 		
@@ -414,7 +362,6 @@ Please do a favour by enabling backlink to our site. <a href="admin.php?page=Acu
 <br>
 		If you select display mode as "Automatic Only" , it will show automatically but will not show anything for shortcode or php code, If you select as "Manual Only", It will not automatically show floating icons but you can place <?php highlight_string($code); ?> in your theme file or use the shortcode <?php highlight_string($code_2); ?>, to display the Social Icons where ever you want, If you select "Automatic and Manual", It will automatically show floating icons and will also show icons for shortcode and php code.
 	</p>
-
 	<?php if($acx_si_credit == "yes") 
 	{ ?>
 		<p class="widefat" style="padding:8px;width:99%;">
@@ -427,18 +374,15 @@ Please do a favour by enabling backlink to our site. <a href="admin.php?page=Acu
 		</p>	
 		<?php  
 	} ?>
-
 	<p class="submit">
 		<input type="submit" name="Submit" value="<?php _e('Save Configuration', 'acx_si_config' ) ?>" />
 		<a name="updated">.</a>
 	</p>
-
 </form>
-
 <?php if($_GET["status"] == "updated") { ?>
 <div style="display: block; background-color: rgb(255, 255, 224); padding: 10px; border: 1px solid rgb(230, 219, 85); font-family: arial; font-size: 13px; font-weight: bold; text-align: center; border-radius: 10px 10px 10px 10px;">Acurax Floating Social Media Icon Update Successfully Completed - Thank You</div>
 <?php
-$acx_fsmi_si_current_version = "1.3.1";  // Current Version
+$acx_fsmi_si_current_version = "1.3.2";  // Current Version
 update_option('acx_fsmi_si_current_version', $acx_fsmi_si_current_version);
 } ?>
 <hr/>
