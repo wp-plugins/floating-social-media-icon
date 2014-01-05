@@ -17,10 +17,6 @@ $acx_si_fsmi_menu_highlight = get_option('acx_si_fsmi_menu_highlight');
 $acx_si_fsmi_float_fix = get_option('acx_si_fsmi_float_fix');
 // *****************************************************
 // Check Credit Link
-function check_acx_credit($yes,$no)
-{ 	$acx_si_credit = get_option('acx_si_credit');
-	if($acx_si_credit != "no") { echo $yes; } else { echo $no; } 
-}
 function enqueue_acx_si_style()
 {
 	wp_enqueue_style ( 'acx-si-style', plugins_url('style.css', __FILE__) );
@@ -29,6 +25,10 @@ function enqueue_acx_si_style()
 function acx_option_value_check($option_name,$yes,$no)
 { 	$acx_si_option_set = get_option($option_name);
 	if ($acx_si_option_set != "") { echo $yes; } else { echo $no; }
+}
+function check_acx_credit($yes,$no)
+{ 	$acx_si_credit = get_option('acx_si_credit');
+	if($acx_si_credit != "no") { echo $yes; } else { echo $no; } 
 }
 function acurax_si_simple($theme = "") // Added Default "" // Updated << and V (alt added to Images Title Added to Links)
 {

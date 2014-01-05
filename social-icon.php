@@ -158,7 +158,7 @@ if($acx_si_fsmi_hide_advert == "no")
 	if($acx_si_credit != "yes")
 	{	?>
 		<div id='acx_backlink' align='center'>
-Please do a favour by enabling backlink to our site. <a href="admin.php?page=Acurax-Social-Icons-Settings&backlink=enable">Okay, Enable.</a> 
+Please do a favour by enabling back-link to our site. <a href="admin.php?page=Acurax-Social-Icons-Settings&backlink=enable">Okay, Enable.</a> 
 		</div>
 		<?php 
 	}	?>
