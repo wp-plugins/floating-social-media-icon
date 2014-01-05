@@ -472,7 +472,7 @@ function acx_fsmi_si_pluign_finish_version_update()
 		  </div>';
 }
 $acx_fsmi_si_current_version = get_option('acx_fsmi_si_current_version');
-if($acx_fsmi_si_current_version != '1.3.2') // Current Version
+if($acx_fsmi_si_current_version != '1.3.3') // Current Version
 {
 if (get_option('social_icon_array_order') != "")
 {
