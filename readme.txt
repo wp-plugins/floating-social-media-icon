@@ -36,7 +36,7 @@ A Quicklook
 	★ Featured Plugin On Many Plugin Review Sites
 
 You can make the icons to appear automatically or you can use social media widgets,
-shortcode or php code to display icons where ever you like to show.
+short-code or PHP code to display icons where ever you like to show.
 If you use the option to show it automatically.
 
 [Floating Social Media Icon Premium Version is available with more features and performance improvements](http://clients.acurax.com/link.php?id=11/ "Floating Social Media Icon Premium")
@@ -155,7 +155,7 @@ Yes, You can have as many shortcode or php code to display the social media icon
 = Can i override the css styles of each social media icon set? =
 Yes, each of the shortcode or php generated social media icon set is having unique css class and it help you to define specific style for each social media icon set.
 
-= Can i customize the shortcode to show social media icons with differant icon design and size? =
+= Can i customize the shortcode to show social media icons with different icon design and size? =
 
 Yes, You can use shortcode to display icon and set social media icon size,what ever you want which is supported by the plugin. You can override the global icon theme and size configuration using some attributes on shortcode.
 
