@@ -35,13 +35,13 @@ A Quicklook
 	
 	★ Featured Plugin On Many Plugin Review Sites
 
-You can make the icons to appear automatically or you can use social media widgets,
-short-code or PHP code to display icons where ever you like to show.
-If you use the option to show it automatically.
+You can make the social media icons to appear automatically or you can use social media widgets,
+short-code or PHP code to display the social media icons where ever you like to show.
 
 [Floating Social Media Icon Premium Version is available with more features and performance improvements](http://clients.acurax.com/link.php?id=11/ "Floating Social Media Icon Premium")
 
-The icons will fly from top left to bottom right and it will stay there
+If you use the option to show it automatically.
+The icons will fly from top left to bottom right and the social media icons will stay there
 even if	user scrolls the page, thus it floats
 
 = [ LIVE DEMO ] =
@@ -220,6 +220,14 @@ Have more questions ? [Drop a mail](http://www.acurax.com/contact.php/ "Drop an 
 
 == Upgrade Notice ==
 
+= 1.3.5 =
+* June 04, 2014 | NOTE: Upgrading Will Not Make Any Changes to Settings/Configurations. Upgrade With Confidence :)
+* Added Option to Disable Floating Icons on Mobile Devices
+* Theme Warning Ignore Option
+* Added Troubleshooting Options
+* Improved User Interface
+* Stable Release
+
 = 1.3.4 =
 * March 07, 2014 | NOTE: UPGRADING PLUGIN WILL NOT CHANGE YOUR SETTINGS/CONFIGURATION.. UPGRADE WITH CONFIDENCE :)
 * Added Theme Warning Ignore Option
@@ -331,6 +339,14 @@ Have more questions ? [Drop a mail](http://www.acurax.com/contact.php/ "Drop an 
 * Fixed Design Icon Clarity
 
 == Changelog ==
+
+= 1.3.5 =
+* June 04, 2014 | NOTE: UPGRADING PLUGIN WILL NOT CHANGE YOUR SETTINGS/CONFIGURATION.. UPGRADE WITH CONFIDENCE :)
+* Added Option to Disable Floating on Mobile Devices
+* Theme Warning Ignore Option
+* Added Troubleshooting Options
+* Improved User Interface
+* Stable Release
 
 = 1.3.4 =
 * March 07, 2014 | NOTE: UPGRADING PLUGIN WILL NOT CHANGE YOUR SETTINGS/CONFIGURATION.. UPGRADE WITH CONFIDENCE :)
