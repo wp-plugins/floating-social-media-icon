@@ -145,8 +145,8 @@ if ($acx_si_fsmi_acx_service_banners != "no") { ?>
 <a href="http://www.acurax.com/services/wordpress-designing-experts.php?utm_source=plugin-page&utm_medium=banner&utm_campaign=fsmi" target="_blank" class="acx_ad_fsmi_1">
 <div class="acx_ad_fsmi_title">Quick Support</div> <!-- acx_ad_fsmi_title -->
 <div class="acx_ad_fsmi_desc acx_ad_fsmi_desc4" style="padding-top: 4px; height: 41px; font-size: 13px; text-align: center;">Explain errors and recommend solutions</div> <!-- acx_ad_fsmi_desc -->
-</div> <!--  acx_ad_fsmi_1 -->
-</a> <!--  acx_ad_banners_fsmi -->
+</a> <!--  acx_ad_fsmi_1 -->
+</div> <!--  acx_ad_banners_fsmi -->
 <?php } else { ?>
 <p class="widefat" style="padding:8px;width:99%;">
 <b>Acurax Services >> </b>
