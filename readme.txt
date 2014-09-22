@@ -212,6 +212,11 @@ Have more questions ? [Drop a mail](http://www.acurax.com/contact.php/ "Drop an 
 
 == Upgrade Notice ==
 
+= 1.3.6 =
+* Sep 22, 2014 | NOTE: UPGRADING PLUGIN WILL NOT CHANGE YOUR SETTINGS/CONFIGURATION.. UPGRADE WITH CONFIDENCE :)
+* Minor Bug Fixes
+* Stable Release
+
 = 1.3.5 =
 * June 04, 2014 | NOTE: Upgrading Will Not Make Any Changes to Settings/Configurations. Upgrade With Confidence :)
 * Added Option to Disable Floating Icons on Mobile Devices
@@ -331,6 +336,11 @@ Have more questions ? [Drop a mail](http://www.acurax.com/contact.php/ "Drop an 
 * Fixed Design Icon Clarity
 
 == Changelog ==
+
+= 1.3.6 =
+* Sep 22, 2014 | NOTE: UPGRADING PLUGIN WILL NOT CHANGE YOUR SETTINGS/CONFIGURATION.. UPGRADE WITH CONFIDENCE :)
+* Minor Bug Fixes
+* Stable Release
 
 = 1.3.5 =
 * June 04, 2014 | NOTE: UPGRADING PLUGIN WILL NOT CHANGE YOUR SETTINGS/CONFIGURATION.. UPGRADE WITH CONFIDENCE :)
