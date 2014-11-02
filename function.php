@@ -488,7 +488,7 @@ function acx_fsmi_si_pluign_finish_version_update()
 		  </div>';
 }
 $acx_fsmi_si_current_version = get_option('acx_fsmi_si_current_version');
-if($acx_fsmi_si_current_version != '1.3.6') // Current Version
+if($acx_fsmi_si_current_version != '1.3.7') // Current Version
 {
 if (get_option('social_icon_array_order') != "")
 {
@@ -1020,8 +1020,8 @@ function acx_quick_request_submit_callback()
 	$acx_email =  $_POST['acx_email'];
 	$acx_phone =  $_POST['acx_phone'];
 	$acx_weburl =  $_POST['acx_weburl'];
-	$acx_subject =  $_POST['acx_subject'];
-	$acx_question =  $_POST['acx_question'];
+	$acx_subject =  stripslashes($_POST['acx_subject']);
+	$acx_question =  stripslashes($_POST['acx_question']);
 if($acx_name == "" || $acx_email == "" || $acx_weburl == "" || $acx_subject == "" || $acx_question == "")
 {
 echo 2;
