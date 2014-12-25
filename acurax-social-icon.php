@@ -92,17 +92,17 @@ if ($acx_si_fsmi_hide_expert_support_menu == "") {	$acx_si_fsmi_hide_expert_supp
 function acx_social_icon_admin_actions()
 {
 global $acx_si_fsmi_hide_expert_support_menu;
-	add_menu_page(  'Acurax Social Icon Plugin Configuration', 'Floating Social Media Settings', 8, 'Acurax-Social-Icons-Settings','acx_social_icon_admin',plugin_dir_url( __FILE__ ).'/images/admin.png' ); // 8 for admin
+	add_menu_page(  'Acurax Social Icon Plugin Configuration', 'Floating Social Media Settings', 'manage_options', 'Acurax-Social-Icons-Settings','acx_social_icon_admin',plugin_dir_url( __FILE__ ).'/images/admin.png' ); // 8 for admin
 	
-	add_submenu_page('Acurax-Social-Icons-Settings', 'Acurax Social Icon Premium', 'Premium', 8, 'Acurax-Social-Icons-Premium' ,'acx_social_icon_premium');
+	add_submenu_page('Acurax-Social-Icons-Settings', 'Acurax Social Icon Premium', 'Premium', 'manage_options', 'Acurax-Social-Icons-Premium' ,'acx_social_icon_premium');
 	
-	add_submenu_page('Acurax-Social-Icons-Settings', 'Acurax Social Icon Misc Settings', 'Misc', 8, 'Acurax-Social-Icons-Misc' ,'acx_social_icon_misc');
+	add_submenu_page('Acurax-Social-Icons-Settings', 'Acurax Social Icon Misc Settings', 'Misc', 'manage_options', 'Acurax-Social-Icons-Misc' ,'acx_social_icon_misc');
 	
-	add_submenu_page('Acurax-Social-Icons-Settings', 'Acurax Troubleshooter', 'Troubleshoot', 8, 'Acurax-Social-Icons-Troubleshooter' ,'acx_social_icon_troubleshoot');
+	add_submenu_page('Acurax-Social-Icons-Settings', 'Acurax Troubleshooter', 'Troubleshoot', 'manage_options', 'Acurax-Social-Icons-Troubleshooter' ,'acx_social_icon_troubleshoot');
 	if($acx_si_fsmi_hide_expert_support_menu == "no") {
-	add_submenu_page('Acurax-Social-Icons-Settings', 'Acurax Expert Support', 'Expert Support', 8, 'Acurax-Social-Icons-Expert-Support' ,'acx_social_icon_troubleshoot');
+	add_submenu_page('Acurax-Social-Icons-Settings', 'Acurax Expert Support', 'Expert Support', 'manage_options', 'Acurax-Social-Icons-Expert-Support' ,'acx_social_icon_troubleshoot');
 	}
-	add_submenu_page('Acurax-Social-Icons-Settings', 'Acurax Social Icon Help and Support', 'Help', 8, 'Acurax-Social-Icons-Help' ,'acx_social_icon_help');
+	add_submenu_page('Acurax-Social-Icons-Settings', 'Acurax Social Icon Help and Support', 'Help', 'manage_options', 'Acurax-Social-Icons-Help' ,'acx_social_icon_help');
 }
 	
 if ( is_admin() )
