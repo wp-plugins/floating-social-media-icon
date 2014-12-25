@@ -107,7 +107,7 @@ echo "<h2>Floating Social Media Icon Troubleshooting</h2>"; ?>
 </p>
 
 
-<p style="text-align:center;">We will be adding more troubleshooting quick fix options according to requests</p>
+<p style="text-align:center;">We will be adding more troubleshooting quick fix options according to users requests</p>
 
 <?php
 }

@@ -4,7 +4,7 @@ Plugin Name: Floating Social Media Icon
 Plugin URI: http://www.acurax.com/products/floating-social-media-icon-plugin-wordpress/
 Description: An easy to use plugin to show social media icons which floats on your browsers right bottom, which links to your social media profiles, You have option in plugin settings to configure social media profile urls and also can select icon style,order and size.
 Author: Acurax 
-Version: 1.3.7
+Version: 1.3.8
 Author URI: http://www.acurax.com 
 License: GPLv2 or later
 */
@@ -28,6 +28,7 @@ along with this program; if not, write to the Free Software
 Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
 */ 
  define('ACX_SOCIALMEDIA_TOTAL_THEMES', 24);
+ define('ACX_FSMI_TOTAL_STATIC_SERVICES', 7);
 ?>
 <?php
 //*************** Include JS in Header ********
@@ -50,9 +51,9 @@ function AcuraxLinks($links, $file) {
 	
 		return array_merge( $links, array( 
 			'<div id="plugin_page_links"><a href="http://www.acurax.com?utm_source=wp&utm_medium=link&utm_campaign=plugin-page&ref=' . $acx_installation_domain . '" target="_blank">' . __('Acurax International') . '</a>',
-			'<a href="https://twitter.com/#!/acuraxdotcom" target="_blank">' . __('Acurax on Twitter') . '</a>',
-			'<a href="http://www.facebook.com/AcuraxInternational" target="_blank">' . __('Acurax on Facebook') . '</a>',
-			'<a href="http://www.acurax.com/services/wordpress-designing-experts.php?utm_source=wp&utm_medium=link&utm_campaign=plugin-page&ref=' . $acx_installation_domain . '" target="_blank">' . __('Wordpress Expert Support') . '</a>'
+			'<a href="http://www.acurax.com/services/wordpress-designing-experts.php?utm_source=wp&utm_medium=link&utm_campaign=plugin-page&ref=' . $acx_installation_domain . '" target="_blank">' . __('Wordpress Expert Support') . '</a>',
+			'<a href="http://www.acurax.com/services/wordpress-designing-experts.php?utm_source=wp&utm_medium=link&utm_campaign=plugin-page&ref=' . $acx_installation_domain . '" target="_blank">' . __('Need Help Configuring Plugins?') . '</a>',
+			'<a href="http://www.acurax.com/services/wordpress-designing-experts.php?utm_source=wp&utm_medium=link&utm_campaign=plugin-page&ref=' . $acx_installation_domain . '" target="_blank">' . __('Instant Quick Support') . '</a>'
 		));
 	}
 	return $links;
