@@ -93,9 +93,9 @@ This Social Media Widget Plugin With Floating Animation is developed and maintai
 [Acurax](http://www.acurax.com/home.php "Acurax Web Design Development Service") Provide [Wordpress Theme Design](http://www.acurax.com/services/web-designing.php "Wordpress Theme Design Service") and [Development](http://www.acurax.com/services/web-development.php "Wordpress Development") Services.
 
 **Plugin Video Tour**
-[youtube http://www.youtube.com/watch?v=oK1iCywcjZY]
+[youtube https://www.youtube.com/watch?v=UkeUYdjO_Z0]
 
-[Click Here To Watch On Youtube](http://www.youtube.com/watch?v=oK1iCywcjZY "Click Here To Watch On Youtube")
+[Click Here To Watch On Youtube](https://www.youtube.com/watch?v=UkeUYdjO_Z0 "Click Here To Watch On Youtube")
 
 	NOTE: This video is old version video. Check Screenshots for
 	New Settings Page Option Preview.
@@ -109,14 +109,14 @@ Then Visit Plugin Configuration Settings and select a theme and size for icons. 
 You need to go to Appearance >> Widgets to add "Acx Social Icon" Widget to your sidebar
 If you selected display mode as manual, you can use the shortcodes which is clearly mentioned in [Faq](http://wordpress.org/extend/plugins/floating-social-media-icon/faq/ "Frequently Asked Questions") section.
 
-[youtube http://www.youtube.com/watch?v=oK1iCywcjZY]
+[youtube https://www.youtube.com/watch?v=UkeUYdjO_Z0]
 
-[Click Here To Watch On Youtube](http://www.youtube.com/watch?v=oK1iCywcjZY "Click Here To Watch On Youtube")
+[Click Here To Watch On Youtube](https://www.youtube.com/watch?v=UkeUYdjO_Z0 "Click Here To Watch On Youtube")
 
 	NOTE: This video is old version video. Check Screenshots for
 	New Settings Page Option Preview.
 
-After Installation,Dont Forgot to Cast Your Vote on Compatibility :) Thanks for trying...
+After Installation,Don't Forgot to Cast Your Vote on Compatibility :) Thanks for trying...
 
 == Frequently Asked Questions ==
 
