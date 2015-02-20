@@ -90,10 +90,6 @@ function enqueue_acx_si_style()
 	wp_enqueue_style ( 'acx-si-style', plugins_url('style.css', __FILE__) );
 }	add_action( 'wp_print_styles', 'enqueue_acx_si_style' );
 // Options Value Checker
-function acx_option_value_check($option_name,$yes,$no)
-{ 	$acx_si_option_set = get_option($option_name);
-	if ($acx_si_option_set != "") { echo $yes; } else { echo $no; }
-}
 function check_acx_credit($yes,$no)
 { 	$acx_si_credit = get_option('acx_si_credit');
 	if($acx_si_credit != "no") { echo $yes; } else { echo $no; } 
@@ -616,7 +612,7 @@ function acx_fsmi_si_pluign_finish_version_update()
 		  </div>';
 }
 $acx_fsmi_si_current_version = get_option('acx_fsmi_si_current_version');
-if($acx_fsmi_si_current_version != '1.3.8') // Current Version
+if($acx_fsmi_si_current_version != '1.3.9') // Current Version
 {
 if (get_option('social_icon_array_order') != "")
 {
