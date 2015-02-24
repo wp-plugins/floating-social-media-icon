@@ -127,7 +127,7 @@ To hide an icon, Just don't give any value for that icon link.. it will automati
 Our Plugin Uses Hooks to integrate the supported javascripts styles and html to the theme. So Make sure your theme **footer.php** have  **&lt;?php wp_footer(); ?&gt;** and **header.php** have  **&lt;?php wp_head(); ?&gt;** , Most of all the plugins work with the support of this code and if this is not present on your theme.. Its your themes mistake..
 
 = How can i integrate the  **&lt;?php wp_footer(); ?&gt;** and  **&lt;?php wp_head(); ?&gt;** to my theme if it is not present on my theme? =
-It can be easily done.. Just to go Theme Editor which is under appearance and select footer.php and add  **&lt;?php wp_footer(); ?&gt;** before the closing body tag which is  **</body>** and then go and edit header.php and add  **&lt;?php wp_head(); ?&gt;** just before the closing head tag which is  **</head>**
+It can be easily done.. Just to go Theme Editor which is under appearance and select footer.php and add  **&lt;?php wp_footer(); ?&gt;** before the closing body tag which is  **&lt;/body&gt;** and then go and edit header.php and add  **&lt;?php wp_head(); ?&gt;** just before the closing head tag which is  **&lt;/head&gt;**
 
 = Can i disable the automated integration and place where ever i want? =
 Yes, You can.. Just to go **"Acx Social icons"** Menu which is in left side on wp-admin and in that page you will find "Display Mode" option. Select it to Manual. But then there will be no animation but you can Use Our Shortcode or PHP Code to display the social media icons anywhere you want.
@@ -137,6 +137,12 @@ You can use the shortcode  **[DISPLAY_ACURAX_ICONS]** in any post or page or eve
 
 = Can i have more than one php or shortcode to display the social media icon ? =
 Yes, You can have as many shortcode or php code to display the social media icons
+
+= Can i choose any social media icon for widget? =
+You can choose social media icon style, size, for each widget configuration so that you can have different style of icon in sidebar or footer widgets.
+
+= How can i hide a social media icon from the list? =
+If you want to hide a particular social media icon, you just make the configuration field for that social media service blank and it will not be shown.
 
 = Can i override the css styles of each social media icon set? =
 Yes, each of the shortcode or php generated social media icon set is having unique css class and it help you to define specific style for each social media icon set.
