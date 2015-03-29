@@ -120,14 +120,14 @@ After Installation,Don't Forgot to Cast Your Vote on Compatibility :) Thanks for
 
 == Frequently Asked Questions ==
 
-= How can i hide an icon? =
-To hide an icon, Just don't give any value for that icon link.. it will automatically gets hidden.
+= How can i hide a social media icon that i not using? =
+To hide a social media icon, Just don't give any value for that icon link.. it will automatically gets hidden.
 
 = Why the floating social media icon is not displaying on my page even if i made all properly? =
-Our Plugin Uses Hooks to integrate the supported javascripts styles and html to the theme. So Make sure your theme **footer.php** have  **&lt;?php wp_footer(); ?&gt;** and **header.php** have  **&lt;?php wp_head(); ?&gt;** , Most of all the plugins work with the support of this code and if this is not present on your theme.. Its your themes mistake..
+Our Plugin Uses Hooks to integrate the supported javascripts styles and html to the theme. So Make sure your theme **footer.php** have  **&lt;?php wp_footer(); ?&gt;** and **header.php** have  &lt;?php wp_head(); ?&gt; , Most of all the plugins work with the support of this code and if this is not present on your theme.. Its your themes mistake..
 
-= How can i integrate the  **&lt;?php wp_footer(); ?&gt;** and  **&lt;?php wp_head(); ?&gt;** to my theme if it is not present on my theme? =
-It can be easily done.. Just to go Theme Editor which is under appearance and select footer.php and add  **&lt;?php wp_footer(); ?&gt;** before the closing body tag which is  **&lt;/body&gt;** and then go and edit header.php and add  **&lt;?php wp_head(); ?&gt;** just before the closing head tag which is  **&lt;/head&gt;**
+= How can i integrate the  &lt;?php wp_footer(); ?&gt; and  &lt;?php wp_head(); ?&gt; to my theme if it is not present on my theme? =
+It can be easily done.. Just to go Theme Editor which is under appearance and select footer.php and add  &lt;?php wp_footer(); ?&gt; before the closing body tag which is  **&lt;/body&gt;** and then go and edit header.php and add &lt;?php wp_head(); ?&gt; just before the closing head tag which is  **&lt;/head&gt;**
 
 = Can i disable the automated integration and place where ever i want? =
 Yes, You can.. Just to go **"Acx Social icons"** Menu which is in left side on wp-admin and in that page you will find "Display Mode" option. Select it to Manual. But then there will be no animation but you can Use Our Shortcode or PHP Code to display the social media icons anywhere you want.
@@ -170,7 +170,7 @@ Depending on the theme, the issue can happen, for this case, we have added a the
 = Can i have my own social icons instead of the default one? =
 Sorry, its only possible in our premium version, you can have unlimited number of extra icons in our premium version and you can even link icons to your website pages or anywhere.
 
-= How can i use the plugin widgets? =
+= How can i use the plugin widgets to displayt social media icons? =
 Plugin Support Social Media Widget with almost same features of the shortcodes, You can have **many number of widgets where on each widget you can configure the Social Media Icons size and Icon Design/Style**.
 
 To add a widget to your sidebar.. you theme must support sidebars. Go to **Appearance >> Widgets**,to add "Acx Social Icons" widget to your sidebar.
@@ -185,12 +185,12 @@ Plugin Support More than one instance of Social Media Widgets, SO you can use as
 Acurax Provide Most of all the wordpress related services like website design and development including plugin development, theme design and coding, Graphics Design like header image designing etc. we can do your projects. So here you get what u needs to get done and we getting business so a part of that can be used for the time that we spend to develop plugins like this
 
 = There are a lot of other social icons plugins, but why this plugin? =
-Most of all the plugins have more and more options which is only easily understandable by advanced users, those have a bunch of social media profile integrations. But in our case we chosen the must to have icons and made it perfect animation and position styling.. More icons on website make destroy your website look.. So use the essentials with sexy display.
+Most of all the social media plugins have more and more options which is only easily understandable by advanced users, those have a bunch of social media profile integrations. But in our case we chosen the must to have icons and made it perfect animation and position styling.. More icons on website make destroy your website look.. So use the essentials with sexy display.
 
 = Can i add my own icons for the social media profiles? =
 Sorry, Its only available in our premium version.
 
-= After Updating Plugin, Icons are not showing. why? =
+= After Updating social media Plugin, Icons are not showing. why? =
 You need to visit the plugin settings page once after upgrading to complete the update process.Only after that it will show the icons.
 
 = Will upgrade/update change any of my settings or configuration? =
