@@ -178,6 +178,9 @@ To add a widget to your sidebar.. you theme must support sidebars. Go to **Appea
 = Can i have add an icon to connect to a page in our website? =
 Yes, possible, but only in our premium version, You can have unlimited number of extra icons which links to anywhere you need.
 
+= If i update the floating social media icon plugin, will it change any settings or configuration? =
+Normally, there is no such cases, We always release updates which will not change any of your social media plugin configuration or settings, but in some rare cases, it may needed, but still it will be only done after your confirmation.
+
 = How Many Social Media Widget Can i use? =
 Plugin Support More than one instance of Social Media Widgets, SO you can use as many as widget on your sidebars.
 
