@@ -196,9 +196,6 @@ Sorry, Its only available in our premium version.
 = After Updating social media Plugin, Icons are not showing. why? =
 You need to visit the plugin settings page once after upgrading to complete the update process.Only after that it will show the icons.
 
-= Will upgrade/update change any of my settings or configuration? =
-
-No, It will not.. :)
 
 Have more questions ? [Drop a mail](http://www.acurax.com/contact.php/ "Drop an Email") and we shall get back to you with the answers.
 
