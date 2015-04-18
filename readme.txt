@@ -7,7 +7,7 @@ Requires at least: 2.8
 Tested up to: 4.1.1
 Stable tag: trunk
 
-Easy 2 Use Plugin 2 Show SocialMedia Icons That Floats,Can Configure Social Icon Design,Order & Size, Support Widget & Shortcode
+Easy 2 Use Plugin 2 Show SocialMedia Icons That Floats,Can Configure Social Icon Style,Order & Size, Support Widget & Shortcode
 
 == Description ==
 
@@ -88,7 +88,7 @@ We Always Look Forward Your Comments and Suggestions for Future Updates. You can
 
 **About**
 
-This Social Media Widget Plugin With Floating Animation is developed and maintained by [Acurax International](http://www.acurax.com/home.php "Website Designing"). For any support, you may contact us [here](http://www.acurax.com/contact.php "Web Consulting").
+This Social Media Widget Wordpress Plugin With Floating Animation is developed and maintained by [Acurax International](http://www.acurax.com/home.php "Website Designing"). For any support, you may contact us [here](http://www.acurax.com/contact.php "Web Consulting").
 
 [Acurax](http://www.acurax.com/home.php "Acurax Web Design Development Service") Provide [Wordpress Theme Design](http://www.acurax.com/services/web-designing.php "Wordpress Theme Design Service") and [Development](http://www.acurax.com/services/web-development.php "Wordpress Development") Services.
 
@@ -104,7 +104,7 @@ This Social Media Widget Plugin With Floating Animation is developed and maintai
 
 Extract the zip file and just drop the contents in the wp-content/plugins/ directory of your WordPress installation and then activate the Plugin from Plugins page.
 
-Then Visit Plugin Configuration Settings and select a theme and size for icons. configure your social profile url. You are done!
+Then Visit Plugin Configuration Settings and select a theme and size for icons. configure your social media profile url. You are done!
 
 You need to go to Appearance >> Widgets to add "Acx Social Icon" Widget to your sidebar
 If you selected display mode as manual, you can use the shortcodes which is clearly mentioned in [Faq](http://wordpress.org/extend/plugins/floating-social-media-icon/faq/ "Frequently Asked Questions") section.
@@ -207,6 +207,12 @@ Have more questions ? [Drop a mail](http://www.acurax.com/contact.php/ "Drop an 
 4. Icon Size Selection, Reorder Icons Drag and Drop, Social Media Profile Link Settings.
 
 == Upgrade Notice ==
+
+= 2.0 =
+* April 18, 2015 | NOTE: Updating Plugin Will Not Change Your Settings/Configuration.. Update With Confidence :)
+* Optimized Codes
+* Fixed Bugs With Facebook
+* Stable Release
 
 = 1.3.9 =
 * Feb 20, 2015 | NOTE: Updating Plugin Will Not Change Your Settings/Configuration.. Update With Confidence :)
@@ -353,6 +359,12 @@ Have more questions ? [Drop a mail](http://www.acurax.com/contact.php/ "Drop an 
 * Fixed Design Icon Clarity
 
 == Changelog ==
+
+= 2.0 =
+* April 18, 2015 | NOTE: Updating Plugin Will Not Change Your Settings/Configuration.. Update With Confidence :)
+* Optimized Codes
+* Fixed Bugs With Facebook
+* Stable Release
 
 = 1.3.9 =
 * Feb 20, 2015 | NOTE: Updating Plugin Will Not Change Your Settings/Configuration.. Update With Confidence :)

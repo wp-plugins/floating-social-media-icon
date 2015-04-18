@@ -1,5 +1,5 @@
 <?php
-// error_reporting('E_ALL');
+error_reporting('E_ALL');
 //*************** Include style.css in Header ********
 // Getting Option From DB *****************************	
 $acx_si_theme = get_option('acx_si_theme');
@@ -612,7 +612,7 @@ function acx_fsmi_si_pluign_finish_version_update()
 		  </div>';
 }
 $acx_fsmi_si_current_version = get_option('acx_fsmi_si_current_version');
-if($acx_fsmi_si_current_version != '1.3.9') // Current Version
+if($acx_fsmi_si_current_version != '2.0') // Current Version
 {
 if (get_option('social_icon_array_order') != "")
 {
