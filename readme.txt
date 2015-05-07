@@ -4,7 +4,7 @@ Donate link:http://www.acurax.com/products/floating-social-media-icon-plugin-wor
 
 Tags: floating social media, social network icon, social media widget, social media icon, socialmedia, social network widget, social floating icon, social profiles, floating social media button, social media button
 Requires at least: 2.8
-Tested up to: 4.2.1
+Tested up to: 4.2.2
 Stable tag: trunk
 
 Easy 2 Use Plugin 2 Show SocialMedia Icons That Floats,Can Configure Social Icon Style,Order & Size, Support Widget & Shortcode
