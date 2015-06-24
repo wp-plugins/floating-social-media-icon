@@ -7,7 +7,7 @@ Requires at least: 2.8
 Tested up to: 4.2.2
 Stable tag: trunk
 
-Easy 2 Use Plugin 2 Show SocialMedia Icons That Floats,Can Configure Social Icon Style,Order & Size, Support Widget & Shortcode
+Simple & Easy Social Media Plugin, 20+ Icon Styles to Match Your Site, Fly Animation,Configure Order, Size, Support Widgets, Shortcode...
 
 == Description ==
 
