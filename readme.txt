@@ -7,7 +7,7 @@ Requires at least: 2.8
 Tested up to: 4.2.2
 Stable tag: trunk
 
-Simple & Easy Social Media Plugin, 20+ Icon Styles to Match Your Site, Fly Animation,Configure Order, Size, Support Widgets, Shortcode...
+Simple & Easy, Top Rated Social Media Plugin,20+ Social Media Icon Styles to Match Your Site, Animation,Set Order,Size,Support Widgets, Shortcode...
 
 == Description ==
 
