@@ -15,7 +15,11 @@ display:none;
 </style>
 <?php }
 if($_POST['acurax_social_icon_hidden'] == 'Y') 
-{	//Form data sent
+{
+if (!isset($_POST['acx_fsmi_save_config'])) die("<br><br>Unknown Error Occurred, Try Again... <a href=''>Click Here</a>");
+if (!wp_verify_nonce($_POST['acx_fsmi_save_config'],'acx_fsmi_save_config')) die("<br><br>Unknown Error Occurred, Try Again... <a href=''>Click Here</a>");
+
+	//Form data sent
 	$acx_si_theme = $_POST['acx_si_theme'];
 	update_option('acx_si_theme', $acx_si_theme);
 	$acx_si_twitter = $_POST['acx_si_twitter'];
@@ -366,6 +370,7 @@ Please do a favour by enabling back-link to our site. <a href="admin.php?page=Ac
 		</p>	
 		<?php  
 	} ?>
+	<input name="acx_fsmi_save_config" type="hidden" value="<?php echo wp_create_nonce('acx_fsmi_save_config'); ?>" />
 	<p class="submit">
 		<input type="submit" name="Submit" class="button" value="<?php _e('Save Configuration', 'acx_si_config' ) ?>" />
 		<a name="updated">.</a>
@@ -374,7 +379,7 @@ Please do a favour by enabling back-link to our site. <a href="admin.php?page=Ac
 <?php if($_GET["status"] == "updated") { ?>
 <div style="display: block; background-color: rgb(255, 255, 224); padding: 10px; border: 1px solid rgb(230, 219, 85); font-family: arial; font-size: 13px; font-weight: bold; text-align: center; border-radius: 10px 10px 10px 10px;">Acurax Floating Social Media Icon Update Successfully Completed - Thank You</div>
 <?php
-$acx_fsmi_si_current_version = "2.1";  // Current Version
+$acx_fsmi_si_current_version = "2.2";  // Current Version
 update_option('acx_fsmi_si_current_version', $acx_fsmi_si_current_version);
 } ?>
 <hr/>

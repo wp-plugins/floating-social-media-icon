@@ -4,7 +4,7 @@ Donate link:http://www.acurax.com/products/floating-social-media-icon-plugin-wor
 
 Tags: floating social media, social network icon, social media widget, social media icon, socialmedia, social network widget, social floating icon, social profiles, floating social media button, social media button
 Requires at least: 2.8
-Tested up to: 4.2.4
+Tested up to: 4.3
 Stable tag: trunk
 
 Simple & Easy, Top Rated Social Media Plugin,20+ Social Media Icon Styles to Match Your Site, Animation,Set Order,Size,Support Widgets, Shortcode...
@@ -208,6 +208,11 @@ Have more questions ? [Drop a mail](http://www.acurax.com/contact.php/ "Drop an 
 
 == Upgrade Notice ==
 
+= 2.2 =
+* Aug 19, 2015 | NOTE: Updating Plugin Will Not Change Your Settings/Configuration.. Update With Confidence :)
+* Security Fix
+* Stable Release
+
 = 2.1 =
 * May 30, 2015 | NOTE: Updating Plugin Will Not Change Your Settings/Configuration.. Update With Confidence :)
 * Optimized Codes
@@ -365,6 +370,11 @@ Have more questions ? [Drop a mail](http://www.acurax.com/contact.php/ "Drop an 
 * Fixed Design Icon Clarity
 
 == Changelog ==
+
+= 2.2 =
+* Aug 19, 2015 | NOTE: Updating Plugin Will Not Change Your Settings/Configuration.. Update With Confidence :)
+* Security Fix
+* Stable Release
 
 = 2.1 =
 * May 30, 2015 | NOTE: Updating Plugin Will Not Change Your Settings/Configuration.. Update With Confidence :)

@@ -1,6 +1,8 @@
 <?php 
 if($_POST['acurax_social_icon_hidden'] == 'Y') 
 {	//Form data sent
+if (!isset($_POST['acx_fsmi_misc'])) die("<br><br>Unknown Error Occurred, Try Again... <a href=''>Click Here</a>");
+if (!wp_verify_nonce($_POST['acx_fsmi_misc'],'acx_fsmi_misc')) die("<br><br>Unknown Error Occurred, Try Again... <a href=''>Click Here</a>");
 $acx_si_fsmi_theme_warning_ignore = $_POST['acx_si_fsmi_theme_warning_ignore'];
 update_option('acx_si_fsmi_theme_warning_ignore', $acx_si_fsmi_theme_warning_ignore);
 $acx_si_fsmi_acx_service_banners = $_POST['acx_si_fsmi_acx_service_banners'];
@@ -133,6 +135,7 @@ if ($acx_si_fsmi_acx_service_banners != "no") { ?>
 <p class="submit">
 <input type="submit" name="Submit" class="button" value="<?php _e('Save Settings', 'acx_si_config' ) ?>" />
 </p>
+<input name="acx_fsmi_misc" type="hidden" value="<?php echo wp_create_nonce('acx_fsmi_misc'); ?>" />
 </form>
 <hr/>
 <?php 

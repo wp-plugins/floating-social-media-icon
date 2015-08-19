@@ -1,5 +1,5 @@
 <?php
-error_reporting('E_ALL');
+// error_reporting('E_ALL');
 //*************** Include style.css in Header ********
 // Getting Option From DB *****************************	
 $acx_si_theme = get_option('acx_si_theme');
@@ -606,7 +606,7 @@ function acx_fsmi_si_pluign_finish_version_update()
 		  </div>';
 }
 $acx_fsmi_si_current_version = get_option('acx_fsmi_si_current_version');
-if($acx_fsmi_si_current_version != '2.1') // Current Version
+if($acx_fsmi_si_current_version != '2.2') // Current Version
 {
 if (get_option('social_icon_array_order') != "")
 {
@@ -1164,10 +1164,18 @@ function acx_quick_request_submit_callback()
 	$acx_name =  $_POST['acx_name'];
 	$acx_email =  $_POST['acx_email'];
 	$acx_phone =  $_POST['acx_phone'];
+	$acx_fsmi_es =  $_POST['acx_fsmi_es'];
 	$acx_weburl =  $_POST['acx_weburl'];
 	$acx_subject =  stripslashes($_POST['acx_subject']);
 	$acx_question =  stripslashes($_POST['acx_question']);
-if($acx_name == "" || $acx_email == "" || $acx_weburl == "" || $acx_subject == "" || $acx_question == "")
+	
+	if (!wp_verify_nonce($acx_fsmi_es,'acx_fsmi_es'))
+	{
+	$acx_fsmi_es == "";
+	}
+	
+	
+if($acx_fsmi_es == "" || $acx_name == "" || $acx_email == "" || $acx_weburl == "" || $acx_subject == "" || $acx_question == "")
 {
 echo 2;
 } else

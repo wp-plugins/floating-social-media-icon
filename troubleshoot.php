@@ -1,15 +1,32 @@
 <?php
-$quick_fix = ISSET($_GET['quickfix']);
-$fix_applied = 0;
-if($quick_fix != '')
+if(ISSET($_GET['quickfix']))
 {
-if($quick_fix == 1)
+$quick_fix = $_GET['quickfix'];
+} else
 {
-$social_icon_array_order = array(0,1,2,3,4,5,6);  // Number Of Services
-$social_icon_array_order = serialize($social_icon_array_order);
-update_option('social_icon_array_order', $social_icon_array_order);
-$fix_applied = 1;
+$quick_fix = "";
 }
+if(ISSET($_GET['sid']))
+{
+$sid = $_GET['sid'];
+} else
+{
+$sid = "";
+}
+if (!wp_verify_nonce($sid,'acx_fsmi_qfix'))
+{
+$sid = "";
+}
+$fix_applied = 0;
+if($sid != "")
+{
+	if($quick_fix == 1)
+	{
+		$social_icon_array_order = array(0,1,2,3,4,5,6);  // Number Of Services
+		$social_icon_array_order = serialize($social_icon_array_order);
+		update_option('social_icon_array_order', $social_icon_array_order);
+		$fix_applied = 1;
+	}
 }
 $acx_installation_domain = $_SERVER['HTTP_HOST'];
 $acx_installation_domain = str_replace("www.","",$acx_installation_domain);
@@ -67,7 +84,7 @@ var acx_phone = jQuery("#acx_phone").val();
 var acx_weburl = jQuery("#acx_weburl").val();
 var acx_subject = jQuery("#acx_subject").val();
 var acx_question = jQuery("#acx_question").val();
-var order = '&action=acx_quick_request_submit&acx_name='+acx_name+'&acx_email='+acx_email+'&acx_phone='+acx_phone+'&acx_weburl='+acx_weburl+'&acx_subject='+acx_subject+'&acx_question='+acx_question; 
+var order = '&action=acx_quick_request_submit&acx_name='+acx_name+'&acx_email='+acx_email+'&acx_phone='+acx_phone+'&acx_weburl='+acx_weburl+'&acx_subject='+acx_subject+'&acx_question='+acx_question+'&acx_fsmi_es=<?php echo wp_create_nonce("acx_fsmi_es"); ?>'; 
 if(request_acx_form_status == 0)
 {
 request_acx_form_status = 1;
@@ -103,7 +120,7 @@ echo "<h2>Floating Social Media Icon Troubleshooting</h2>"; ?>
 
 <p class="widefat" style="background: none repeat scroll 0% 0% menu; border-bottom: 2px dashed lavender; border-right: 2px dashed lavender; margin-bottom: 15px; margin-top: 8px; padding: 8px; width: 99%;">	<?php _e("1) Icon Selection Display Fix: " ); ?>
 <?php _e("If you cant find any icons on the icon theme/style selection section, try this fix" ); ?>
-<a href="admin.php?page=Acurax-Social-Icons-Troubleshooter&quickfix=1" class="acx_trouble_fixit">Click here to try this fix!</a>
+<a href="admin.php?page=Acurax-Social-Icons-Troubleshooter&quickfix=1&sid=<?php echo wp_create_nonce('acx_fsmi_qfix'); ?>" class="acx_trouble_fixit">Click here to try this fix!</a>
 </p>
 
 
