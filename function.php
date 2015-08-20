@@ -1173,7 +1173,10 @@ function acx_quick_request_submit_callback()
 	{
 	$acx_fsmi_es == "";
 	}
-	
+	if(!current_user_can('manage_options'))
+	{
+	$acx_fsmi_es == "";
+	}
 	
 if($acx_fsmi_es == "" || $acx_name == "" || $acx_email == "" || $acx_weburl == "" || $acx_subject == "" || $acx_question == "")
 {

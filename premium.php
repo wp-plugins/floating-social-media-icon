@@ -1,5 +1,12 @@
 <?php
-if($_GET['td'] == 'hide') 
+if(ISSET($_GET['td']))
+{
+$td_get = $_GET['td'];
+} else
+{
+$td_get = "";
+}
+if($td_get == 'hide') 
 {
 update_option('acx_si_td', "hide");
 ?>

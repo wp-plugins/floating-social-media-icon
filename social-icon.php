@@ -3,8 +3,15 @@
 $total_themes = ACX_SOCIALMEDIA_TOTAL_THEMES; // DEFINE NUMBER OF THEMES HERE
 $total_themes = ($total_themes+1); // DO NOT EDIT THIS
 /**********************************************/
-if($_GET["backlink"] == "enable") {
-$acx_si_credit = "yes";  // Current Version
+if(ISSET($_GET["backlink"]))
+{
+$get_backlink = sanitize_text_field($_GET["backlink"]);
+} else
+{
+$get_backlink = "";
+}
+if($get_backlink == "enable") {
+$acx_si_credit = "yes";
 update_option('acx_si_credit', $acx_si_credit);
 ?>
 <style type='text/css'>
@@ -18,11 +25,17 @@ if($_POST['acurax_social_icon_hidden'] == 'Y')
 {
 if (!isset($_POST['acx_fsmi_save_config'])) die("<br><br>Unknown Error Occurred, Try Again... <a href=''>Click Here</a>");
 if (!wp_verify_nonce($_POST['acx_fsmi_save_config'],'acx_fsmi_save_config')) die("<br><br>Unknown Error Occurred, Try Again... <a href=''>Click Here</a>");
+if(!current_user_can('manage_options')) die("<br><br>Sorry, You have no permission to do this action...</a>");
 
 	//Form data sent
-	$acx_si_theme = $_POST['acx_si_theme'];
+	$acx_si_theme = sanitize_text_field($_POST['acx_si_theme']);
+	if(!is_numeric($acx_si_theme))
+	{
+	$acx_si_theme = 1;
+	}
 	update_option('acx_si_theme', $acx_si_theme);
-	$acx_si_twitter = $_POST['acx_si_twitter'];
+	
+	$acx_si_twitter = sanitize_text_field($_POST['acx_si_twitter']);
 	update_option('acx_si_twitter', $acx_si_twitter);
 	$acx_si_facebook = $_POST['acx_si_facebook'];
 	if($acx_si_facebook != "")

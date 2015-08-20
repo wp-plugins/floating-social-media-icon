@@ -3,17 +3,25 @@ if($_POST['acurax_social_icon_hidden'] == 'Y')
 {	//Form data sent
 if (!isset($_POST['acx_fsmi_misc'])) die("<br><br>Unknown Error Occurred, Try Again... <a href=''>Click Here</a>");
 if (!wp_verify_nonce($_POST['acx_fsmi_misc'],'acx_fsmi_misc')) die("<br><br>Unknown Error Occurred, Try Again... <a href=''>Click Here</a>");
-$acx_si_fsmi_theme_warning_ignore = $_POST['acx_si_fsmi_theme_warning_ignore'];
+if(!current_user_can('manage_options')) die("<br><br>Sorry, You have no permission to do this action...</a>");
+
+
+$acx_si_fsmi_theme_warning_ignore = sanitize_text_field($_POST['acx_si_fsmi_theme_warning_ignore']);
 update_option('acx_si_fsmi_theme_warning_ignore', $acx_si_fsmi_theme_warning_ignore);
-$acx_si_fsmi_acx_service_banners = $_POST['acx_si_fsmi_acx_service_banners'];
+
+$acx_si_fsmi_acx_service_banners = sanitize_text_field($_POST['acx_si_fsmi_acx_service_banners']);
 update_option('acx_si_fsmi_acx_service_banners', $acx_si_fsmi_acx_service_banners);
-$acx_si_fsmi_float_fix = $_POST['acx_si_fsmi_float_fix'];
+
+$acx_si_fsmi_float_fix = sanitize_text_field($_POST['acx_si_fsmi_float_fix']);
 update_option('acx_si_fsmi_float_fix', $acx_si_fsmi_float_fix);
-$acx_si_fsmi_hide_advert = $_POST['acx_si_fsmi_hide_advert'];
+
+$acx_si_fsmi_hide_advert = sanitize_text_field($_POST['acx_si_fsmi_hide_advert']);
 update_option('acx_si_fsmi_hide_advert', $acx_si_fsmi_hide_advert);
-$acx_si_fsmi_disable_mobile = $_POST['acx_si_fsmi_disable_mobile'];
+
+$acx_si_fsmi_disable_mobile = sanitize_text_field($_POST['acx_si_fsmi_disable_mobile']);
 update_option('acx_si_fsmi_disable_mobile', $acx_si_fsmi_disable_mobile);
-$acx_si_fsmi_hide_expert_support_menu = $_POST['acx_si_fsmi_hide_expert_support_menu'];
+
+$acx_si_fsmi_hide_expert_support_menu = sanitize_text_field($_POST['acx_si_fsmi_hide_expert_support_menu']);
 update_option('acx_si_fsmi_hide_expert_support_menu', $acx_si_fsmi_hide_expert_support_menu);
 
 

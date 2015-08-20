@@ -1,14 +1,14 @@
 <?php
 if(ISSET($_GET['quickfix']))
 {
-$quick_fix = $_GET['quickfix'];
+$quick_fix = sanitize_text_field($_GET['quickfix']);
 } else
 {
 $quick_fix = "";
 }
 if(ISSET($_GET['sid']))
 {
-$sid = $_GET['sid'];
+$sid = sanitize_text_field($_GET['sid']);
 } else
 {
 $sid = "";
@@ -17,6 +17,11 @@ if (!wp_verify_nonce($sid,'acx_fsmi_qfix'))
 {
 $sid = "";
 }
+if(!current_user_can('manage_options'))
+{
+$sid = "";
+}
+
 $fix_applied = 0;
 if($sid != "")
 {
