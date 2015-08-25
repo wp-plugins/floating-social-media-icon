@@ -1,6 +1,6 @@
 ﻿=== Floating Social Media Icon ===
 Contributors: Acurax 
-Donate link:http://www.acurax.com/products/floating-social-media-icon-plugin-wordpress/
+Donate link: http://www.acurax.com/happy-clients.php
 
 Tags: floating social media, social network icon, social media widget, social media icon, socialmedia, social network widget, social floating icon, social profiles, floating social media button, social media button
 Requires at least: 2.8
@@ -208,6 +208,11 @@ Have more questions ? [Drop a mail](http://www.acurax.com/contact.php/ "Drop an 
 
 == Upgrade Notice ==
 
+= 2.3 =
+* Aug 25, 2015 | NOTE: Updating Plugin Will Not Change Your Settings/Configuration.. Update With Confidence :)
+* Code Optimization
+* Stable Release
+
 = 2.2 =
 * Aug 19, 2015 | NOTE: Updating Plugin Will Not Change Your Settings/Configuration.. Update With Confidence :)
 * Security Fix
@@ -370,6 +375,11 @@ Have more questions ? [Drop a mail](http://www.acurax.com/contact.php/ "Drop an 
 * Fixed Design Icon Clarity
 
 == Changelog ==
+
+= 2.3 =
+* Aug 25, 2015 | NOTE: Updating Plugin Will Not Change Your Settings/Configuration.. Update With Confidence :)
+* Code Optimization
+* Stable Release
 
 = 2.2 =
 * Aug 19, 2015 | NOTE: Updating Plugin Will Not Change Your Settings/Configuration.. Update With Confidence :)

@@ -21,11 +21,19 @@ display:none;
 }
 </style>
 <?php }
-if($_POST['acurax_social_icon_hidden'] == 'Y') 
+if(ISSET($_POST['acurax_social_icon_hidden']))
 {
-if (!isset($_POST['acx_fsmi_save_config'])) die("<br><br>Unknown Error Occurred, Try Again... <a href=''>Click Here</a>");
-if (!wp_verify_nonce($_POST['acx_fsmi_save_config'],'acx_fsmi_save_config')) die("<br><br>Unknown Error Occurred, Try Again... <a href=''>Click Here</a>");
-if(!current_user_can('manage_options')) die("<br><br>Sorry, You have no permission to do this action...</a>");
+	$acurax_social_icon_hidden = $_POST['acurax_social_icon_hidden'];
+}
+else
+{
+	$acurax_social_icon_hidden = '';
+}
+if($acurax_social_icon_hidden == 'Y') 
+{
+	if (!isset($_POST['acx_fsmi_save_config'])) die("<br><br>Unknown Error Occurred, Try Again... <a href=''>Click Here</a>");
+	if (!wp_verify_nonce($_POST['acx_fsmi_save_config'],'acx_fsmi_save_config')) die("<br><br>Unknown Error Occurred, Try Again... <a href=''>Click Here</a>");
+	if(!current_user_can('manage_options')) die("<br><br>Sorry, You have no permission to do this action...</a>");
 
 	//Form data sent
 	$acx_si_theme = sanitize_text_field($_POST['acx_si_theme']);
@@ -50,7 +58,7 @@ if(!current_user_can('manage_options')) die("<br><br>Sorry, You have no permissi
 	update_option('acx_si_linkedin', $acx_si_linkedin);
 	$acx_si_gplus = $_POST['acx_si_gplus'];
 	update_option('acx_si_gplus', $acx_si_gplus);
-	$acx_si_credit = $_POST['acx_si_credit'];
+	$acx_si_credit = ISSET($_POST['acx_si_credit']);
 	update_option('acx_si_credit', $acx_si_credit);
 	$acx_si_icon_size = $_POST['acx_si_icon_size'];
 	update_option('acx_si_icon_size', $acx_si_icon_size);
@@ -389,10 +397,19 @@ Please do a favour by enabling back-link to our site. <a href="admin.php?page=Ac
 		<a name="updated">.</a>
 	</p>
 </form>
-<?php if($_GET["status"] == "updated") { ?>
+<?php 
+if(ISSET($_GET['status']))
+{
+$acx_si_fsmi_status = $_GET['status'];
+}
+else
+{
+$acx_si_fsmi_status= '';
+}
+if($acx_si_fsmi_status == "updated") { ?>
 <div style="display: block; background-color: rgb(255, 255, 224); padding: 10px; border: 1px solid rgb(230, 219, 85); font-family: arial; font-size: 13px; font-weight: bold; text-align: center; border-radius: 10px 10px 10px 10px;">Acurax Floating Social Media Icon Update Successfully Completed - Thank You</div>
 <?php
-$acx_fsmi_si_current_version = "2.2";  // Current Version
+$acx_fsmi_si_current_version = "2.3";  // Current Version
 update_option('acx_fsmi_si_current_version', $acx_fsmi_si_current_version);
 } ?>
 <hr/>

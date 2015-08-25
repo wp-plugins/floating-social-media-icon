@@ -1,5 +1,13 @@
 <?php 
-if($_POST['acurax_social_icon_hidden'] == 'Y') 
+if(ISSET($_POST['acurax_social_icon_hidden']))
+{
+	$acurax_social_icon_hidden = $_POST['acurax_social_icon_hidden'];
+}
+else
+{
+	$acurax_social_icon_hidden = '';
+}
+if($acurax_social_icon_hidden == 'Y') 
 {	//Form data sent
 if (!isset($_POST['acx_fsmi_misc'])) die("<br><br>Unknown Error Occurred, Try Again... <a href=''>Click Here</a>");
 if (!wp_verify_nonce($_POST['acx_fsmi_misc'],'acx_fsmi_misc')) die("<br><br>Unknown Error Occurred, Try Again... <a href=''>Click Here</a>");

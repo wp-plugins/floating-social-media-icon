@@ -1,5 +1,4 @@
 <?php
-// error_reporting('E_ALL');
 //*************** Include style.css in Header ********
 // Getting Option From DB *****************************	
 $acx_si_theme = get_option('acx_si_theme');
@@ -606,7 +605,7 @@ function acx_fsmi_si_pluign_finish_version_update()
 		  </div>';
 }
 $acx_fsmi_si_current_version = get_option('acx_fsmi_si_current_version');
-if($acx_fsmi_si_current_version != '2.2') // Current Version
+if($acx_fsmi_si_current_version != '2.3') // Current Version
 {
 if (get_option('social_icon_array_order') != "")
 {
@@ -692,7 +691,7 @@ class Acx_Social_Icons_Widget extends WP_Widget
         // Set some control options (width, height etc)
         $control_options = array( 'width' => 300 );
         // Actually create the widget (widget id, widget name, options...)
-        $this->WP_Widget( 'acx-social-icons-widget', 'Acx Social Icons', $widget_options, $control_options );
+         parent::__construct( 'acx-social-icons-widget', 'Acx Social Icons', $widget_options, $control_options );
     }
     // Output the content of the widget
     function widget($args, $instance) 
@@ -739,23 +738,23 @@ class Acx_Social_Icons_Widget extends WP_Widget
 			<p>
 				<label for="<?php echo $this->get_field_id('icon_size'); ?>"><?php _e('Icon Size:'); ?></label>
 <select class="widefat" name="<?php echo $this->get_field_name('icon_size'); ?>" id="<?php echo $this->get_field_id('icon_size'); ?>">
-<option value="16"<?php if ($instance['icon_size'] == "16") { echo 'selected="selected"'; } ?>>16px X 16px </option>
-<option value="25"<?php if ($instance['icon_size'] == "25") { echo 'selected="selected"'; } ?>>25px X 25px </option>
-<option value="32"<?php if ($instance['icon_size'] == "32") { echo 'selected="selected"'; } ?>>32px X 32px </option>
-<option value="40"<?php if ($instance['icon_size'] == "40") { echo 'selected="selected"'; } ?>>40px X 40px </option>
-<option value="48"<?php if ($instance['icon_size'] == "48") { echo 'selected="selected"'; } ?>>48px X 48px </option>
-<option value="55"<?php if ($instance['icon_size'] == "55") { echo 'selected="selected"'; } ?>>55px X 55px </option>
+<option value="16" <?php if ($instance['icon_size'] == "16") { echo 'selected="selected"'; } ?>>16px X 16px </option>
+<option value="25" <?php if ($instance['icon_size'] == "25") { echo 'selected="selected"'; } ?>>25px X 25px </option>
+<option value="32" <?php if ($instance['icon_size'] == "32") { echo 'selected="selected"'; } ?>>32px X 32px </option>
+<option value="40" <?php if ($instance['icon_size'] == "40") { echo 'selected="selected"'; } ?>>40px X 40px </option>
+<option value="48" <?php if ($instance['icon_size'] == "48") { echo 'selected="selected"'; } ?>>48px X 48px </option>
+<option value="55" <?php if ($instance['icon_size'] == "55") { echo 'selected="selected"'; } ?>>55px X 55px </option>
 </select>
 			</p>
 			<p>
 				<label for="<?php echo $this->get_field_id('icon_theme'); ?>"><?php _e('Icon Theme:'); ?></label>
 <select class="widefat" name="<?php echo $this->get_field_name('icon_theme'); ?>" id="<?php echo $this->get_field_id('icon_theme'); ?>">
-<option value=""<?php if ($instance['icon_theme'] == "") { echo 'selected="selected"'; } ?>>Default Theme Design</option>
+<option value="" <?php if(!ISSET($instance['icon_theme'])) { echo 'selected="selected"'; } ?>>Default Theme Design</option>
 <?php
 for ($i=1; $i < $total_themes; $i++)
 {
 ?>
-<option value="<?php echo $i; ?>"<?php if ($instance['icon_theme'] == $i) { echo 'selected="selected"'; } ?>>Theme Design <?php echo $i; ?> </option>
+<option value="<?php echo $i; ?>" <?php if(ISSET($instance['icon_theme'])){if($instance['icon_theme'] == $i) { echo 'selected="selected"'; } }?>>Theme Design <?php echo $i; ?> </option>
 <?php
 }	?>
 </select>
@@ -763,10 +762,10 @@ for ($i=1; $i < $total_themes; $i++)
 <p>
 	<label for="<?php echo $this->get_field_id('icon_align'); ?>"><?php _e('Icon Align:'); ?></label>
 	<select class="widefat" name="<?php echo $this->get_field_name('icon_align'); ?>" id="<?php echo $this->get_field_id('icon_align'); ?>">
-	<option value=""<?php if ($instance['icon_align'] == "") { echo 'selected="selected"'; } ?>>Default </option>
-	<option value="left"<?php if ($instance['icon_align'] == "left") { echo 'selected="selected"'; } ?>>Left </option>
-	<option value="center"<?php if ($instance['icon_align'] == "center") { echo 'selected="selected"'; } ?>>Center </option>
-	<option value="right"<?php if ($instance['icon_align'] == "right") { echo 'selected="selected"'; } ?>>Right </option>
+	<option value="" <?php if(!ISSET($instance['icon_align'])) { echo 'selected="selected"'; } ?>>Default </option>
+	<option value="left" <?php if(ISSET($instance['icon_align'])){ if($instance['icon_align'] == "left") { echo 'selected="selected"'; }} ?>>Left </option>
+	<option value="center" <?php if(ISSET($instance['icon_align'])){ if($instance['icon_align'] == "center") { echo 'selected="selected"'; }} ?>>Center </option>
+	<option value="right" <?php if(ISSET($instance['icon_align'])){ if($instance['icon_align'] == "right") { echo 'selected="selected"';} } ?>>Right </option>
 	</select>
 </p>
 		<?php
